@@ -1,91 +1,91 @@
-# 📊 BI Project — Fictional Company with Synthetic Data
+# 📊 Proyecto BI — Empresa Ficticia con Datos Sintéticos
 
-A comprehensive **Business Intelligence** solution developed for a fictional company using **Python**, **Power BI**, and data mining techniques. The project covers the entire analytics pipeline, from reproducible synthetic data generation to building a dimensional data warehouse, executive dashboards, and analytical models that support business decision-making.
+Solución integral de **Business Intelligence** desarrollada para una empresa ficticia, usando **Python**, **Power BI** y técnicas de minería de datos. El proyecto cubre desde la generación reproducible de datos sintéticos hasta la construcción de un datamart, tableros ejecutivos y modelos analíticos para apoyar la toma de decisiones gerenciales.
 
-## 🚀 Project Objective
+## 🚀 Objetivo del proyecto
 
-Design a Business Intelligence solution capable of transforming synthetic transactional data into actionable business insights, answering key managerial questions related to sales, customers, products, promotions, customer churn, segmentation, market basket analysis, and demand forecasting.
+Diseñar una solución de BI capaz de transformar datos transaccionales sintéticos en información accionable para la gerencia, respondiendo preguntas sobre ventas, clientes, productos, promociones, abandono, segmentación, canasta de mercado y pronóstico de demanda.
 
-## 🧩 Main Components
+## 🧩 Componentes principales
 
-| Part | Focus                | Expected Outcome                                                    |
-| ---- | -------------------- | ------------------------------------------------------------------- |
-| 0    | Data Generation      | Reproducible synthetic datasets with controlled data quality issues |
-| 1    | Analytical Data Mart | Star schema dimensional model and ETL process                       |
-| 2    | Data Visualization   | Executive Power BI dashboard and business insights                  |
-| 3    | Classification       | Customer churn or propensity prediction                             |
-| 4    | Segmentation         | Customer clustering using RFM analysis and K-Means                  |
-| 5    | Association Analysis | Market basket rules for cross-selling recommendations               |
-| 6    | Regression           | Sales or demand forecasting                                         |
+| Parte | Enfoque             | Resultado esperado                                                  |
+| ----- | ------------------- | ------------------------------------------------------------------- |
+| 0     | Generación de datos | Datos sintéticos reproducibles con problemas de calidad controlados |
+| 1     | Datamart analítico  | Modelo dimensional tipo estrella y proceso ETL                      |
+| 2     | Visualización       | Dashboard ejecutivo en Power BI e insights de negocio               |
+| 3     | Clasificación       | Predicción de abandono o propensión de clientes                     |
+| 4     | Segmentación        | Clustering de clientes mediante RFM + K-Means                       |
+| 5     | Asociación          | Reglas de canasta de mercado para promociones cruzadas              |
+| 6     | Regresión           | Pronóstico de ventas o demanda                                      |
 
-## 🛠️ Technology Stack
+## 🛠️ Stack tecnológico
 
 * **Python 3.10+**
 * **Jupyter Notebooks**
-* **Pandas / NumPy**
-* **Matplotlib / Seaborn / Plotly**
+* **pandas / numpy**
+* **matplotlib / seaborn / plotly**
 * **scikit-learn**
 * **mlxtend**
-* **Faker**
+* **faker**
 * **Power BI Desktop**
 * **Git / GitHub**
 
-## 📁 Repository Structure
+## 📁 Estructura del repositorio
 
 ```text
-bi-project/
+proyecto-bi/
 ├── README.md
 ├── requirements.txt
 ├── data/
 │   ├── raw/
 │   └── processed/
 ├── notebooks/
-│   ├── 00_data_generation.ipynb
+│   ├── 00_generacion_datos.ipynb
 │   ├── 01_datamart_etl.ipynb
-│   ├── 02_visualization.ipynb
-│   ├── 03_classification.ipynb
-│   ├── 04_segmentation.ipynb
-│   ├── 05_association.ipynb
-│   └── 06_regression.ipynb
+│   ├── 02_visualizacion.ipynb
+│   ├── 03_clasificacion.ipynb
+│   ├── 04_segmentacion.ipynb
+│   ├── 05_asociacion.ipynb
+│   └── 06_regresion.ipynb
 ├── powerbi/
 ├── prompts/
-├── report/
+├── informe/
 └── docs/
 ```
 
-## 🔁 Reproducibility
+## 🔁 Reproducibilidad
 
-The project can be fully reproduced by executing the notebooks in the following order:
+El proyecto puede reproducirse ejecutando los notebooks en orden:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Then launch Jupyter and run:
+Luego abrir Jupyter y ejecutar:
 
 ```text
-00_data_generation.ipynb
+00_generacion_datos.ipynb
 01_datamart_etl.ipynb
-02_visualization.ipynb
-03_classification.ipynb
-04_segmentation.ipynb
-05_association.ipynb
-06_regression.ipynb
+02_visualizacion.ipynb
+03_clasificacion.ipynb
+04_segmentacion.ipynb
+05_asociacion.ipynb
+06_regresion.ipynb
 ```
 
-All datasets are entirely synthetic and generated using a fixed random seed to ensure reproducibility and consistent results.
+Los datos son completamente sintéticos y se generan con una semilla fija para asegurar resultados consistentes.
 
-## 📈 Expected Deliverables
+## 📈 Resultados esperados
 
-* Analytical data mart based on a star schema.
-* Executive dashboard built with Power BI.
-* DAX measures for sales, profit margin, average ticket size, and business growth.
-* Classification model for customer churn prediction.
-* Customer segments with differentiated business strategies.
-* Association rules for cross-selling opportunities.
-* Sales or demand forecasting model.
-* Final report including findings, recommendations, and ethical considerations.
+* Datamart analítico con esquema estrella.
+* Tablero ejecutivo en Power BI.
+* Métricas DAX para ventas, margen, ticket promedio y crecimiento.
+* Modelo de clasificación para riesgo de abandono.
+* Segmentos de clientes con estrategias diferenciadas.
+* Reglas de asociación para promociones cruzadas.
+* Pronóstico de ventas o demanda.
+* Informe consolidado con hallazgos, recomendaciones y reflexión ética.
 
-## 🔐 Data Disclaimer
+## 🔐 Nota sobre los datos
 
-This repository does not contain any real personal or corporate data. All datasets are synthetic and were generated exclusively for academic purposes.
+Este repositorio no contiene datos reales de personas ni empresas. Todos los datos utilizados son sintéticos y fueron generados exclusivamente con fines académicos.
