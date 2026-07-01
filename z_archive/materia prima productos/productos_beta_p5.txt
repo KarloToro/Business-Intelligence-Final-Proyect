@@ -1,0 +1,99 @@
+Shampoo Nutrición 400 ml,Cuidado Personal,Shampoo y Acondicionador,Head & Shoulders,18.90,13.60
+Shampoo Anticaspa 400 ml,Cuidado Personal,Shampoo y Acondicionador,Head & Shoulders,19.90,14.30
+Shampoo Hidratación 650 ml,Cuidado Personal,Shampoo y Acondicionador,Pantene,24.90,18.20
+Shampoo Restauración 650 ml,Cuidado Personal,Shampoo y Acondicionador,Pantene,24.90,18.20
+Shampoo Reparación 400 ml,Cuidado Personal,Shampoo y Acondicionador,Sedal,16.90,11.90
+Acondicionador Reparación 400 ml,Cuidado Personal,Shampoo y Acondicionador,Sedal,16.90,11.90
+Shampoo Natural 400 ml,Cuidado Personal,Shampoo y Acondicionador,Dove,18.90,13.40
+Acondicionador Nutrición 400 ml,Cuidado Personal,Shampoo y Acondicionador,Dove,18.90,13.40
+Shampoo Niño 400 ml,Cuidado Personal,Shampoo y Acondicionador,Johnson's,17.90,12.60
+Shampoo Aloe Vera 750 ml,Cuidado Personal,Shampoo y Acondicionador,Herbal Essences,29.90,22.10
+Shampoo Coco 750 ml,Cuidado Personal,Shampoo y Acondicionador,Herbal Essences,29.90,22.10
+Shampoo Micelar 400 ml,Cuidado Personal,Shampoo y Acondicionador,Pantene,22.90,16.60
+Shampoo Men 400 ml,Cuidado Personal,Shampoo y Acondicionador,Head & Shoulders,20.90,15.10
+Shampoo Hidratante 900 ml,Cuidado Personal,Shampoo y Acondicionador,Sedal,31.90,23.80
+Shampoo Control Caída 400 ml,Cuidado Personal,Shampoo y Acondicionador,Dove,21.90,15.90
+Jabón Tocador Original,Cuidado Personal,Jabones,Palmolive,3.50,2.20
+Jabón Avena,Cuidado Personal,Jabones,Dove,4.50,2.90
+Jabón Antibacterial,Cuidado Personal,Jabones,Protex,4.90,3.20
+Jabón Humectante,Cuidado Personal,Jabones,Nivea,4.90,3.20
+Jabón Glicerina,Cuidado Personal,Jabones,Moncler,3.90,2.50
+Jabón Líquido 250 ml,Cuidado Personal,Jabones,Dove,11.90,8.40
+Jabón Líquido Antibacterial,Cuidado Personal,Jabones,Protex,12.90,9.20
+Jabón Bebé,Cuidado Personal,Jabones,Johnson's,5.90,3.90
+Jabón Carbón Activado,Cuidado Personal,Jabones,Nivea,6.90,4.80
+Jabón Exfoliante,Cuidado Personal,Jabones,Dove,5.90,4.10
+Pasta Dental Triple Acción,Cuidado Personal,Higiene Bucal,Colgate,8.90,6.20
+Pasta Dental Luminous White,Cuidado Personal,Higiene Bucal,Colgate,14.90,10.80
+Pasta Dental Protección Completa,Cuidado Personal,Higiene Bucal,Oral-B,10.90,7.70
+Cepillo Dental Suave,Cuidado Personal,Higiene Bucal,Oral-B,8.90,6.10
+Cepillo Dental Medio,Cuidado Personal,Higiene Bucal,Colgate,7.90,5.40
+Enjuague Bucal 500 ml,Cuidado Personal,Higiene Bucal,Listerine,18.90,13.60
+Hilo Dental,Cuidado Personal,Higiene Bucal,Oral-B,9.90,6.90
+Cepillo Dental Infantil,Cuidado Personal,Higiene Bucal,Colgate,6.90,4.60
+Pasta Dental Infantil,Cuidado Personal,Higiene Bucal,Colgate,8.90,6.20
+Cepillo Eléctrico,Cuidado Personal,Higiene Bucal,Oral-B,69.90,54.20
+Desodorante Aerosol Men,Cuidado Personal,Desodorantes,Nivea,16.90,12.10
+Desodorante Aerosol Women,Cuidado Personal,Desodorantes,Nivea,16.90,12.10
+Desodorante Roll-On,Cuidado Personal,Desodorantes,Dove,13.90,9.90
+Desodorante Barra,Cuidado Personal,Desodorantes,Old Spice,17.90,12.90
+Desodorante Clínico,Cuidado Personal,Desodorantes,Secret,24.90,18.60
+Desodorante Spray Axe,Cuidado Personal,Desodorantes,Axe,18.90,13.60
+Desodorante Dove Men,Cuidado Personal,Desodorantes,Dove,17.90,12.80
+Desodorante Rexona Clinical,Cuidado Personal,Desodorantes,Rexona,25.90,19.40
+Máquina de Afeitar Desechable,Cuidado Personal,Afeitado,Gillette,12.90,9.10
+Máquina Mach3,Cuidado Personal,Afeitado,Gillette,39.90,30.10
+Cartuchos Mach3 x2,Cuidado Personal,Afeitado,Gillette,42.90,32.50
+Espuma de Afeitar,Cuidado Personal,Afeitado,Gillette,18.90,13.60
+Gel de Afeitar,Cuidado Personal,Afeitado,Nivea Men,19.90,14.30
+After Shave,Cuidado Personal,Afeitado,Gillette,24.90,18.20
+Brocha de Afeitar,Cuidado Personal,Afeitado,Wilkinson,16.90,12.10
+Pizza Suprema Familiar,Congelados,Pizzas y Comidas Preparadas,Dr. Oetker,24.90,18.30
+Pizza Pepperoni Familiar,Congelados,Pizzas y Comidas Preparadas,Dr. Oetker,24.90,18.30
+Pizza Hawaiana,Congelados,Pizzas y Comidas Preparadas,Casa Europa,22.90,16.70
+Lasaña Boloñesa,Congelados,Pizzas y Comidas Preparadas,Casa Europa,18.90,13.80
+Nuggets de Pollo 500 g,Congelados,Pizzas y Comidas Preparadas,San Fernando,19.90,14.60
+Hamburguesas de Res x4,Congelados,Pizzas y Comidas Preparadas,Otto Kunz,22.90,16.80
+Croquetas de Pollo,Congelados,Pizzas y Comidas Preparadas,Redondos,18.90,13.70
+Empanadas Congeladas x6,Congelados,Pizzas y Comidas Preparadas,Casa Europa,16.90,12.20
+Pechuga de Pollo Congelada,Congelados,Carnes Congeladas,San Fernando,22.90,17.10
+Muslo de Pollo Congelado,Congelados,Carnes Congeladas,Redondos,17.90,13.10
+Hamburguesa de Pollo,Congelados,Carnes Congeladas,San Fernando,18.90,13.80
+Filete de Merluza,Congelados,Carnes Congeladas,Pescanova,26.90,20.30
+Langostinos 500 g,Congelados,Carnes Congeladas,Pescanova,39.90,30.80
+Mix de Mariscos,Congelados,Carnes Congeladas,Pescanova,34.90,26.60
+Brócoli Congelado,Congelados,Verduras Congeladas,Frío Campo,11.90,8.40
+Mix de Verduras,Congelados,Verduras Congeladas,Frío Campo,12.90,9.10
+Arvejas Congeladas,Congelados,Verduras Congeladas,Frío Campo,9.90,6.90
+Choclo Desgranado,Congelados,Verduras Congeladas,Frío Campo,10.90,7.60
+Espinaca Congelada,Congelados,Verduras Congeladas,Frío Campo,10.90,7.60
+Helado D'Onofrio 1 L,Congelados,Helados,D'Onofrio,19.90,14.80
+Helado Sublime 1 L,Congelados,Helados,D'Onofrio,21.90,16.40
+Helado Frutado 1 L,Congelados,Helados,Lamborgini,17.90,13.10
+Paletas Frutales x6,Congelados,Helados,D'Onofrio,15.90,11.50
+Bombones Helados x8,Congelados,Helados,D'Onofrio,24.90,18.60
+Pañales Recién Nacido x36,Bebés,Pañales,Pampers,39.90,29.80
+Pañales Etapa 1 x48,Bebés,Pañales,Huggies,45.90,34.70
+Pañales Etapa 2 x60,Bebés,Pañales,Pampers,58.90,44.80
+Pañales Etapa 3 x64,Bebés,Pañales,Huggies,62.90,47.90
+Pañales Etapa 4 x60,Bebés,Pañales,Pampers,64.90,49.50
+Pañales Pants x52,Bebés,Pañales,Huggies,69.90,53.60
+Pañales Premium Care x42,Bebés,Pañales,Pampers,72.90,56.10
+Pañales Recién Nacido Premium,Bebés,Pañales,Huggies,44.90,33.80
+Toallitas Húmedas x100,Bebés,Toallitas Húmedas,Huggies,12.90,9.10
+Toallitas Húmedas Aloe x100,Bebés,Toallitas Húmedas,Pampers,13.90,9.90
+Toallitas Húmedas x200,Bebés,Toallitas Húmedas,Huggies,21.90,16.10
+Toallitas Recién Nacido,Bebés,Toallitas Húmedas,Johnson's,15.90,11.40
+Toallitas Antibacteriales,Bebés,Toallitas Húmedas,Johnson's,14.90,10.70
+Fórmula Etapa 1 800 g,Bebés,Fórmulas Infantiles,NAN,89.90,71.40
+Fórmula Etapa 2 800 g,Bebés,Fórmulas Infantiles,NAN,89.90,71.40
+Fórmula Etapa 3 800 g,Bebés,Fórmulas Infantiles,Nestogeno,69.90,54.20
+Fórmula Comfort 800 g,Bebés,Fórmulas Infantiles,Enfamil,109.90,88.10
+Biberón 125 ml,Bebés,Accesorios para Bebé,Avent,29.90,22.10
+Biberón 260 ml,Bebés,Accesorios para Bebé,Avent,36.90,27.50
+Chupón Ortodóntico,Bebés,Accesorios para Bebé,Philips Avent,19.90,14.60
+Cepillo para Biberón,Bebés,Accesorios para Bebé,Nuk,16.90,12.20
+Babero Impermeable,Bebés,Accesorios para Bebé,Infanti,14.90,10.60
+Vaso Entrenador 250 ml,Bebés,Accesorios para Bebé,Nuk,24.90,18.40
+Set de Cubiertos Infantil,Bebés,Accesorios para Bebé,Infanti,18.90,13.80
+Traba de Seguridad Multiuso,Bebés,Accesorios para Bebé,Safety 1st,15.90,11.40

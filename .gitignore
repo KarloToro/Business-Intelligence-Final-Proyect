@@ -1,0 +1,95 @@
+# =========================================
+# Proyecto BI / Analítica / Power BI
+# =========================================
+
+# -----------------------------
+# Entornos virtuales
+# -----------------------------
+.venv/
+venv/
+env/
+__pypackages__/ 
+
+# -----------------------------
+# Python cache / compilados
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -----------------------------
+# Jupyter
+# -----------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# -----------------------------
+# Logs y temporales
+# -----------------------------
+*.log
+tmp/
+temp/
+*.tmp
+
+# -----------------------------
+# IDEs / editores
+# -----------------------------
+.vscode/
+.idea/
+
+# -----------------------------
+# Sistema operativo
+# -----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------
+# Datos generados durante el desarrollo que no sean ni raw ni processed sino pasos intermedios
+# por convencion en development ira todo ello.
+# -----------------------------
+data/development/ 
+
+
+# Mantener carpetas vacías si se desea
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/sample/.gitkeep
+
+# -----------------------------
+# Bases de datos locales generadas
+# SQLite debe ser opcional/cache, no fuente canónica
+# -----------------------------
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# -----------------------------
+# Artefactos de modelos ML generados
+# Versionar solo si realmente son parte del entregable
+# -----------------------------
+models/*.pkl
+models/*.pickle
+models/*.joblib
+
+# -----------------------------
+# Power BI
+# NO ignorar *.pbix ni *.pbit por defecto:
+# el .pbix es entregable.
+# -----------------------------
+~$*.pbix
+~$*.pbit
+~$*.xlsx
+**/.pbi/cache.abf
+**/.pbi/localSettings.json
+
+# -----------------------------
+# Office / documentos temporales
+# -----------------------------
+~$*.docx
+~$*.pptx
+~$*.pdf
+~$*.xlsx

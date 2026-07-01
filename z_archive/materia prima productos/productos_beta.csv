@@ -1,0 +1,101 @@
+id_producto,nombre,categoria,subcategoria,marca,precio_lista,costo_unitario_promedio
+P0001,Arroz Extra 1 kg,Abarrotes,Arroz,Costeño,6.90,4.40
+P0002,Arroz Superior 5 kg,Abarrotes,Arroz,Costeño,31.90,23.80
+P0003,Arroz Premium 5 kg,Abarrotes,Arroz,Paisana,34.90,26.20
+P0004,Arroz Extra 750 g,Abarrotes,Arroz,Faraón,5.40,3.60
+P0005,Arroz Integral 1 kg,Abarrotes,Arroz,Valle Norte,8.90,6.10
+P0006,Arroz Extra 1 kg,Abarrotes,Arroz,Tropical,6.50,4.10
+P0007,Arroz Superior 750 g,Abarrotes,Arroz,Costeño,5.10,3.40
+P0008,Arroz Premium 1 kg,Abarrotes,Arroz,Faraón,7.50,5.00
+P0009,Arroz Extra 5 kg,Abarrotes,Arroz,Paisana,32.50,24.30
+P0010,Arroz Integral 5 kg,Abarrotes,Arroz,Valle Norte,38.90,29.00
+P0011,Arroz Extra 1 kg,Abarrotes,Arroz,Añejo Real,7.20,4.70
+P0012,Arroz Superior 1 kg,Abarrotes,Arroz,Costeño,6.80,4.30
+P0013,Arroz Premium 750 g,Abarrotes,Arroz,Tropical,5.90,3.90
+P0014,Arroz Extra 2 kg,Abarrotes,Arroz,Paisana,12.90,9.10
+P0015,Arroz Integral 2 kg,Abarrotes,Arroz,Faraón,14.90,10.80
+P0016,Fideo Spaghetti 500 g,Abarrotes,Fideos,Molitalia,4.80,2.90
+P0017,Fideo Tallarín 500 g,Abarrotes,Fideos,Don Vittorio,4.60,2.80
+P0018,Fideo Cabello de Ángel,Abarrotes,Fideos,Nicolini,4.20,2.50
+P0019,Fideo Tornillo,Abarrotes,Fideos,Molitalia,4.90,3.00
+P0020,Fideo Corbata,Abarrotes,Fideos,Don Vittorio,5.30,3.20
+P0021,Fideo Spaghetti Integral,Abarrotes,Fideos,Molitalia,6.20,4.10
+P0022,Fideo Nido,Abarrotes,Fideos,Nicolini,5.10,3.20
+P0023,Fideo Tallarín Familiar,Abarrotes,Fideos,Don Vittorio,7.50,5.10
+P0024,Fideo Spaghetti Familiar,Abarrotes,Fideos,Molitalia,7.90,5.40
+P0025,Fideo Tornillo Integral,Abarrotes,Fideos,Nicolini,6.50,4.20
+P0026,Fideo Letras,Abarrotes,Fideos,Nicolini,4.90,3.00
+P0027,Fideo Estrellas,Abarrotes,Fideos,Don Vittorio,5.10,3.10
+P0028,Fideo Lasaña,Abarrotes,Fideos,Molitalia,8.20,5.80
+P0029,Fideo Codito,Abarrotes,Fideos,Nicolini,4.80,2.90
+P0030,Fideo Caracol,Abarrotes,Fideos,Molitalia,4.70,2.80
+P0031,Azúcar Rubia 1 kg,Abarrotes,Azúcar y Endulzantes,Cartavio,5.40,3.40
+P0032,Azúcar Blanca 1 kg,Abarrotes,Azúcar y Endulzantes,Paramonga,5.20,3.30
+P0033,Azúcar Rubia 2 kg,Abarrotes,Azúcar y Endulzantes,Cartavio,10.30,6.80
+P0034,Azúcar Blanca 2 kg,Abarrotes,Azúcar y Endulzantes,Paramonga,10.10,6.60
+P0035,Stevia 100 sobres,Abarrotes,Azúcar y Endulzantes,Monk,16.90,11.20
+P0036,Endulzante Líquido,Abarrotes,Azúcar y Endulzantes,Monk,18.50,12.50
+P0037,Azúcar Morena 1 kg,Abarrotes,Azúcar y Endulzantes,Cartavio,6.10,4.10
+P0038,Panela Molida,Abarrotes,Azúcar y Endulzantes,Valle Dulce,8.50,5.80
+P0039,Stevia 50 sobres,Abarrotes,Azúcar y Endulzantes,Monk,9.90,6.50
+P0040,Azúcar Blanca 5 kg,Abarrotes,Azúcar y Endulzantes,Paramonga,23.90,17.30
+P0041,Aceite Vegetal 1 L,Abarrotes,Aceites,Primor,12.50,8.70
+P0042,Aceite Girasol 1 L,Abarrotes,Aceites,Cocinero,13.20,9.10
+P0043,Aceite Oliva 500 ml,Abarrotes,Aceites,Olivos del Sur,28.90,20.60
+P0044,Aceite Canola 900 ml,Abarrotes,Aceites,Cocinero,14.50,10.10
+P0045,Aceite Vegetal 5 L,Abarrotes,Aceites,Primor,59.90,44.20
+P0046,Aceite Maíz 900 ml,Abarrotes,Aceites,Ideal,15.20,10.80
+P0047,Aceite Oliva Extra Virgen,Abarrotes,Aceites,Borges,39.90,28.70
+P0048,Aceite Vegetal 900 ml,Abarrotes,Aceites,Ideal,11.90,8.20
+P0049,Aceite Girasol 5 L,Abarrotes,Aceites,Cocinero,63.90,47.60
+P0050,Aceite Vegetal 2 L,Abarrotes,Aceites,Primor,24.90,18.10
+P0051,Atún en Agua,Abarrotes,Conservas,Florida,7.90,5.10
+P0052,Atún en Aceite,Abarrotes,Conservas,Campomar,8.20,5.40
+P0053,Sardinas en Salsa,Abarrotes,Conservas,Florida,5.90,3.80
+P0054,Duraznos en Almíbar,Abarrotes,Conservas,Athos,10.90,7.30
+P0055,Choclo en Conserva,Abarrotes,Conservas,Gloria,8.40,5.60
+P0056,Arvejas en Conserva,Abarrotes,Conservas,Gloria,7.90,5.20
+P0057,Champiñones Laminados,Abarrotes,Conservas,Valle Fértil,12.90,8.90
+P0058,Frejoles en Conserva,Abarrotes,Conservas,Gloria,7.80,5.20
+P0059,Coctel de Frutas,Abarrotes,Conservas,Athos,11.90,8.10
+P0060,Espárragos Verdes,Abarrotes,Conservas,Danper,13.90,9.60
+P0061,Lentejas 500 g,Abarrotes,Menestras,Costeño,5.60,3.60
+P0062,Frejol Canario 500 g,Abarrotes,Menestras,Costeño,6.80,4.60
+P0063,Garbanzo 500 g,Abarrotes,Menestras,Paisana,6.20,4.10
+P0064,Pallares 500 g,Abarrotes,Menestras,Paisana,8.40,5.90
+P0065,Frijol Negro 500 g,Abarrotes,Menestras,Costeño,6.10,4.00
+P0066,Frejol Panamito,Abarrotes,Menestras,Tottus,6.40,4.30
+P0067,Arveja Partida,Abarrotes,Menestras,Costeño,5.50,3.60
+P0068,Quinua Blanca,Abarrotes,Menestras,Valle Andino,12.90,8.90
+P0069,Quinua Roja,Abarrotes,Menestras,Valle Andino,13.50,9.20
+P0070,Kiwicha,Abarrotes,Menestras,Andean Valley,11.90,8.10
+P0071,Harina Preparada,Abarrotes,Harinas,Nicolini,5.40,3.50
+P0072,Harina sin Preparar,Abarrotes,Harinas,Nicolini,4.90,3.10
+P0073,Harina Integral,Abarrotes,Harinas,Blanca Flor,6.20,4.20
+P0074,Harina de Maíz,Abarrotes,Harinas,Blanca Flor,7.40,5.00
+P0075,Harina de Avena,Abarrotes,Harinas,Quaker,8.90,6.20
+P0076,Harina de Quinua,Abarrotes,Harinas,Andean Valley,12.90,8.80
+P0077,Harina de Arroz,Abarrotes,Harinas,Valle Andino,9.50,6.40
+P0078,Harina Repostera,Abarrotes,Harinas,Nicolini,5.90,3.90
+P0079,Harina Multigrano,Abarrotes,Harinas,Quaker,10.90,7.50
+P0080,Harina para Pizza,Abarrotes,Harinas,Blanca Flor,6.90,4.60
+P0081,Ketchup 500 g,Abarrotes,Salsas y Condimentos,Alacena,8.90,6.10
+P0082,Mayonesa 475 g,Abarrotes,Salsas y Condimentos,Alacena,10.50,7.20
+P0083,Mostaza 250 g,Abarrotes,Salsas y Condimentos,Alacena,6.20,4.10
+P0084,Sillao 500 ml,Abarrotes,Salsas y Condimentos,Kikko,9.90,6.80
+P0085,Salsa de Tomate,Abarrotes,Salsas y Condimentos,Hunt's,8.20,5.50
+P0086,Ají Amarillo Pasta,Abarrotes,Salsas y Condimentos,Alacena,7.50,5.10
+P0087,Vinagre Blanco,Abarrotes,Salsas y Condimentos,Tibaldi,5.90,3.80
+P0088,Orégano Molido,Abarrotes,Salsas y Condimentos,Badía,6.90,4.70
+P0089,Pimienta Negra,Abarrotes,Salsas y Condimentos,Badía,8.90,6.20
+P0090,Comino Molido,Abarrotes,Salsas y Condimentos,Badía,6.50,4.40
+P0091,Páprika,Abarrotes,Salsas y Condimentos,Badía,7.20,4.90
+P0092,Ajo en Polvo,Abarrotes,Salsas y Condimentos,Badía,8.10,5.60
+P0093,Caldo de Pollo,Abarrotes,Salsas y Condimentos,Maggi,4.50,2.90
+P0094,Caldo de Carne,Abarrotes,Salsas y Condimentos,Maggi,4.50,2.90
+P0095,Salsa BBQ,Abarrotes,Salsas y Condimentos,Hunt's,12.90,8.80
+P0096,Salsa Inglesa,Abarrotes,Salsas y Condimentos,Lea & Perrins,16.90,11.90
+P0097,Salsa Picante,Abarrotes,Salsas y Condimentos,Tabasco,18.90,13.60
+P0098,Ají Panca Pasta,Abarrotes,Salsas y Condimentos,Alacena,7.90,5.30
+P0099,Sal de Mesa 1 kg,Abarrotes,Salsas y Condimentos,EMSAL,3.20,1.90
+P0100,Sal Rosada 500 g,Abarrotes,Salsas y Condimentos,Badía,9.90,6.80

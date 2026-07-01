@@ -1,0 +1,90 @@
+Papas Lays Clásicas 45 g,Snacks y Dulces,Papas Fritas y Snacks,Lays,3.50,2.20
+Papas Lays Familiar 150 g,Snacks y Dulces,Papas Fritas y Snacks,Lays,9.90,6.80
+Doritos Queso 150 g,Snacks y Dulces,Papas Fritas y Snacks,Doritos,10.50,7.20
+Chizitos 150 g,Snacks y Dulces,Papas Fritas y Snacks,Karinto,6.90,4.60
+Piqueo Snax 200 g,Snacks y Dulces,Papas Fritas y Snacks,Karinto,8.90,6.00
+Pringles Original 110 g,Snacks y Dulces,Papas Fritas y Snacks,Pringles,11.90,8.50
+Maní Salado 200 g,Snacks y Dulces,Papas Fritas y Snacks,Karinto,5.90,3.90
+Mix de Frutos Secos 200 g,Snacks y Dulces,Papas Fritas y Snacks,Villa Natura,14.90,10.80
+Canchita Salada 100 g,Snacks y Dulces,Papas Fritas y Snacks,Karinto,4.50,2.90
+Nachos Naturales 200 g,Snacks y Dulces,Papas Fritas y Snacks,Doritos,12.90,9.20
+Chocolate Sublime,Snacks y Dulces,Chocolates,Nestlé,2.50,1.50
+Chocolate Triángulo,Snacks y Dulces,Chocolates,Winter's,2.20,1.30
+Chocolate Princesa,Snacks y Dulces,Chocolates,Nestlé,2.50,1.50
+Chocolate Costa Leche,Snacks y Dulces,Chocolates,Costa,4.50,2.90
+Chocolate Hershey's Milk,Snacks y Dulces,Chocolates,Hershey's,6.90,4.70
+Chocolate KitKat 4 Fingers,Snacks y Dulces,Chocolates,Nestlé,4.20,2.80
+Chocolate Snickers,Snacks y Dulces,Chocolates,Snickers,4.50,3.00
+Chocolate Milkybar,Snacks y Dulces,Chocolates,Nestlé,3.90,2.60
+Chocolate Vizzio Almendras,Snacks y Dulces,Chocolates,Costa,8.90,6.20
+Chocolate Ferrero Rocher 8 u,Snacks y Dulces,Chocolates,Ferrero,24.90,18.50
+Galletas Casino Vainilla,Snacks y Dulces,Galletas Dulces,Field,2.50,1.50
+Galletas Casino Chocolate,Snacks y Dulces,Galletas Dulces,Field,2.50,1.50
+Galletas Oreo Original,Snacks y Dulces,Galletas Dulces,Oreo,3.20,2.00
+Galletas Oreo Doble Crema,Snacks y Dulces,Galletas Dulces,Oreo,3.50,2.20
+Galletas Pícaras,Snacks y Dulces,Galletas Dulces,Nestlé,3.20,2.00
+Galletas Charada,Snacks y Dulces,Galletas Dulces,Field,2.90,1.80
+Galletas Soda Field,Snacks y Dulces,Galletas Dulces,Field,3.50,2.30
+Galletas Integrales,Snacks y Dulces,Galletas Dulces,McKay,5.90,4.10
+Galletas Chips Ahoy!,Snacks y Dulces,Galletas Dulces,Nabisco,6.90,4.80
+Galletas Morochas,Snacks y Dulces,Galletas Dulces,Nestlé,2.90,1.80
+Caramelos Halls Menta,Snacks y Dulces,Caramelos y Chicles,Halls,2.50,1.50
+Caramelos Halls Cereza,Snacks y Dulces,Caramelos y Chicles,Halls,2.50,1.50
+Chicles Trident Hierbabuena,Snacks y Dulces,Caramelos y Chicles,Trident,3.50,2.20
+Chicles Trident Sandía,Snacks y Dulces,Caramelos y Chicles,Trident,3.50,2.20
+Chicles Orbit Menta,Snacks y Dulces,Caramelos y Chicles,Orbit,3.90,2.50
+Caramelos Mentos Frutas,Snacks y Dulces,Caramelos y Chicles,Mentos,3.50,2.20
+Caramelos Ambrosoli Surtidos,Snacks y Dulces,Caramelos y Chicles,Ambrosoli,4.50,2.90
+Gomitas Fini Ositos,Snacks y Dulces,Caramelos y Chicles,Fini,6.90,4.80
+Gomitas Trululu Ácidos,Snacks y Dulces,Caramelos y Chicles,Trululu,5.90,4.00
+Paletas Chupetín,Snacks y Dulces,Caramelos y Chicles,Ambrosoli,4.90,3.30
+Detergente Bolívar 1 kg,Limpieza,Detergentes,Bolívar,11.90,8.10
+Detergente Ariel 1 kg,Limpieza,Detergentes,Ariel,15.90,11.40
+Detergente Ace 800 g,Limpieza,Detergentes,Ace,10.90,7.40
+Detergente Sapolio 900 g,Limpieza,Detergentes,Sapolio,9.90,6.70
+Detergente Opal 1 kg,Limpieza,Detergentes,Opal,8.90,5.90
+Detergente Bolívar 3 kg,Limpieza,Detergentes,Bolívar,32.90,24.80
+Detergente Ariel Pods 15 u,Limpieza,Detergentes,Ariel,39.90,30.20
+Detergente Líquido Ariel 2 L,Limpieza,Detergentes,Ariel,34.90,25.90
+Detergente Líquido Bolívar 2 L,Limpieza,Detergentes,Bolívar,28.90,20.80
+Suavizante Downy 1 L,Limpieza,Detergentes,Downy,16.90,12.20
+Lavavajillas Ayudín 500 ml,Limpieza,Lavavajillas,Ayudín,6.50,4.20
+Lavavajillas Sapolio Limón,Limpieza,Lavavajillas,Sapolio,5.90,3.80
+Lavavajillas Magistral 650 ml,Limpieza,Lavavajillas,Magistral,7.20,4.80
+Lavavajillas Ayudín Repuesto,Limpieza,Lavavajillas,Ayudín,5.90,3.90
+Esponja Multiuso,Limpieza,Lavavajillas,3M,4.50,2.90
+Esponja Antibacterial,Limpieza,Lavavajillas,Scotch-Brite,5.90,3.90
+Guantes de Limpieza M,Limpieza,Lavavajillas,Virutex,8.90,6.10
+Guantes de Limpieza L,Limpieza,Lavavajillas,Virutex,8.90,6.10
+Paño Microfibra,Limpieza,Lavavajillas,Virutex,6.90,4.60
+Escobilla para Vasos,Limpieza,Lavavajillas,Virutex,7.90,5.30
+Lejía Ayudín 2 L,Limpieza,Desinfectantes,Ayudín,7.90,5.20
+Lejía Clorox 2 L,Limpieza,Desinfectantes,Clorox,8.90,5.90
+Desinfectante Poett Lavanda,Limpieza,Desinfectantes,Poett,9.90,6.80
+Desinfectante Poett Floral,Limpieza,Desinfectantes,Poett,9.90,6.80
+Alcohol 70% 1 L,Limpieza,Desinfectantes,Suiza Lab,14.90,10.80
+Limpiador Antibacterial,Limpieza,Desinfectantes,Lysol,18.90,13.90
+Desinfectante Multiuso,Limpieza,Desinfectantes,Mr. Músculo,12.90,9.20
+Cloro Gel,Limpieza,Desinfectantes,Ayudín,8.90,6.00
+Desinfectante Cítrico,Limpieza,Desinfectantes,Poett,10.50,7.20
+Toallas Desinfectantes 80 u,Limpieza,Desinfectantes,Lysol,19.90,14.80
+Limpiavidrios 500 ml,Limpieza,Limpiadores Multiuso,Mr. Músculo,10.90,7.60
+Limpiador Multiuso Lavanda,Limpieza,Limpiadores Multiuso,Sapolio,8.90,6.00
+Limpiador Multiuso Limón,Limpieza,Limpiadores Multiuso,Sapolio,8.90,6.00
+Limpiador de Baño,Limpieza,Limpiadores Multiuso,Mr. Músculo,11.90,8.40
+Limpiador de Cocina,Limpieza,Limpiadores Multiuso,Cif,12.90,9.10
+Crema Limpiadora,Limpieza,Limpiadores Multiuso,Cif,9.90,6.80
+Limpiador para Pisos,Limpieza,Limpiadores Multiuso,Poett,10.90,7.60
+Lustramuebles,Limpieza,Limpiadores Multiuso,Blem,15.90,11.40
+Quitagrasa Cocina,Limpieza,Limpiadores Multiuso,Cif,12.90,9.10
+Limpiador de Acero Inoxidable,Limpieza,Limpiadores Multiuso,3M,17.90,13.10
+Papel Higiénico Elite 12 rollos,Limpieza,Papel Higiénico y Papel Toalla,Elite,22.90,16.80
+Papel Higiénico Suave 12 rollos,Limpieza,Papel Higiénico y Papel Toalla,Suave,19.90,14.20
+Papel Higiénico Noble 12 rollos,Limpieza,Papel Higiénico y Papel Toalla,Noble,21.90,15.80
+Papel Toalla Elite 2 rollos,Limpieza,Papel Higiénico y Papel Toalla,Elite,10.90,7.50
+Papel Toalla Scott,Limpieza,Papel Higiénico y Papel Toalla,Scott,11.90,8.20
+Servilletas Elite 200 hojas,Limpieza,Papel Higiénico y Papel Toalla,Elite,7.90,5.30
+Servilletas Scott 200 hojas,Limpieza,Papel Higiénico y Papel Toalla,Scott,8.20,5.60
+Pañuelos Faciales Elite,Limpieza,Papel Higiénico y Papel Toalla,Elite,6.90,4.60
+Pañuelos Faciales Scott,Limpieza,Papel Higiénico y Papel Toalla,Scott,7.20,4.90
+Papel Higiénico Premium 24 rollos,Limpieza,Papel Higiénico y Papel Toalla,Elite,39.90,30.10

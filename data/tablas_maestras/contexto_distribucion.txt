@@ -1,0 +1,21 @@
+La tabla **`distribucion_clientes_por_distrito.csv`** constituye la tabla maestra utilizada para asignar la ubicación geográfica de los clientes sintéticos.
+
+Su objetivo no es representar clientes existentes, sino definir una **distribución probabilística** desde la cual el generador seleccionará la región y el distrito de cada nuevo cliente.
+
+La distribución sigue un modelo jerárquico:
+
+1. **Región (departamento):** la probabilidad de seleccionar una región depende de la presencia comercial de la empresa, aproximada mediante la cantidad de tiendas existentes en cada departamento.
+2. **Distrito:** una vez elegida la región, el distrito se selecciona únicamente entre los distritos definidos para dicha región. Estos distritos corresponden a los principales centros urbanos y comerciales, evitando distritos rurales o de muy baja población que aportarían poco valor analítico al dataset.
+
+Para Lima se seleccionaron **14 distritos** mientras que para las demás regiones consideradas se seleccionaron **7 distritos representativos**, priorizando aquellos con mayor población, actividad económica o relevancia comercial.
+
+La tabla incluye información auxiliar (por ejemplo, población estimada, pesos intermedios o porcentajes esperados) utilizada durante su construcción. Sin embargo, **el único campo que debe utilizar el generador para realizar el muestreo probabilístico es `peso_final`**.
+
+El campo **`representacion_esperada_%`** tiene únicamente un propósito interpretativo y de validación. Permite visualizar cuál sería aproximadamente la distribución resultante sobre un conjunto grande de clientes, pero **no debe emplearse como criterio de generación**, ya que deriva directamente de `peso_final`.
+
+En consecuencia, el algoritmo de generación de clientes debe funcionar de la siguiente manera:
+
+* seleccionar un registro de la tabla mediante un muestreo aleatorio ponderado utilizando exclusivamente el campo `peso_final`;
+* asignar al cliente la `region` y el `distrito` del registro seleccionado.
+
+Este enfoque garantiza que, conforme aumenta el número de clientes generados, la distribución geográfica converge hacia la distribución objetivo definida por la tabla, manteniendo coherencia con la cobertura comercial del negocio y una representación urbana realista de cada región.

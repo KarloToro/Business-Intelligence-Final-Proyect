@@ -1,0 +1,71 @@
+nombre,categoria,subcategoria,marca,precio_lista,costo_unitario_promedio
+Agua Sin Gas 625 ml,Bebidas,Agua,San Luis,2.20,1.20
+Agua Sin Gas 2.5 L,Bebidas,Agua,San Luis,5.90,3.40
+Agua Mineral 625 ml,Bebidas,Agua,Cielo,2.30,1.30
+Agua Mineral 2.5 L,Bebidas,Agua,Cielo,6.10,3.60
+Agua Alcalina 650 ml,Bebidas,Agua,Loa,3.90,2.40
+Agua Gasificada 500 ml,Bebidas,Agua,San Mateo,2.90,1.70
+Agua Sabor Limón 625 ml,Bebidas,Agua,Cielo,2.80,1.60
+Agua Sabor Manzana 625 ml,Bebidas,Agua,San Luis,2.80,1.60
+Coca-Cola Original 500 ml,Bebidas,Gaseosas,Coca-Cola,3.80,2.30
+Coca-Cola Original 1.5 L,Bebidas,Gaseosas,Coca-Cola,8.90,5.70
+Coca-Cola Sin Azúcar 500 ml,Bebidas,Gaseosas,Coca-Cola,3.80,2.30
+Inca Kola 500 ml,Bebidas,Gaseosas,Inca Kola,3.80,2.30
+Inca Kola 1.5 L,Bebidas,Gaseosas,Inca Kola,8.90,5.70
+Sprite 500 ml,Bebidas,Gaseosas,Sprite,3.60,2.20
+Fanta Naranja 500 ml,Bebidas,Gaseosas,Fanta,3.60,2.20
+Pepsi 500 ml,Bebidas,Gaseosas,Pepsi,3.50,2.10
+Seven Up 500 ml,Bebidas,Gaseosas,7UP,3.50,2.10
+Guaraná 500 ml,Bebidas,Gaseosas,Guaraná,3.40,2.00
+Jugo de Naranja 1 L,Bebidas,Jugos,Frugos,8.90,5.60
+Jugo de Durazno 1 L,Bebidas,Jugos,Frugos,8.90,5.60
+Jugo de Piña 1 L,Bebidas,Jugos,Pulp,9.20,5.90
+Jugo de Manzana 1 L,Bebidas,Jugos,Watts,9.50,6.10
+Néctar de Mango 1 L,Bebidas,Jugos,Frugos,8.70,5.50
+Jugo Multifrutas 1 L,Bebidas,Jugos,Pulp,9.50,6.10
+Jugo de Uva 1 L,Bebidas,Jugos,Watts,9.80,6.30
+Jugo de Arándanos 1 L,Bebidas,Jugos,Ocean Spray,15.90,11.20
+Café Instantáneo 200 g,Bebidas,Café y Té,Nescafé,23.90,16.50
+Café Instantáneo 100 g,Bebidas,Café y Té,Altomayo,15.90,10.80
+Café Molido 250 g,Bebidas,Café y Té,Altomayo,18.90,13.20
+Té Verde 25 sobres,Bebidas,Café y Té,Té Herbi,8.90,5.90
+Té de Manzanilla 25 sobres,Bebidas,Café y Té,Hornimans,7.90,5.10
+Té de Hierbaluisa 25 sobres,Bebidas,Café y Té,Hornimans,7.90,5.10
+Té Inglés 100 bolsas,Bebidas,Café y Té,Twins,19.90,13.80
+Chocolate Instantáneo 400 g,Bebidas,Café y Té,Winter's,14.90,10.10
+Red Bull 250 ml,Bebidas,Bebidas Energéticas e Isotónicas,Red Bull,8.90,6.30
+Monster Energy 473 ml,Bebidas,Bebidas Energéticas e Isotónicas,Monster,10.90,7.80
+Volt 300 ml,Bebidas,Bebidas Energéticas e Isotónicas,Volt,4.90,3.10
+Gatorade Naranja 500 ml,Bebidas,Bebidas Energéticas e Isotónicas,Gatorade,4.90,3.10
+Powerade Mora 500 ml,Bebidas,Bebidas Energéticas e Isotónicas,Powerade,4.90,3.10
+nombre,categoria,subcategoria,marca,precio_lista,costo_unitario_promedio
+Leche Entera 1 L,Lácteos,Leche,Gloria,6.20,4.10
+Leche Evaporada,Lácteos,Leche,Gloria,4.50,2.90
+Leche Evaporada,Lácteos,Leche,Bonlé,4.50,2.90
+Leche Descremada 1 L,Lácteos,Leche,Laive,6.50,4.30
+Leche Sin Lactosa 1 L,Lácteos,Leche,Laive,7.20,4.90
+Leche Entera 1 L,Lácteos,Leche,Bonlé,6.20,4.10
+Leche Chocolatada 1 L,Lácteos,Leche,Gloria,8.50,5.90
+Leche UHT Entera 1 L,Lácteos,Leche,Laive,6.80,4.60
+Leche Evaporada Light,Lácteos,Leche,Gloria,4.70,3.00
+Leche Fresca 1 L,Lácteos,Leche,Laive,7.90,5.50
+Yogurt Fresa 1 kg,Lácteos,Yogurt,Gloria,9.90,6.80
+Yogurt Vainilla 1 kg,Lácteos,Yogurt,Gloria,9.90,6.80
+Yogurt Durazno 1 kg,Lácteos,Yogurt,Laive,10.20,7.10
+Yogurt Griego Natural,Lácteos,Yogurt,Laive,13.90,9.80
+Yogurt Griego Fresa,Lácteos,Yogurt,Laive,14.20,10.10
+Yogurt Bebible Fresa,Lácteos,Yogurt,Gloria,4.50,2.90
+Yogurt Bebible Vainilla,Lácteos,Yogurt,Gloria,4.50,2.90
+Queso Edam 250 g,Lácteos,Quesos,Bonlé,14.90,10.20
+Queso Fresco 500 g,Lácteos,Quesos,Gloria,16.90,11.80
+Queso Mozzarella 500 g,Lácteos,Quesos,Bonlé,19.90,14.10
+Queso Parmesano 200 g,Lácteos,Quesos,Laive,17.90,12.60
+Queso Gouda 250 g,Lácteos,Quesos,Bonlé,15.90,11.10
+Queso Andino 500 g,Lácteos,Quesos,Laive,18.90,13.40
+Queso Crema 200 g,Lácteos,Quesos,Philadelphia,12.90,9.10
+Mantequilla con Sal 200 g,Lácteos,Mantequilla y Margarina,Gloria,11.90,8.20
+Mantequilla sin Sal 200 g,Lácteos,Mantequilla y Margarina,Laive,12.50,8.70
+Margarina 450 g,Lácteos,Mantequilla y Margarina,Doral,8.90,5.90
+Margarina Light 450 g,Lácteos,Mantequilla y Margarina,Doral,9.50,6.30
+Mantequilla Premium 250 g,Lácteos,Mantequilla y Margarina,Anchor,18.90,13.60
+Margarina Familiar 900 g,Lácteos,Mantequilla y Margarina,Doral,14.90,10.50

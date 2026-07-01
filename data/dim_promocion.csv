@@ -1,0 +1,30 @@
+﻿id_promocion;nombre;tipo;descuento_pct;fecha_inicio;fecha_fin;anio
+1;sin_promocion;sin_promocion;0;1/01/2024;1/01/2026;
+2;Rebajas de verano;descuento_directo;0.1;15/01/2024;31/01/2024;2024
+3;Campaña escolar;descuento_directo;0.12;15/02/2024;10/03/2024;2024
+4;Cyber Wow abril;ciber_online;0.15;15/04/2024;21/04/2024;2024
+5;Día de la Madre;descuento_directo;0.1;6/05/2024;12/05/2024;2024
+6;Día del Padre;descuento_directo;0.1;10/06/2024;16/06/2024;2024
+7;Fiestas Patrias;descuento_directo;0.15;15/07/2024;31/07/2024;2024
+8;Winter Sale;descuento_directo;0.1;12/08/2024;25/08/2024;2024
+9;Semana AndesPlus;fidelizacion;0.08;9/09/2024;15/09/2024;2024
+10;Primavera Retail;combo;0.1;7/10/2024;20/10/2024;2024
+11;Cyber Octubre;ciber_online;0.15;28/10/2024;3/11/2024;2024
+12;Black Friday;ciber_online;0.2;25/11/2024;29/11/2024;2024
+13;Cyber Monday;ciber_online;0.18;2/12/2024;4/12/2024;2024
+14;Navidad;descuento_directo;0.2;14/12/2024;24/12/2024;2024
+15;Fin de Año;combo;0.12;26/12/2024;31/12/2024;2024
+16;Rebajas de verano;descuento_directo;0.1;15/01/2025;31/01/2025;2025
+17;Campaña escolar;descuento_directo;0.12;15/02/2025;10/03/2025;2025
+18;Cyber Wow abril;ciber_online;0.15;15/04/2025;21/04/2025;2025
+19;Día de la Madre;descuento_directo;0.1;5/05/2025;11/05/2025;2025
+20;Día del Padre;descuento_directo;0.1;9/06/2025;15/06/2025;2025
+21;Fiestas Patrias;descuento_directo;0.15;15/07/2025;31/07/2025;2025
+22;Winter Sale;descuento_directo;0.1;11/08/2025;24/08/2025;2025
+23;Semana AndesPlus;fidelizacion;0.08;8/09/2025;14/09/2025;2025
+24;Primavera Retail;combo;0.1;6/10/2025;19/10/2025;2025
+25;Cyber Octubre;ciber_online;0.15;27/10/2025;2/11/2025;2025
+26;Black Friday;ciber_online;0.2;24/11/2025;28/11/2025;2025
+27;Cyber Monday;ciber_online;0.18;1/12/2025;3/12/2025;2025
+28;Navidad;descuento_directo;0.2;14/12/2025;24/12/2025;2025
+29;Fin de Año;combo;0.12;26/12/2025;31/12/2025;2025

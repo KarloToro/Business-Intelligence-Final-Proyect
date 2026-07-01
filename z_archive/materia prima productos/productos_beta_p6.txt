@@ -1,0 +1,80 @@
+Alimento para Perro Adulto 1 kg,Mascotas,Alimento para Perros,Ricocan,12.90,8.90
+Alimento para Perro Adulto 8 kg,Mascotas,Alimento para Perros,Ricocan,79.90,61.50
+Alimento para Cachorro 3 kg,Mascotas,Alimento para Perros,Dog Chow,52.90,40.80
+Alimento para Perro Adulto 15 kg,Mascotas,Alimento para Perros,Dog Chow,149.90,118.40
+Alimento Premium Razas Pequeñas,Mascotas,Alimento para Perros,Pro Plan,179.90,142.80
+Alimento Premium Razas Grandes,Mascotas,Alimento para Perros,Pro Plan,184.90,147.10
+Alimento Húmedo Carne,Mascotas,Alimento para Perros,Pedigree,8.90,5.90
+Alimento Húmedo Pollo,Mascotas,Alimento para Perros,Pedigree,8.90,5.90
+Snacks Dentales,Mascotas,Alimento para Perros,Pedigree,14.90,10.50
+Galletas para Perro,Mascotas,Alimento para Perros,Ricocan,12.90,8.90
+Alimento para Gato Adulto 1 kg,Mascotas,Alimento para Gatos,Whiskas,16.90,11.80
+Alimento para Gato Adulto 8 kg,Mascotas,Alimento para Gatos,Whiskas,109.90,85.20
+Alimento para Gatito 1 kg,Mascotas,Alimento para Gatos,Cat Chow,19.90,14.10
+Alimento Premium Gatos,Mascotas,Alimento para Gatos,Pro Plan,89.90,70.60
+Alimento Húmedo Atún,Mascotas,Alimento para Gatos,Felix,6.90,4.60
+Alimento Húmedo Salmón,Mascotas,Alimento para Gatos,Felix,6.90,4.60
+Snack Cremoso para Gatos,Mascotas,Alimento para Gatos,Ciao,12.90,9.10
+Galletas para Gatos,Mascotas,Alimento para Gatos,Dreamies,11.90,8.30
+Arena Aglomerante 5 kg,Mascotas,Arena Sanitaria,Mimaskot,24.90,18.80
+Arena Sanitaria Lavanda,Mascotas,Arena Sanitaria,Mimaskot,27.90,21.20
+Arena Premium 10 kg,Mascotas,Arena Sanitaria,Cat's Best,54.90,43.10
+Arena Sanitaria Carbón Activo,Mascotas,Arena Sanitaria,Mimaskot,31.90,24.40
+Correa Nylon,Mascotas,Accesorios para Mascotas,Trixie,19.90,14.20
+Collar Ajustable,Mascotas,Accesorios para Mascotas,Trixie,16.90,11.90
+Plato Acero Inoxidable,Mascotas,Accesorios para Mascotas,Trixie,22.90,16.80
+Dispensador de Agua,Mascotas,Accesorios para Mascotas,Petmate,49.90,38.20
+Cepillo para Mascotas,Mascotas,Accesorios para Mascotas,Furminator,34.90,26.80
+Juguete Mordedor,Mascotas,Accesorios para Mascotas,Kong,29.90,22.70
+Pelota de Goma,Mascotas,Accesorios para Mascotas,Kong,18.90,13.30
+Transportadora Mediana,Mascotas,Accesorios para Mascotas,Petmate,119.90,95.40
+Cama para Perro,Mascotas,Accesorios para Mascotas,Petmate,89.90,69.80
+Cama para Gato,Mascotas,Accesorios para Mascotas,Petmate,69.90,53.40
+Rascador para Gatos,Mascotas,Accesorios para Mascotas,Trixie,79.90,61.50
+Shampoo para Perros,Mascotas,Accesorios para Mascotas,Pet Clean,21.90,15.70
+Shampoo para Gatos,Mascotas,Accesorios para Mascotas,Pet Clean,22.90,16.50
+Toallitas para Mascotas,Mascotas,Accesorios para Mascotas,Pet Clean,16.90,11.90
+Bolsas para Desechos,Mascotas,Accesorios para Mascotas,Trixie,12.90,8.90
+Comedero Doble,Mascotas,Accesorios para Mascotas,Petmate,39.90,30.40
+Snack Natural de Hueso,Mascotas,Alimento para Perros,Ricocan,17.90,12.80
+Snack de Atún,Mascotas,Alimento para Gatos,Felix,8.90,6.10
+Juego de Ollas 7 piezas,Hogar,Utensilios de Cocina,Record,229.90,176.80
+Sartén Antiadherente 24 cm,Hogar,Utensilios de Cocina,Record,79.90,60.20
+Sartén Antiadherente 28 cm,Hogar,Utensilios de Cocina,Record,99.90,76.40
+Olla a Presión 7 L,Hogar,Utensilios de Cocina,Record,249.90,193.50
+Tabla para Picar,Hogar,Utensilios de Cocina,Casa Bonita,24.90,17.80
+Juego de Cuchillos,Hogar,Utensilios de Cocina,Tramontina,119.90,91.30
+Escurridor de Platos,Hogar,Utensilios de Cocina,Reyplast,49.90,37.90
+Colador de Acero,Hogar,Utensilios de Cocina,Record,29.90,21.60
+Espátula de Silicona,Hogar,Utensilios de Cocina,Casa Bonita,14.90,10.30
+Taza Medidora,Hogar,Utensilios de Cocina,Pyrex,22.90,16.50
+Organizador Multiuso,Hogar,Organización y Almacenamiento,Reyplast,39.90,29.80
+Caja Organizadora 20 L,Hogar,Organización y Almacenamiento,Reyplast,44.90,34.20
+Caja Organizadora 50 L,Hogar,Organización y Almacenamiento,Reyplast,69.90,53.70
+Canasta Organizadora,Hogar,Organización y Almacenamiento,Reyplast,18.90,13.30
+Perchas x10,Hogar,Organización y Almacenamiento,Plásticos Peru,16.90,11.90
+Zapatera 4 Niveles,Hogar,Organización y Almacenamiento,Reyplast,79.90,61.20
+Organizador de Cajón,Hogar,Organización y Almacenamiento,Casa Bonita,15.90,11.20
+Caja para Zapatos,Hogar,Organización y Almacenamiento,Reyplast,12.90,8.90
+Escoba Premium,Hogar,Limpieza del Hogar,Virutex,24.90,18.20
+Trapeador Microfibra,Hogar,Limpieza del Hogar,Vileda,39.90,30.10
+Recogedor con Jebe,Hogar,Limpieza del Hogar,Virutex,16.90,11.90
+Balde 20 L,Hogar,Limpieza del Hogar,Reyplast,24.90,18.30
+Escobilla para Baño,Hogar,Limpieza del Hogar,Virutex,19.90,14.30
+Secador de Piso,Hogar,Limpieza del Hogar,Vileda,34.90,26.40
+Plumero Microfibra,Hogar,Limpieza del Hogar,Virutex,18.90,13.40
+Mopa Giratoria,Hogar,Limpieza del Hogar,Vileda,129.90,101.60
+Florero de Vidrio,Hogar,Decoración,Casa Bonita,34.90,25.80
+Portarretrato 5x7,Hogar,Decoración,Concepts Life,24.90,18.20
+Vela Aromática,Hogar,Decoración,Glade,19.90,14.20
+Maceta Decorativa,Hogar,Decoración,Concepts Life,39.90,29.80
+Cojín Decorativo,Hogar,Decoración,Casa Bonita,29.90,21.70
+Reloj de Pared,Hogar,Decoración,Concepts Life,69.90,53.90
+Espejo Decorativo,Hogar,Decoración,Casa Bonita,89.90,69.40
+Alfombra Decorativa,Hogar,Decoración,Casa Bonita,99.90,77.20
+Cortina Blackout,Hogar,Decoración,Casa Bonita,119.90,92.60
+Mantel Rectangular,Hogar,Decoración,Casa Bonita,39.90,29.80
+Funda para Cojín,Hogar,Decoración,Casa Bonita,19.90,14.10
+Lámpara de Mesa,Hogar,Decoración,Philips,129.90,101.30
+Portavelas de Vidrio,Hogar,Decoración,Concepts Life,18.90,13.30
+Canasta Decorativa,Hogar,Decoración,Casa Bonita,27.90,20.10

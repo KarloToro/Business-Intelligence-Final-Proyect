@@ -1,0 +1,68 @@
+Manzana Roja 1 kg,Frutas y Verduras,Frutas,Campo Fresco,6.90,4.60
+Manzana Verde 1 kg,Frutas y Verduras,Frutas,Campo Fresco,7.20,4.90
+Plátano de Seda 1 kg,Frutas y Verduras,Frutas,Campo Fresco,4.50,2.90
+Plátano Bellaco 1 kg,Frutas y Verduras,Frutas,Campo Fresco,4.90,3.20
+Naranja Valencia 1 kg,Frutas y Verduras,Frutas,Campo Fresco,5.90,3.80
+Mandarina 1 kg,Frutas y Verduras,Frutas,Campo Fresco,6.50,4.20
+Papaya 1 kg,Frutas y Verduras,Frutas,Campo Fresco,5.20,3.40
+Piña Golden Unidad,Frutas y Verduras,Frutas,Campo Fresco,8.90,6.10
+Palta Hass 1 kg,Frutas y Verduras,Frutas,Campo Fresco,12.90,9.10
+Fresa 500 g,Frutas y Verduras,Frutas,Campo Fresco,9.90,6.90
+Uva Red Globe 1 kg,Frutas y Verduras,Frutas,Campo Fresco,11.90,8.30
+Mango Kent 1 kg,Frutas y Verduras,Frutas,Campo Fresco,8.90,6.10
+Sandía 1 kg,Frutas y Verduras,Frutas,Campo Fresco,2.90,1.70
+Melón 1 kg,Frutas y Verduras,Frutas,Campo Fresco,4.20,2.60
+Pera Packham 1 kg,Frutas y Verduras,Frutas,Campo Fresco,7.90,5.40
+Kiwi 500 g,Frutas y Verduras,Frutas,Campo Fresco,12.90,9.20
+Arándanos 250 g,Frutas y Verduras,Frutas,Campo Fresco,14.90,10.80
+Limón 1 kg,Frutas y Verduras,Frutas,Campo Fresco,5.40,3.50
+Tomate Italiano 1 kg,Frutas y Verduras,Verduras,Campo Fresco,4.90,3.10
+Cebolla Roja 1 kg,Frutas y Verduras,Verduras,Campo Fresco,3.90,2.40
+Lechuga Americana Unidad,Frutas y Verduras,Verduras,Campo Fresco,3.50,2.20
+Espinaca 300 g,Frutas y Verduras,Verduras,Campo Fresco,4.50,2.90
+Brócoli Unidad,Frutas y Verduras,Verduras,Campo Fresco,5.90,3.90
+Coliflor Unidad,Frutas y Verduras,Verduras,Campo Fresco,6.20,4.10
+Pepino 1 kg,Frutas y Verduras,Verduras,Campo Fresco,4.90,3.20
+Pimiento Rojo 1 kg,Frutas y Verduras,Verduras,Campo Fresco,8.90,6.20
+Zanahoria 1 kg,Frutas y Verduras,Verduras,Campo Fresco,3.90,2.40
+Zapallito Italiano 1 kg,Frutas y Verduras,Verduras,Campo Fresco,4.50,2.90
+Ají Amarillo 250 g,Frutas y Verduras,Verduras,Campo Fresco,4.90,3.20
+Apio Unidad,Frutas y Verduras,Verduras,Campo Fresco,3.90,2.50
+Vainita 500 g,Frutas y Verduras,Verduras,Campo Fresco,5.90,4.00
+Papa Blanca 1 kg,Frutas y Verduras,Tubérculos,Campo Fresco,3.20,1.90
+Papa Amarilla 1 kg,Frutas y Verduras,Tubérculos,Campo Fresco,4.20,2.70
+Camote Amarillo 1 kg,Frutas y Verduras,Tubérculos,Campo Fresco,3.90,2.40
+Yuca 1 kg,Frutas y Verduras,Tubérculos,Campo Fresco,4.90,3.10
+Olluco 1 kg,Frutas y Verduras,Tubérculos,Campo Fresco,5.20,3.40
+Mashua 1 kg,Frutas y Verduras,Tubérculos,Campo Fresco,6.50,4.40
+Oca 1 kg,Frutas y Verduras,Tubérculos,Campo Fresco,5.90,3.90
+Jengibre 250 g,Frutas y Verduras,Tubérculos,Campo Fresco,4.50,2.90
+Pechuga de Pollo 1 kg,Carnes y Aves,Pollo,San Fernando,21.90,16.40
+Pierna de Pollo 1 kg,Carnes y Aves,Pollo,San Fernando,15.90,11.60
+Muslo de Pollo 1 kg,Carnes y Aves,Pollo,Redondos,16.50,12.10
+Alitas de Pollo 1 kg,Carnes y Aves,Pollo,Redondos,15.50,11.20
+Pollo Entero,Carnes y Aves,Pollo,San Fernando,14.90,10.80
+Filete de Pollo 1 kg,Carnes y Aves,Pollo,San Fernando,23.90,18.10
+Mollejas de Pollo 1 kg,Carnes y Aves,Pollo,Redondos,10.90,7.60
+Hígado de Pollo 1 kg,Carnes y Aves,Pollo,San Fernando,9.90,6.80
+Bistec de Res 1 kg,Carnes y Aves,Res,La Segoviana,39.90,31.20
+Lomo Fino 1 kg,Carnes y Aves,Res,La Segoviana,69.90,55.80
+Asado de Tira 1 kg,Carnes y Aves,Res,La Segoviana,38.90,30.30
+Carne Molida Especial 1 kg,Carnes y Aves,Res,La Segoviana,32.90,25.20
+Punta de Pecho 1 kg,Carnes y Aves,Res,La Segoviana,31.90,24.20
+Peceto 1 kg,Carnes y Aves,Res,La Segoviana,42.90,33.40
+Bife Angosto 1 kg,Carnes y Aves,Res,La Segoviana,49.90,39.20
+Entraña 1 kg,Carnes y Aves,Res,La Segoviana,52.90,41.60
+Chuleta de Cerdo 1 kg,Carnes y Aves,Cerdo,Otto Kunz,28.90,22.10
+Lomo de Cerdo 1 kg,Carnes y Aves,Cerdo,Otto Kunz,32.90,25.40
+Costilla de Cerdo 1 kg,Carnes y Aves,Cerdo,Otto Kunz,29.90,22.80
+Pierna de Cerdo 1 kg,Carnes y Aves,Cerdo,Otto Kunz,27.90,21.10
+Panceta de Cerdo 1 kg,Carnes y Aves,Cerdo,Otto Kunz,30.90,23.70
+Chuleta Ahumada 1 kg,Carnes y Aves,Cerdo,Otto Kunz,34.90,27.20
+Jamón Inglés 200 g,Carnes y Aves,Embutidos,Otto Kunz,9.90,6.90
+Jamón de Pavo 200 g,Carnes y Aves,Embutidos,San Fernando,10.90,7.70
+Hot Dog Clásico 250 g,Carnes y Aves,Embutidos,Otto Kunz,7.90,5.30
+Salchicha Parrillera 500 g,Carnes y Aves,Embutidos,Otto Kunz,15.90,11.40
+Chorizo Parrillero 500 g,Carnes y Aves,Embutidos,Braedt,18.90,13.90
+Mortadela Familiar 500 g,Carnes y Aves,Embutidos,Braedt,9.90,6.90
+Salame 200 g,Carnes y Aves,Embutidos,Braedt,14.90,10.90
