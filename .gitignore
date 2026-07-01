@@ -45,10 +45,9 @@ Thumbs.db
 desktop.ini
 
 # -----------------------------
-# Datos generados durante el desarrollo que no sean ni raw ni processed sino pasos intermedios
-# por convencion en development ira todo ello.
+# Información legada de respaldo
 # -----------------------------
-data/development/ 
+z_archive/ 
 
 
 # Mantener carpetas vacías si se desea

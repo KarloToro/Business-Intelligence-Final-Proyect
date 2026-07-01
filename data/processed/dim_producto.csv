@@ -1,0 +1,507 @@
+﻿id_producto;nombre;categoria;subcategoria;marca;precio_lista;costo_unitario_promedio;producto_estrella;asociacion_1;asociacion_2;asociacion_3
+1;Arroz Extra 1 kg;Abarrotes;Arroz;Costeño;6.9;4.4;True;Menestras;Aceites;Salsas y Condimentos
+2;Arroz Superior 5 kg;Abarrotes;Arroz;Costeño;31.9;23.8;True;Menestras;Aceites;Salsas y Condimentos
+3;Arroz Premium 5 kg;Abarrotes;Arroz;Paisana;34.9;26.2;False;Menestras;Aceites;Salsas y Condimentos
+4;Arroz Extra 750 g;Abarrotes;Arroz;Faraón;5.4;3.6;True;Menestras;Aceites;Salsas y Condimentos
+5;Arroz Integral 1 kg;Abarrotes;Arroz;Valle Norte;8.9;6.1;False;Menestras;Aceites;Salsas y Condimentos
+6;Arroz Extra 1 kg;Abarrotes;Arroz;Tropical;6.5;4.1;True;Menestras;Aceites;Salsas y Condimentos
+7;Arroz Superior 750 g;Abarrotes;Arroz;Costeño;5.1;3.4;False;Menestras;Aceites;Salsas y Condimentos
+8;Arroz Premium 1 kg;Abarrotes;Arroz;Faraón;7.5;5.0;False;Menestras;Aceites;Salsas y Condimentos
+9;Arroz Extra 5 kg;Abarrotes;Arroz;Paisana;32.5;24.3;True;Menestras;Aceites;Salsas y Condimentos
+10;Arroz Integral 5 kg;Abarrotes;Arroz;Valle Norte;38.9;29.0;False;Menestras;Aceites;Salsas y Condimentos
+11;Arroz Extra 1 kg;Abarrotes;Arroz;Añejo Real;7.2;4.7;False;Menestras;Aceites;Salsas y Condimentos
+12;Arroz Superior 1 kg;Abarrotes;Arroz;Costeño;6.8;4.3;True;Menestras;Aceites;Salsas y Condimentos
+13;Arroz Premium 750 g;Abarrotes;Arroz;Tropical;5.9;3.9;False;Menestras;Aceites;Salsas y Condimentos
+14;Arroz Extra 2 kg;Abarrotes;Arroz;Paisana;12.9;9.1;True;Menestras;Aceites;Salsas y Condimentos
+15;Arroz Integral 2 kg;Abarrotes;Arroz;Faraón;14.9;10.8;False;Menestras;Aceites;Salsas y Condimentos
+16;Fideo Spaghetti 500 g;Abarrotes;Fideos;Molitalia;4.8;2.9;True;Salsas y Condimentos;Quesos;Conservas
+17;Fideo Tallarín 500 g;Abarrotes;Fideos;Don Vittorio;4.6;2.8;True;Salsas y Condimentos;Quesos;Conservas
+18;Fideo Cabello de Ángel;Abarrotes;Fideos;Nicolini;4.2;2.5;True;Salsas y Condimentos;Quesos;Conservas
+19;Fideo Tornillo;Abarrotes;Fideos;Molitalia;4.9;3.0;True;Salsas y Condimentos;Quesos;Conservas
+20;Fideo Corbata;Abarrotes;Fideos;Don Vittorio;5.3;3.2;False;Salsas y Condimentos;Quesos;Conservas
+21;Fideo Spaghetti Integral;Abarrotes;Fideos;Molitalia;6.2;4.1;False;Salsas y Condimentos;Quesos;Conservas
+22;Fideo Nido;Abarrotes;Fideos;Nicolini;5.1;3.2;False;Salsas y Condimentos;Quesos;Conservas
+23;Fideo Tallarín Familiar;Abarrotes;Fideos;Don Vittorio;7.5;5.1;True;Salsas y Condimentos;Quesos;Conservas
+24;Fideo Spaghetti Familiar;Abarrotes;Fideos;Molitalia;7.9;5.4;True;Salsas y Condimentos;Quesos;Conservas
+25;Fideo Tornillo Integral;Abarrotes;Fideos;Nicolini;6.5;4.2;False;Salsas y Condimentos;Quesos;Conservas
+26;Fideo Letras;Abarrotes;Fideos;Nicolini;4.9;3.0;False;Salsas y Condimentos;Quesos;Conservas
+27;Fideo Estrellas;Abarrotes;Fideos;Don Vittorio;5.1;3.1;False;Salsas y Condimentos;Quesos;Conservas
+28;Fideo Lasaña;Abarrotes;Fideos;Molitalia;8.2;5.8;False;Salsas y Condimentos;Quesos;Conservas
+29;Fideo Codito;Abarrotes;Fideos;Nicolini;4.8;2.9;True;Salsas y Condimentos;Quesos;Conservas
+30;Fideo Caracol;Abarrotes;Fideos;Molitalia;4.7;2.8;True;Salsas y Condimentos;Quesos;Conservas
+31;Azúcar Rubia 1 kg;Abarrotes;Azúcar y Endulzantes;Cartavio;5.4;3.4;True;Café y Té;Harinas;Leche
+32;Azúcar Blanca 1 kg;Abarrotes;Azúcar y Endulzantes;Paramonga;5.2;3.3;True;Café y Té;Harinas;Leche
+33;Azúcar Rubia 2 kg;Abarrotes;Azúcar y Endulzantes;Cartavio;10.3;6.8;True;Café y Té;Harinas;Leche
+34;Azúcar Blanca 2 kg;Abarrotes;Azúcar y Endulzantes;Paramonga;10.1;6.6;True;Café y Té;Harinas;Leche
+35;Stevia 100 sobres;Abarrotes;Azúcar y Endulzantes;Monk;16.9;11.2;False;Café y Té;Harinas;Leche
+36;Endulzante Líquido;Abarrotes;Azúcar y Endulzantes;Monk;18.5;12.5;False;Café y Té;Harinas;Leche
+37;Azúcar Morena 1 kg;Abarrotes;Azúcar y Endulzantes;Cartavio;6.1;4.1;False;Café y Té;Harinas;Leche
+38;Panela Molida;Abarrotes;Azúcar y Endulzantes;Valle Dulce;8.5;5.8;False;Café y Té;Harinas;Leche
+39;Stevia 50 sobres;Abarrotes;Azúcar y Endulzantes;Monk;9.9;6.5;False;Café y Té;Harinas;Leche
+40;Azúcar Blanca 5 kg;Abarrotes;Azúcar y Endulzantes;Paramonga;23.9;17.3;True;Café y Té;Harinas;Leche
+41;Aceite Vegetal 1 L;Abarrotes;Aceites;Primor;12.5;8.7;True;Arroz;Verduras;Pollo
+42;Aceite Girasol 1 L;Abarrotes;Aceites;Cocinero;13.2;9.1;True;Arroz;Verduras;Pollo
+43;Aceite Oliva 500 ml;Abarrotes;Aceites;Olivos del Sur;28.9;20.6;False;Arroz;Verduras;Pollo
+44;Aceite Canola 900 ml;Abarrotes;Aceites;Cocinero;14.5;10.1;False;Arroz;Verduras;Pollo
+45;Aceite Vegetal 5 L;Abarrotes;Aceites;Primor;59.9;44.2;True;Arroz;Verduras;Pollo
+46;Aceite Maíz 900 ml;Abarrotes;Aceites;Ideal;15.2;10.8;False;Arroz;Verduras;Pollo
+47;Aceite Oliva Extra Virgen;Abarrotes;Aceites;Borges;39.9;28.7;False;Arroz;Verduras;Pollo
+48;Aceite Vegetal 900 ml;Abarrotes;Aceites;Ideal;11.9;8.2;True;Arroz;Verduras;Pollo
+49;Aceite Girasol 5 L;Abarrotes;Aceites;Cocinero;63.9;47.6;False;Arroz;Verduras;Pollo
+50;Aceite Vegetal 2 L;Abarrotes;Aceites;Primor;24.9;18.1;True;Arroz;Verduras;Pollo
+51;Atún en Agua;Abarrotes;Conservas;Florida;7.9;5.1;True;Arroz;Fideos;Salsas y Condimentos
+52;Atún en Aceite;Abarrotes;Conservas;Campomar;8.2;5.4;True;Arroz;Fideos;Salsas y Condimentos
+53;Sardinas en Salsa;Abarrotes;Conservas;Florida;5.9;3.8;True;Arroz;Fideos;Salsas y Condimentos
+54;Duraznos en Almíbar;Abarrotes;Conservas;Athos;10.9;7.3;False;Arroz;Fideos;Salsas y Condimentos
+55;Choclo en Conserva;Abarrotes;Conservas;Gloria;8.4;5.6;True;Arroz;Fideos;Salsas y Condimentos
+56;Arvejas en Conserva;Abarrotes;Conservas;Gloria;7.9;5.2;True;Arroz;Fideos;Salsas y Condimentos
+57;Champiñones Laminados;Abarrotes;Conservas;Valle Fértil;12.9;8.9;False;Arroz;Fideos;Salsas y Condimentos
+58;Frejoles en Conserva;Abarrotes;Conservas;Gloria;7.8;5.2;False;Arroz;Fideos;Salsas y Condimentos
+59;Coctel de Frutas;Abarrotes;Conservas;Athos;11.9;8.1;False;Arroz;Fideos;Salsas y Condimentos
+60;Espárragos Verdes;Abarrotes;Conservas;Danper;13.9;9.6;False;Arroz;Fideos;Salsas y Condimentos
+61;Lentejas 500 g;Abarrotes;Menestras;Costeño;5.6;3.6;True;Arroz;Aceites;Salsas y Condimentos
+62;Frejol Canario 500 g;Abarrotes;Menestras;Costeño;6.8;4.6;True;Arroz;Aceites;Salsas y Condimentos
+63;Garbanzo 500 g;Abarrotes;Menestras;Paisana;6.2;4.1;True;Arroz;Aceites;Salsas y Condimentos
+64;Pallares 500 g;Abarrotes;Menestras;Paisana;8.4;5.9;False;Arroz;Aceites;Salsas y Condimentos
+65;Frijol Negro 500 g;Abarrotes;Menestras;Costeño;6.1;4.0;False;Arroz;Aceites;Salsas y Condimentos
+66;Frejol Panamito;Abarrotes;Menestras;Tottus;6.4;4.3;False;Arroz;Aceites;Salsas y Condimentos
+67;Arveja Partida;Abarrotes;Menestras;Costeño;5.5;3.6;True;Arroz;Aceites;Salsas y Condimentos
+68;Quinua Blanca;Abarrotes;Menestras;Valle Andino;12.9;8.9;False;Arroz;Aceites;Salsas y Condimentos
+69;Quinua Roja;Abarrotes;Menestras;Valle Andino;13.5;9.2;False;Arroz;Aceites;Salsas y Condimentos
+70;Kiwicha;Abarrotes;Menestras;Andean Valley;11.9;8.1;False;Arroz;Aceites;Salsas y Condimentos
+71;Harina Preparada;Abarrotes;Harinas;Nicolini;5.4;3.5;False;Azúcar y Endulzantes;Mantequilla y Margarina;Leche
+72;Harina sin Preparar;Abarrotes;Harinas;Nicolini;4.9;3.1;False;Azúcar y Endulzantes;Mantequilla y Margarina;Leche
+73;Harina Integral;Abarrotes;Harinas;Blanca Flor;6.2;4.2;False;Azúcar y Endulzantes;Mantequilla y Margarina;Leche
+74;Harina de Maíz;Abarrotes;Harinas;Blanca Flor;7.4;5.0;False;Azúcar y Endulzantes;Mantequilla y Margarina;Leche
+75;Harina de Avena;Abarrotes;Harinas;Quaker;8.9;6.2;False;Azúcar y Endulzantes;Mantequilla y Margarina;Leche
+76;Harina de Quinua;Abarrotes;Harinas;Andean Valley;12.9;8.8;False;Azúcar y Endulzantes;Mantequilla y Margarina;Leche
+77;Harina de Arroz;Abarrotes;Harinas;Valle Andino;9.5;6.4;False;Azúcar y Endulzantes;Mantequilla y Margarina;Leche
+78;Harina Repostera;Abarrotes;Harinas;Nicolini;5.9;3.9;False;Azúcar y Endulzantes;Mantequilla y Margarina;Leche
+79;Harina Multigrano;Abarrotes;Harinas;Quaker;10.9;7.5;False;Azúcar y Endulzantes;Mantequilla y Margarina;Leche
+80;Harina para Pizza;Abarrotes;Harinas;Blanca Flor;6.9;4.6;False;Azúcar y Endulzantes;Mantequilla y Margarina;Leche
+81;Ketchup 500 g;Abarrotes;Salsas y Condimentos;Alacena;8.9;6.1;False;Fideos;Pollo;Verduras
+82;Mayonesa 475 g;Abarrotes;Salsas y Condimentos;Alacena;10.5;7.2;False;Fideos;Pollo;Verduras
+83;Mostaza 250 g;Abarrotes;Salsas y Condimentos;Alacena;6.2;4.1;False;Fideos;Pollo;Verduras
+84;Sillao 500 ml;Abarrotes;Salsas y Condimentos;Kikko;9.9;6.8;False;Fideos;Pollo;Verduras
+85;Salsa de Tomate;Abarrotes;Salsas y Condimentos;Hunt's;8.2;5.5;False;Fideos;Pollo;Verduras
+86;Ají Amarillo Pasta;Abarrotes;Salsas y Condimentos;Alacena;7.5;5.1;False;Fideos;Pollo;Verduras
+87;Vinagre Blanco;Abarrotes;Salsas y Condimentos;Tibaldi;5.9;3.8;False;Fideos;Pollo;Verduras
+88;Orégano Molido;Abarrotes;Salsas y Condimentos;Badía;6.9;4.7;False;Fideos;Pollo;Verduras
+89;Pimienta Negra;Abarrotes;Salsas y Condimentos;Badía;8.9;6.2;False;Fideos;Pollo;Verduras
+90;Comino Molido;Abarrotes;Salsas y Condimentos;Badía;6.5;4.4;False;Fideos;Pollo;Verduras
+91;Páprika;Abarrotes;Salsas y Condimentos;Badía;7.2;4.9;False;Fideos;Pollo;Verduras
+92;Ajo en Polvo;Abarrotes;Salsas y Condimentos;Badía;8.1;5.6;False;Fideos;Pollo;Verduras
+93;Caldo de Pollo;Abarrotes;Salsas y Condimentos;Maggi;4.5;2.9;False;Fideos;Pollo;Verduras
+94;Caldo de Carne;Abarrotes;Salsas y Condimentos;Maggi;4.5;2.9;False;Fideos;Pollo;Verduras
+95;Salsa BBQ;Abarrotes;Salsas y Condimentos;Hunt's;12.9;8.8;False;Fideos;Pollo;Verduras
+96;Salsa Inglesa;Abarrotes;Salsas y Condimentos;Lea & Perrins;16.9;11.9;False;Fideos;Pollo;Verduras
+97;Salsa Picante;Abarrotes;Salsas y Condimentos;Tabasco;18.9;13.6;False;Fideos;Pollo;Verduras
+98;Ají Panca Pasta;Abarrotes;Salsas y Condimentos;Alacena;7.9;5.3;False;Fideos;Pollo;Verduras
+99;Sal de Mesa 1 kg;Abarrotes;Salsas y Condimentos;EMSAL;3.2;1.9;False;Fideos;Pollo;Verduras
+100;Sal Rosada 500 g;Abarrotes;Salsas y Condimentos;Badía;9.9;6.8;False;Fideos;Pollo;Verduras
+101;Agua Sin Gas 625 ml;Bebidas;Agua;San Luis;2.2;1.2;True;Frutas;Verduras;Bebidas Energéticas e Isotónicas
+102;Agua Sin Gas 2.5 L;Bebidas;Agua;San Luis;5.9;3.4;True;Frutas;Verduras;Bebidas Energéticas e Isotónicas
+103;Agua Mineral 625 ml;Bebidas;Agua;Cielo;2.3;1.3;True;Frutas;Verduras;Bebidas Energéticas e Isotónicas
+104;Agua Mineral 2.5 L;Bebidas;Agua;Cielo;6.1;3.6;False;Frutas;Verduras;Bebidas Energéticas e Isotónicas
+105;Agua Alcalina 650 ml;Bebidas;Agua;Loa;3.9;2.4;False;Frutas;Verduras;Bebidas Energéticas e Isotónicas
+106;Agua Gasificada 500 ml;Bebidas;Agua;San Mateo;2.9;1.7;False;Frutas;Verduras;Bebidas Energéticas e Isotónicas
+107;Agua Sabor Limón 625 ml;Bebidas;Agua;Cielo;2.8;1.6;False;Frutas;Verduras;Bebidas Energéticas e Isotónicas
+108;Agua Sabor Manzana 625 ml;Bebidas;Agua;San Luis;2.8;1.6;False;Frutas;Verduras;Bebidas Energéticas e Isotónicas
+109;Coca-Cola Original 500 ml;Bebidas;Gaseosas;Coca-Cola;3.8;2.3;True;Papas Fritas y Snacks;Pizzas y Comidas Preparadas;Embutidos
+110;Coca-Cola Original 1.5 L;Bebidas;Gaseosas;Coca-Cola;8.9;5.7;True;Papas Fritas y Snacks;Pizzas y Comidas Preparadas;Embutidos
+111;Coca-Cola Sin Azúcar 500 ml;Bebidas;Gaseosas;Coca-Cola;3.8;2.3;True;Papas Fritas y Snacks;Pizzas y Comidas Preparadas;Embutidos
+112;Inca Kola 500 ml;Bebidas;Gaseosas;Inca Kola;3.8;2.3;True;Papas Fritas y Snacks;Pizzas y Comidas Preparadas;Embutidos
+113;Inca Kola 1.5 L;Bebidas;Gaseosas;Inca Kola;8.9;5.7;True;Papas Fritas y Snacks;Pizzas y Comidas Preparadas;Embutidos
+114;Sprite 500 ml;Bebidas;Gaseosas;Sprite;3.6;2.2;False;Papas Fritas y Snacks;Pizzas y Comidas Preparadas;Embutidos
+115;Fanta Naranja 500 ml;Bebidas;Gaseosas;Fanta;3.6;2.2;False;Papas Fritas y Snacks;Pizzas y Comidas Preparadas;Embutidos
+116;Pepsi 500 ml;Bebidas;Gaseosas;Pepsi;3.5;2.1;False;Papas Fritas y Snacks;Pizzas y Comidas Preparadas;Embutidos
+117;Seven Up 500 ml;Bebidas;Gaseosas;7UP;3.5;2.1;False;Papas Fritas y Snacks;Pizzas y Comidas Preparadas;Embutidos
+118;Guaraná 500 ml;Bebidas;Gaseosas;Guaraná;3.4;2.0;False;Papas Fritas y Snacks;Pizzas y Comidas Preparadas;Embutidos
+119;Jugo de Naranja 1 L;Bebidas;Jugos;Frugos;8.9;5.6;True;Galletas Dulces;Frutas;Yogurt
+120;Jugo de Durazno 1 L;Bebidas;Jugos;Frugos;8.9;5.6;True;Galletas Dulces;Frutas;Yogurt
+121;Jugo de Piña 1 L;Bebidas;Jugos;Pulp;9.2;5.9;False;Galletas Dulces;Frutas;Yogurt
+122;Jugo de Manzana 1 L;Bebidas;Jugos;Watts;9.5;6.1;False;Galletas Dulces;Frutas;Yogurt
+123;Néctar de Mango 1 L;Bebidas;Jugos;Frugos;8.7;5.5;False;Galletas Dulces;Frutas;Yogurt
+124;Jugo Multifrutas 1 L;Bebidas;Jugos;Pulp;9.5;6.1;False;Galletas Dulces;Frutas;Yogurt
+125;Jugo de Uva 1 L;Bebidas;Jugos;Watts;9.8;6.3;False;Galletas Dulces;Frutas;Yogurt
+126;Jugo de Arándanos 1 L;Bebidas;Jugos;Ocean Spray;15.9;11.2;False;Galletas Dulces;Frutas;Yogurt
+127;Café Instantáneo 200 g;Bebidas;Café y Té;Nescafé;23.9;16.5;True;Azúcar y Endulzantes;Leche;Galletas Dulces
+128;Café Instantáneo 100 g;Bebidas;Café y Té;Altomayo;15.9;10.8;True;Azúcar y Endulzantes;Leche;Galletas Dulces
+129;Café Molido 250 g;Bebidas;Café y Té;Altomayo;18.9;13.2;False;Azúcar y Endulzantes;Leche;Galletas Dulces
+130;Té Verde 25 sobres;Bebidas;Café y Té;Té Herbi;8.9;5.9;False;Azúcar y Endulzantes;Leche;Galletas Dulces
+131;Té de Manzanilla 25 sobres;Bebidas;Café y Té;Hornimans;7.9;5.1;False;Azúcar y Endulzantes;Leche;Galletas Dulces
+132;Té de Hierbaluisa 25 sobres;Bebidas;Café y Té;Hornimans;7.9;5.1;False;Azúcar y Endulzantes;Leche;Galletas Dulces
+133;Té Inglés 100 bolsas;Bebidas;Café y Té;Twins;19.9;13.8;False;Azúcar y Endulzantes;Leche;Galletas Dulces
+134;Chocolate Instantáneo 400 g;Bebidas;Café y Té;Winter's;14.9;10.1;False;Azúcar y Endulzantes;Leche;Galletas Dulces
+135;Red Bull 250 ml;Bebidas;Bebidas Energéticas e Isotónicas;Red Bull;8.9;6.3;False;Agua;Papas Fritas y Snacks;Chocolates
+136;Monster Energy 473 ml;Bebidas;Bebidas Energéticas e Isotónicas;Monster;10.9;7.8;False;Agua;Papas Fritas y Snacks;Chocolates
+137;Volt 300 ml;Bebidas;Bebidas Energéticas e Isotónicas;Volt;4.9;3.1;False;Agua;Papas Fritas y Snacks;Chocolates
+138;Gatorade Naranja 500 ml;Bebidas;Bebidas Energéticas e Isotónicas;Gatorade;4.9;3.1;False;Agua;Papas Fritas y Snacks;Chocolates
+139;Powerade Mora 500 ml;Bebidas;Bebidas Energéticas e Isotónicas;Powerade;4.9;3.1;False;Agua;Papas Fritas y Snacks;Chocolates
+140;Leche Entera 1 L;Lácteos;Leche;Gloria;6.2;4.1;True;Café y Té;Azúcar y Endulzantes;Galletas Dulces
+141;Leche Evaporada;Lácteos;Leche;Gloria;4.5;2.9;True;Café y Té;Azúcar y Endulzantes;Galletas Dulces
+142;Leche Evaporada;Lácteos;Leche;Bonlé;4.5;2.9;True;Café y Té;Azúcar y Endulzantes;Galletas Dulces
+143;Leche Descremada 1 L;Lácteos;Leche;Laive;6.5;4.3;True;Café y Té;Azúcar y Endulzantes;Galletas Dulces
+144;Leche Sin Lactosa 1 L;Lácteos;Leche;Laive;7.2;4.9;True;Café y Té;Azúcar y Endulzantes;Galletas Dulces
+145;Leche Entera 1 L;Lácteos;Leche;Bonlé;6.2;4.1;True;Café y Té;Azúcar y Endulzantes;Galletas Dulces
+146;Leche Chocolatada 1 L;Lácteos;Leche;Gloria;8.5;5.9;False;Café y Té;Azúcar y Endulzantes;Galletas Dulces
+147;Leche UHT Entera 1 L;Lácteos;Leche;Laive;6.8;4.6;False;Café y Té;Azúcar y Endulzantes;Galletas Dulces
+148;Leche Evaporada Light;Lácteos;Leche;Gloria;4.7;3.0;True;Café y Té;Azúcar y Endulzantes;Galletas Dulces
+149;Leche Fresca 1 L;Lácteos;Leche;Laive;7.9;5.5;False;Café y Té;Azúcar y Endulzantes;Galletas Dulces
+150;Yogurt Fresa 1 kg;Lácteos;Yogurt;Gloria;9.9;6.8;True;Frutas;Galletas Dulces;Chocolates
+151;Yogurt Vainilla 1 kg;Lácteos;Yogurt;Gloria;9.9;6.8;True;Frutas;Galletas Dulces;Chocolates
+152;Yogurt Durazno 1 kg;Lácteos;Yogurt;Laive;10.2;7.1;False;Frutas;Galletas Dulces;Chocolates
+153;Yogurt Griego Natural;Lácteos;Yogurt;Laive;13.9;9.8;False;Frutas;Galletas Dulces;Chocolates
+154;Yogurt Griego Fresa;Lácteos;Yogurt;Laive;14.2;10.1;False;Frutas;Galletas Dulces;Chocolates
+155;Yogurt Bebible Fresa;Lácteos;Yogurt;Gloria;4.5;2.9;True;Frutas;Galletas Dulces;Chocolates
+156;Yogurt Bebible Vainilla;Lácteos;Yogurt;Gloria;4.5;2.9;False;Frutas;Galletas Dulces;Chocolates
+157;Queso Edam 250 g;Lácteos;Quesos;Bonlé;14.9;10.2;False;Fideos;Embutidos;Pizzas y Comidas Preparadas
+158;Queso Fresco 500 g;Lácteos;Quesos;Gloria;16.9;11.8;True;Fideos;Embutidos;Pizzas y Comidas Preparadas
+159;Queso Mozzarella 500 g;Lácteos;Quesos;Bonlé;19.9;14.1;False;Fideos;Embutidos;Pizzas y Comidas Preparadas
+160;Queso Parmesano 200 g;Lácteos;Quesos;Laive;17.9;12.6;False;Fideos;Embutidos;Pizzas y Comidas Preparadas
+161;Queso Gouda 250 g;Lácteos;Quesos;Bonlé;15.9;11.1;False;Fideos;Embutidos;Pizzas y Comidas Preparadas
+162;Queso Andino 500 g;Lácteos;Quesos;Laive;18.9;13.4;False;Fideos;Embutidos;Pizzas y Comidas Preparadas
+163;Queso Crema 200 g;Lácteos;Quesos;Philadelphia;12.9;9.1;False;Fideos;Embutidos;Pizzas y Comidas Preparadas
+164;Mantequilla con Sal 200 g;Lácteos;Mantequilla y Margarina;Gloria;11.9;8.2;False;Harinas;Azúcar y Endulzantes;Quesos
+165;Mantequilla sin Sal 200 g;Lácteos;Mantequilla y Margarina;Laive;12.5;8.7;False;Harinas;Azúcar y Endulzantes;Quesos
+166;Margarina 450 g;Lácteos;Mantequilla y Margarina;Doral;8.9;5.9;False;Harinas;Azúcar y Endulzantes;Quesos
+167;Margarina Light 450 g;Lácteos;Mantequilla y Margarina;Doral;9.5;6.3;False;Harinas;Azúcar y Endulzantes;Quesos
+168;Mantequilla Premium 250 g;Lácteos;Mantequilla y Margarina;Anchor;18.9;13.6;False;Harinas;Azúcar y Endulzantes;Quesos
+169;Margarina Familiar 900 g;Lácteos;Mantequilla y Margarina;Doral;14.9;10.5;False;Harinas;Azúcar y Endulzantes;Quesos
+170;Manzana Roja 1 kg;Frutas y Verduras;Frutas;Campo Fresco;6.9;4.6;True;Yogurt;Agua;Verduras
+171;Manzana Verde 1 kg;Frutas y Verduras;Frutas;Campo Fresco;7.2;4.9;False;Yogurt;Agua;Verduras
+172;Plátano de Seda 1 kg;Frutas y Verduras;Frutas;Campo Fresco;4.5;2.9;True;Yogurt;Agua;Verduras
+173;Plátano Bellaco 1 kg;Frutas y Verduras;Frutas;Campo Fresco;4.9;3.2;False;Yogurt;Agua;Verduras
+174;Naranja Valencia 1 kg;Frutas y Verduras;Frutas;Campo Fresco;5.9;3.8;True;Yogurt;Agua;Verduras
+175;Mandarina 1 kg;Frutas y Verduras;Frutas;Campo Fresco;6.5;4.2;False;Yogurt;Agua;Verduras
+176;Papaya 1 kg;Frutas y Verduras;Frutas;Campo Fresco;5.2;3.4;True;Yogurt;Agua;Verduras
+177;Piña Golden Unidad;Frutas y Verduras;Frutas;Campo Fresco;8.9;6.1;False;Yogurt;Agua;Verduras
+178;Palta Hass 1 kg;Frutas y Verduras;Frutas;Campo Fresco;12.9;9.1;True;Yogurt;Agua;Verduras
+179;Fresa 500 g;Frutas y Verduras;Frutas;Campo Fresco;9.9;6.9;False;Yogurt;Agua;Verduras
+180;Uva Red Globe 1 kg;Frutas y Verduras;Frutas;Campo Fresco;11.9;8.3;False;Yogurt;Agua;Verduras
+181;Mango Kent 1 kg;Frutas y Verduras;Frutas;Campo Fresco;8.9;6.1;False;Yogurt;Agua;Verduras
+182;Sandía 1 kg;Frutas y Verduras;Frutas;Campo Fresco;2.9;1.7;False;Yogurt;Agua;Verduras
+183;Melón 1 kg;Frutas y Verduras;Frutas;Campo Fresco;4.2;2.6;False;Yogurt;Agua;Verduras
+184;Pera Packham 1 kg;Frutas y Verduras;Frutas;Campo Fresco;7.9;5.4;False;Yogurt;Agua;Verduras
+185;Kiwi 500 g;Frutas y Verduras;Frutas;Campo Fresco;12.9;9.2;False;Yogurt;Agua;Verduras
+186;Arándanos 250 g;Frutas y Verduras;Frutas;Campo Fresco;14.9;10.8;False;Yogurt;Agua;Verduras
+187;Limón 1 kg;Frutas y Verduras;Frutas;Campo Fresco;5.4;3.5;True;Yogurt;Agua;Verduras
+188;Tomate Italiano 1 kg;Frutas y Verduras;Verduras;Campo Fresco;4.9;3.1;True;Pollo;Aceites;Arroz
+189;Cebolla Roja 1 kg;Frutas y Verduras;Verduras;Campo Fresco;3.9;2.4;True;Pollo;Aceites;Arroz
+190;Lechuga Americana Unidad;Frutas y Verduras;Verduras;Campo Fresco;3.5;2.2;True;Pollo;Aceites;Arroz
+191;Espinaca 300 g;Frutas y Verduras;Verduras;Campo Fresco;4.5;2.9;False;Pollo;Aceites;Arroz
+192;Brócoli Unidad;Frutas y Verduras;Verduras;Campo Fresco;5.9;3.9;False;Pollo;Aceites;Arroz
+193;Coliflor Unidad;Frutas y Verduras;Verduras;Campo Fresco;6.2;4.1;False;Pollo;Aceites;Arroz
+194;Pepino 1 kg;Frutas y Verduras;Verduras;Campo Fresco;4.9;3.2;False;Pollo;Aceites;Arroz
+195;Pimiento Rojo 1 kg;Frutas y Verduras;Verduras;Campo Fresco;8.9;6.2;False;Pollo;Aceites;Arroz
+196;Zanahoria 1 kg;Frutas y Verduras;Verduras;Campo Fresco;3.9;2.4;True;Pollo;Aceites;Arroz
+197;Zapallito Italiano 1 kg;Frutas y Verduras;Verduras;Campo Fresco;4.5;2.9;False;Pollo;Aceites;Arroz
+198;Ají Amarillo 250 g;Frutas y Verduras;Verduras;Campo Fresco;4.9;3.2;False;Pollo;Aceites;Arroz
+199;Apio Unidad;Frutas y Verduras;Verduras;Campo Fresco;3.9;2.5;False;Pollo;Aceites;Arroz
+200;Vainita 500 g;Frutas y Verduras;Verduras;Campo Fresco;5.9;4.0;False;Pollo;Aceites;Arroz
+201;Papa Blanca 1 kg;Frutas y Verduras;Tubérculos;Campo Fresco;3.2;1.9;True;Pollo;Aceites;Salsas y Condimentos
+202;Papa Amarilla 1 kg;Frutas y Verduras;Tubérculos;Campo Fresco;4.2;2.7;True;Pollo;Aceites;Salsas y Condimentos
+203;Camote Amarillo 1 kg;Frutas y Verduras;Tubérculos;Campo Fresco;3.9;2.4;False;Pollo;Aceites;Salsas y Condimentos
+204;Yuca 1 kg;Frutas y Verduras;Tubérculos;Campo Fresco;4.9;3.1;False;Pollo;Aceites;Salsas y Condimentos
+205;Olluco 1 kg;Frutas y Verduras;Tubérculos;Campo Fresco;5.2;3.4;False;Pollo;Aceites;Salsas y Condimentos
+206;Mashua 1 kg;Frutas y Verduras;Tubérculos;Campo Fresco;6.5;4.4;False;Pollo;Aceites;Salsas y Condimentos
+207;Oca 1 kg;Frutas y Verduras;Tubérculos;Campo Fresco;5.9;3.9;False;Pollo;Aceites;Salsas y Condimentos
+208;Jengibre 250 g;Frutas y Verduras;Tubérculos;Campo Fresco;4.5;2.9;False;Pollo;Aceites;Salsas y Condimentos
+209;Pechuga de Pollo 1 kg;Carnes y Aves;Pollo;San Fernando;21.9;16.4;True;Arroz;Verduras;Salsas y Condimentos
+210;Pierna de Pollo 1 kg;Carnes y Aves;Pollo;San Fernando;15.9;11.6;True;Arroz;Verduras;Salsas y Condimentos
+211;Muslo de Pollo 1 kg;Carnes y Aves;Pollo;Redondos;16.5;12.1;True;Arroz;Verduras;Salsas y Condimentos
+212;Alitas de Pollo 1 kg;Carnes y Aves;Pollo;Redondos;15.5;11.2;False;Arroz;Verduras;Salsas y Condimentos
+213;Pollo Entero;Carnes y Aves;Pollo;San Fernando;14.9;10.8;True;Arroz;Verduras;Salsas y Condimentos
+214;Filete de Pollo 1 kg;Carnes y Aves;Pollo;San Fernando;23.9;18.1;True;Arroz;Verduras;Salsas y Condimentos
+215;Mollejas de Pollo 1 kg;Carnes y Aves;Pollo;Redondos;10.9;7.6;False;Arroz;Verduras;Salsas y Condimentos
+216;Hígado de Pollo 1 kg;Carnes y Aves;Pollo;San Fernando;9.9;6.8;False;Arroz;Verduras;Salsas y Condimentos
+217;Bistec de Res 1 kg;Carnes y Aves;Res;La Segoviana;39.9;31.2;True;Arroz;Tubérculos;Verduras
+218;Lomo Fino 1 kg;Carnes y Aves;Res;La Segoviana;69.9;55.8;False;Arroz;Tubérculos;Verduras
+219;Asado de Tira 1 kg;Carnes y Aves;Res;La Segoviana;38.9;30.3;False;Arroz;Tubérculos;Verduras
+220;Carne Molida Especial 1 kg;Carnes y Aves;Res;La Segoviana;32.9;25.2;True;Arroz;Tubérculos;Verduras
+221;Punta de Pecho 1 kg;Carnes y Aves;Res;La Segoviana;31.9;24.2;False;Arroz;Tubérculos;Verduras
+222;Peceto 1 kg;Carnes y Aves;Res;La Segoviana;42.9;33.4;False;Arroz;Tubérculos;Verduras
+223;Bife Angosto 1 kg;Carnes y Aves;Res;La Segoviana;49.9;39.2;False;Arroz;Tubérculos;Verduras
+224;Entraña 1 kg;Carnes y Aves;Res;La Segoviana;52.9;41.6;False;Arroz;Tubérculos;Verduras
+225;Chuleta de Cerdo 1 kg;Carnes y Aves;Cerdo;Otto Kunz;28.9;22.1;True;Arroz;Tubérculos;Salsas y Condimentos
+226;Lomo de Cerdo 1 kg;Carnes y Aves;Cerdo;Otto Kunz;32.9;25.4;False;Arroz;Tubérculos;Salsas y Condimentos
+227;Costilla de Cerdo 1 kg;Carnes y Aves;Cerdo;Otto Kunz;29.9;22.8;False;Arroz;Tubérculos;Salsas y Condimentos
+228;Pierna de Cerdo 1 kg;Carnes y Aves;Cerdo;Otto Kunz;27.9;21.1;False;Arroz;Tubérculos;Salsas y Condimentos
+229;Panceta de Cerdo 1 kg;Carnes y Aves;Cerdo;Otto Kunz;30.9;23.7;False;Arroz;Tubérculos;Salsas y Condimentos
+230;Chuleta Ahumada 1 kg;Carnes y Aves;Cerdo;Otto Kunz;34.9;27.2;False;Arroz;Tubérculos;Salsas y Condimentos
+231;Jamón Inglés 200 g;Carnes y Aves;Embutidos;Otto Kunz;9.9;6.9;False;Quesos;Gaseosas;Papas Fritas y Snacks
+232;Jamón de Pavo 200 g;Carnes y Aves;Embutidos;San Fernando;10.9;7.7;False;Quesos;Gaseosas;Papas Fritas y Snacks
+233;Hot Dog Clásico 250 g;Carnes y Aves;Embutidos;Otto Kunz;7.9;5.3;True;Quesos;Gaseosas;Papas Fritas y Snacks
+234;Salchicha Parrillera 500 g;Carnes y Aves;Embutidos;Otto Kunz;15.9;11.4;False;Quesos;Gaseosas;Papas Fritas y Snacks
+235;Chorizo Parrillero 500 g;Carnes y Aves;Embutidos;Braedt;18.9;13.9;False;Quesos;Gaseosas;Papas Fritas y Snacks
+236;Mortadela Familiar 500 g;Carnes y Aves;Embutidos;Braedt;9.9;6.9;False;Quesos;Gaseosas;Papas Fritas y Snacks
+237;Salame 200 g;Carnes y Aves;Embutidos;Braedt;14.9;10.9;False;Quesos;Gaseosas;Papas Fritas y Snacks
+238;Papas Lays Clásicas 45 g;Snacks y Dulces;Papas Fritas y Snacks;Lays;3.5;2.2;True;Gaseosas;Chocolates;Agua
+239;Papas Lays Familiar 150 g;Snacks y Dulces;Papas Fritas y Snacks;Lays;9.9;6.8;True;Gaseosas;Chocolates;Agua
+240;Doritos Queso 150 g;Snacks y Dulces;Papas Fritas y Snacks;Doritos;10.5;7.2;True;Gaseosas;Chocolates;Agua
+241;Chizitos 150 g;Snacks y Dulces;Papas Fritas y Snacks;Karinto;6.9;4.6;False;Gaseosas;Chocolates;Agua
+242;Piqueo Snax 200 g;Snacks y Dulces;Papas Fritas y Snacks;Karinto;8.9;6.0;False;Gaseosas;Chocolates;Agua
+243;Pringles Original 110 g;Snacks y Dulces;Papas Fritas y Snacks;Pringles;11.9;8.5;False;Gaseosas;Chocolates;Agua
+244;Maní Salado 200 g;Snacks y Dulces;Papas Fritas y Snacks;Karinto;5.9;3.9;False;Gaseosas;Chocolates;Agua
+245;Mix de Frutos Secos 200 g;Snacks y Dulces;Papas Fritas y Snacks;Villa Natura;14.9;10.8;False;Gaseosas;Chocolates;Agua
+246;Canchita Salada 100 g;Snacks y Dulces;Papas Fritas y Snacks;Karinto;4.5;2.9;False;Gaseosas;Chocolates;Agua
+247;Nachos Naturales 200 g;Snacks y Dulces;Papas Fritas y Snacks;Doritos;12.9;9.2;False;Gaseosas;Chocolates;Agua
+248;Chocolate Sublime;Snacks y Dulces;Chocolates;Nestlé;2.5;1.5;True;Galletas Dulces;Café y Té;Yogurt
+249;Chocolate Triángulo;Snacks y Dulces;Chocolates;Winter's;2.2;1.3;True;Galletas Dulces;Café y Té;Yogurt
+250;Chocolate Princesa;Snacks y Dulces;Chocolates;Nestlé;2.5;1.5;True;Galletas Dulces;Café y Té;Yogurt
+251;Chocolate Costa Leche;Snacks y Dulces;Chocolates;Costa;4.5;2.9;False;Galletas Dulces;Café y Té;Yogurt
+252;Chocolate Hershey's Milk;Snacks y Dulces;Chocolates;Hershey's;6.9;4.7;False;Galletas Dulces;Café y Té;Yogurt
+253;Chocolate KitKat 4 Fingers;Snacks y Dulces;Chocolates;Nestlé;4.2;2.8;False;Galletas Dulces;Café y Té;Yogurt
+254;Chocolate Snickers;Snacks y Dulces;Chocolates;Snickers;4.5;3.0;False;Galletas Dulces;Café y Té;Yogurt
+255;Chocolate Milkybar;Snacks y Dulces;Chocolates;Nestlé;3.9;2.6;False;Galletas Dulces;Café y Té;Yogurt
+256;Chocolate Vizzio Almendras;Snacks y Dulces;Chocolates;Costa;8.9;6.2;False;Galletas Dulces;Café y Té;Yogurt
+257;Chocolate Ferrero Rocher 8 u;Snacks y Dulces;Chocolates;Ferrero;24.9;18.5;False;Galletas Dulces;Café y Té;Yogurt
+258;Galletas Casino Vainilla;Snacks y Dulces;Galletas Dulces;Field;2.5;1.5;True;Leche;Café y Té;Jugos
+259;Galletas Casino Chocolate;Snacks y Dulces;Galletas Dulces;Field;2.5;1.5;False;Leche;Café y Té;Jugos
+260;Galletas Oreo Original;Snacks y Dulces;Galletas Dulces;Oreo;3.2;2.0;True;Leche;Café y Té;Jugos
+261;Galletas Oreo Doble Crema;Snacks y Dulces;Galletas Dulces;Oreo;3.5;2.2;False;Leche;Café y Té;Jugos
+262;Galletas Pícaras;Snacks y Dulces;Galletas Dulces;Nestlé;3.2;2.0;False;Leche;Café y Té;Jugos
+263;Galletas Charada;Snacks y Dulces;Galletas Dulces;Field;2.9;1.8;False;Leche;Café y Té;Jugos
+264;Galletas Soda Field;Snacks y Dulces;Galletas Dulces;Field;3.5;2.3;False;Leche;Café y Té;Jugos
+265;Galletas Integrales;Snacks y Dulces;Galletas Dulces;McKay;5.9;4.1;False;Leche;Café y Té;Jugos
+266;Galletas Chips Ahoy!;Snacks y Dulces;Galletas Dulces;Nabisco;6.9;4.8;False;Leche;Café y Té;Jugos
+267;Galletas Morochas;Snacks y Dulces;Galletas Dulces;Nestlé;2.9;1.8;False;Leche;Café y Té;Jugos
+268;Caramelos Halls Menta;Snacks y Dulces;Caramelos y Chicles;Halls;2.5;1.5;False;Gaseosas;Chocolates;
+269;Caramelos Halls Cereza;Snacks y Dulces;Caramelos y Chicles;Halls;2.5;1.5;False;Gaseosas;Chocolates;
+270;Chicles Trident Hierbabuena;Snacks y Dulces;Caramelos y Chicles;Trident;3.5;2.2;False;Gaseosas;Chocolates;
+271;Chicles Trident Sandía;Snacks y Dulces;Caramelos y Chicles;Trident;3.5;2.2;False;Gaseosas;Chocolates;
+272;Chicles Orbit Menta;Snacks y Dulces;Caramelos y Chicles;Orbit;3.9;2.5;False;Gaseosas;Chocolates;
+273;Caramelos Mentos Frutas;Snacks y Dulces;Caramelos y Chicles;Mentos;3.5;2.2;False;Gaseosas;Chocolates;
+274;Caramelos Ambrosoli Surtidos;Snacks y Dulces;Caramelos y Chicles;Ambrosoli;4.5;2.9;False;Gaseosas;Chocolates;
+275;Gomitas Fini Ositos;Snacks y Dulces;Caramelos y Chicles;Fini;6.9;4.8;False;Gaseosas;Chocolates;
+276;Gomitas Trululu Ácidos;Snacks y Dulces;Caramelos y Chicles;Trululu;5.9;4.0;False;Gaseosas;Chocolates;
+277;Paletas Chupetín;Snacks y Dulces;Caramelos y Chicles;Ambrosoli;4.9;3.3;False;Gaseosas;Chocolates;
+278;Detergente Bolívar 1 kg;Limpieza;Detergentes;Bolívar;11.9;8.1;True;Desinfectantes;Papel Higiénico y Papel Toalla;Limpiadores Multiuso
+279;Detergente Ariel 1 kg;Limpieza;Detergentes;Ariel;15.9;11.4;True;Desinfectantes;Papel Higiénico y Papel Toalla;Limpiadores Multiuso
+280;Detergente Ace 800 g;Limpieza;Detergentes;Ace;10.9;7.4;True;Desinfectantes;Papel Higiénico y Papel Toalla;Limpiadores Multiuso
+281;Detergente Sapolio 900 g;Limpieza;Detergentes;Sapolio;9.9;6.7;True;Desinfectantes;Papel Higiénico y Papel Toalla;Limpiadores Multiuso
+282;Detergente Opal 1 kg;Limpieza;Detergentes;Opal;8.9;5.9;False;Desinfectantes;Papel Higiénico y Papel Toalla;Limpiadores Multiuso
+283;Detergente Bolívar 3 kg;Limpieza;Detergentes;Bolívar;32.9;24.8;True;Desinfectantes;Papel Higiénico y Papel Toalla;Limpiadores Multiuso
+284;Detergente Ariel Pods 15 u;Limpieza;Detergentes;Ariel;39.9;30.2;False;Desinfectantes;Papel Higiénico y Papel Toalla;Limpiadores Multiuso
+285;Detergente Líquido Ariel 2 L;Limpieza;Detergentes;Ariel;34.9;25.9;False;Desinfectantes;Papel Higiénico y Papel Toalla;Limpiadores Multiuso
+286;Detergente Líquido Bolívar 2 L;Limpieza;Detergentes;Bolívar;28.9;20.8;False;Desinfectantes;Papel Higiénico y Papel Toalla;Limpiadores Multiuso
+287;Suavizante Downy 1 L;Limpieza;Detergentes;Downy;16.9;12.2;False;Desinfectantes;Papel Higiénico y Papel Toalla;Limpiadores Multiuso
+288;Lavavajillas Ayudín 500 ml;Limpieza;Lavavajillas;Ayudín;6.5;4.2;True;Utensilios de Cocina;Limpiadores Multiuso;Papel Higiénico y Papel Toalla
+289;Lavavajillas Sapolio Limón;Limpieza;Lavavajillas;Sapolio;5.9;3.8;True;Utensilios de Cocina;Limpiadores Multiuso;Papel Higiénico y Papel Toalla
+290;Lavavajillas Magistral 650 ml;Limpieza;Lavavajillas;Magistral;7.2;4.8;True;Utensilios de Cocina;Limpiadores Multiuso;Papel Higiénico y Papel Toalla
+291;Lavavajillas Ayudín Repuesto;Limpieza;Lavavajillas;Ayudín;5.9;3.9;False;Utensilios de Cocina;Limpiadores Multiuso;Papel Higiénico y Papel Toalla
+292;Esponja Multiuso;Limpieza;Lavavajillas;3M;4.5;2.9;False;Utensilios de Cocina;Limpiadores Multiuso;Papel Higiénico y Papel Toalla
+293;Esponja Antibacterial;Limpieza;Lavavajillas;Scotch-Brite;5.9;3.9;False;Utensilios de Cocina;Limpiadores Multiuso;Papel Higiénico y Papel Toalla
+294;Guantes de Limpieza M;Limpieza;Lavavajillas;Virutex;8.9;6.1;False;Utensilios de Cocina;Limpiadores Multiuso;Papel Higiénico y Papel Toalla
+295;Guantes de Limpieza L;Limpieza;Lavavajillas;Virutex;8.9;6.1;False;Utensilios de Cocina;Limpiadores Multiuso;Papel Higiénico y Papel Toalla
+296;Paño Microfibra;Limpieza;Lavavajillas;Virutex;6.9;4.6;False;Utensilios de Cocina;Limpiadores Multiuso;Papel Higiénico y Papel Toalla
+297;Escobilla para Vasos;Limpieza;Lavavajillas;Virutex;7.9;5.3;False;Utensilios de Cocina;Limpiadores Multiuso;Papel Higiénico y Papel Toalla
+298;Lejía Ayudín 2 L;Limpieza;Desinfectantes;Ayudín;7.9;5.2;True;Limpiadores Multiuso;Papel Higiénico y Papel Toalla;Detergentes
+299;Lejía Clorox 2 L;Limpieza;Desinfectantes;Clorox;8.9;5.9;True;Limpiadores Multiuso;Papel Higiénico y Papel Toalla;Detergentes
+300;Desinfectante Poett Lavanda;Limpieza;Desinfectantes;Poett;9.9;6.8;True;Limpiadores Multiuso;Papel Higiénico y Papel Toalla;Detergentes
+301;Desinfectante Poett Floral;Limpieza;Desinfectantes;Poett;9.9;6.8;False;Limpiadores Multiuso;Papel Higiénico y Papel Toalla;Detergentes
+302;Alcohol 70% 1 L;Limpieza;Desinfectantes;Suiza Lab;14.9;10.8;False;Limpiadores Multiuso;Papel Higiénico y Papel Toalla;Detergentes
+303;Limpiador Antibacterial;Limpieza;Desinfectantes;Lysol;18.9;13.9;False;Limpiadores Multiuso;Papel Higiénico y Papel Toalla;Detergentes
+304;Desinfectante Multiuso;Limpieza;Desinfectantes;Mr. Músculo;12.9;9.2;False;Limpiadores Multiuso;Papel Higiénico y Papel Toalla;Detergentes
+305;Cloro Gel;Limpieza;Desinfectantes;Ayudín;8.9;6.0;False;Limpiadores Multiuso;Papel Higiénico y Papel Toalla;Detergentes
+306;Desinfectante Cítrico;Limpieza;Desinfectantes;Poett;10.5;7.2;False;Limpiadores Multiuso;Papel Higiénico y Papel Toalla;Detergentes
+307;Toallas Desinfectantes 80 u;Limpieza;Desinfectantes;Lysol;19.9;14.8;False;Limpiadores Multiuso;Papel Higiénico y Papel Toalla;Detergentes
+308;Limpiavidrios 500 ml;Limpieza;Limpiadores Multiuso;Mr. Músculo;10.9;7.6;False;Desinfectantes;Limpieza del Hogar;Papel Higiénico y Papel Toalla
+309;Limpiador Multiuso Lavanda;Limpieza;Limpiadores Multiuso;Sapolio;8.9;6.0;True;Desinfectantes;Limpieza del Hogar;Papel Higiénico y Papel Toalla
+310;Limpiador Multiuso Limón;Limpieza;Limpiadores Multiuso;Sapolio;8.9;6.0;False;Desinfectantes;Limpieza del Hogar;Papel Higiénico y Papel Toalla
+311;Limpiador de Baño;Limpieza;Limpiadores Multiuso;Mr. Músculo;11.9;8.4;False;Desinfectantes;Limpieza del Hogar;Papel Higiénico y Papel Toalla
+312;Limpiador de Cocina;Limpieza;Limpiadores Multiuso;Cif;12.9;9.1;False;Desinfectantes;Limpieza del Hogar;Papel Higiénico y Papel Toalla
+313;Crema Limpiadora;Limpieza;Limpiadores Multiuso;Cif;9.9;6.8;False;Desinfectantes;Limpieza del Hogar;Papel Higiénico y Papel Toalla
+314;Limpiador para Pisos;Limpieza;Limpiadores Multiuso;Poett;10.9;7.6;False;Desinfectantes;Limpieza del Hogar;Papel Higiénico y Papel Toalla
+315;Lustramuebles;Limpieza;Limpiadores Multiuso;Blem;15.9;11.4;False;Desinfectantes;Limpieza del Hogar;Papel Higiénico y Papel Toalla
+316;Quitagrasa Cocina;Limpieza;Limpiadores Multiuso;Cif;12.9;9.1;False;Desinfectantes;Limpieza del Hogar;Papel Higiénico y Papel Toalla
+317;Limpiador de Acero Inoxidable;Limpieza;Limpiadores Multiuso;3M;17.9;13.1;False;Desinfectantes;Limpieza del Hogar;Papel Higiénico y Papel Toalla
+318;Papel Higiénico Elite 12 rollos;Limpieza;Papel Higiénico y Papel Toalla;Elite;22.9;16.8;True;Desinfectantes;Limpiadores Multiuso;Jabones
+319;Papel Higiénico Suave 12 rollos;Limpieza;Papel Higiénico y Papel Toalla;Suave;19.9;14.2;True;Desinfectantes;Limpiadores Multiuso;Jabones
+320;Papel Higiénico Noble 12 rollos;Limpieza;Papel Higiénico y Papel Toalla;Noble;21.9;15.8;False;Desinfectantes;Limpiadores Multiuso;Jabones
+321;Papel Toalla Elite 2 rollos;Limpieza;Papel Higiénico y Papel Toalla;Elite;10.9;7.5;True;Desinfectantes;Limpiadores Multiuso;Jabones
+322;Papel Toalla Scott;Limpieza;Papel Higiénico y Papel Toalla;Scott;11.9;8.2;False;Desinfectantes;Limpiadores Multiuso;Jabones
+323;Servilletas Elite 200 hojas;Limpieza;Papel Higiénico y Papel Toalla;Elite;7.9;5.3;False;Desinfectantes;Limpiadores Multiuso;Jabones
+324;Servilletas Scott 200 hojas;Limpieza;Papel Higiénico y Papel Toalla;Scott;8.2;5.6;False;Desinfectantes;Limpiadores Multiuso;Jabones
+325;Pañuelos Faciales Elite;Limpieza;Papel Higiénico y Papel Toalla;Elite;6.9;4.6;False;Desinfectantes;Limpiadores Multiuso;Jabones
+326;Pañuelos Faciales Scott;Limpieza;Papel Higiénico y Papel Toalla;Scott;7.2;4.9;False;Desinfectantes;Limpiadores Multiuso;Jabones
+327;Papel Higiénico Premium 24 rollos;Limpieza;Papel Higiénico y Papel Toalla;Elite;39.9;30.1;False;Desinfectantes;Limpiadores Multiuso;Jabones
+328;Shampoo Nutrición 400 ml;Cuidado Personal;Shampoo y Acondicionador;Head & Shoulders;18.9;13.6;True;Jabones;Desodorantes;
+329;Shampoo Anticaspa 400 ml;Cuidado Personal;Shampoo y Acondicionador;Head & Shoulders;19.9;14.3;True;Jabones;Desodorantes;
+330;Shampoo Hidratación 650 ml;Cuidado Personal;Shampoo y Acondicionador;Pantene;24.9;18.2;True;Jabones;Desodorantes;
+331;Shampoo Restauración 650 ml;Cuidado Personal;Shampoo y Acondicionador;Pantene;24.9;18.2;False;Jabones;Desodorantes;
+332;Shampoo Reparación 400 ml;Cuidado Personal;Shampoo y Acondicionador;Sedal;16.9;11.9;True;Jabones;Desodorantes;
+333;Acondicionador Reparación 400 ml;Cuidado Personal;Shampoo y Acondicionador;Sedal;16.9;11.9;False;Jabones;Desodorantes;
+334;Shampoo Natural 400 ml;Cuidado Personal;Shampoo y Acondicionador;Dove;18.9;13.4;False;Jabones;Desodorantes;
+335;Acondicionador Nutrición 400 ml;Cuidado Personal;Shampoo y Acondicionador;Dove;18.9;13.4;False;Jabones;Desodorantes;
+336;Shampoo Niño 400 ml;Cuidado Personal;Shampoo y Acondicionador;Johnson's;17.9;12.6;False;Jabones;Desodorantes;
+337;Shampoo Aloe Vera 750 ml;Cuidado Personal;Shampoo y Acondicionador;Herbal Essences;29.9;22.1;False;Jabones;Desodorantes;
+338;Shampoo Coco 750 ml;Cuidado Personal;Shampoo y Acondicionador;Herbal Essences;29.9;22.1;False;Jabones;Desodorantes;
+339;Shampoo Micelar 400 ml;Cuidado Personal;Shampoo y Acondicionador;Pantene;22.9;16.6;False;Jabones;Desodorantes;
+340;Shampoo Men 400 ml;Cuidado Personal;Shampoo y Acondicionador;Head & Shoulders;20.9;15.1;False;Jabones;Desodorantes;
+341;Shampoo Hidratante 900 ml;Cuidado Personal;Shampoo y Acondicionador;Sedal;31.9;23.8;False;Jabones;Desodorantes;
+342;Shampoo Control Caída 400 ml;Cuidado Personal;Shampoo y Acondicionador;Dove;21.9;15.9;False;Jabones;Desodorantes;
+343;Jabón Tocador Original;Cuidado Personal;Jabones;Palmolive;3.5;2.2;True;Shampoo y Acondicionador;Desodorantes;Higiene Bucal
+344;Jabón Avena;Cuidado Personal;Jabones;Dove;4.5;2.9;True;Shampoo y Acondicionador;Desodorantes;Higiene Bucal
+345;Jabón Antibacterial;Cuidado Personal;Jabones;Protex;4.9;3.2;True;Shampoo y Acondicionador;Desodorantes;Higiene Bucal
+346;Jabón Humectante;Cuidado Personal;Jabones;Nivea;4.9;3.2;False;Shampoo y Acondicionador;Desodorantes;Higiene Bucal
+347;Jabón Glicerina;Cuidado Personal;Jabones;Moncler;3.9;2.5;False;Shampoo y Acondicionador;Desodorantes;Higiene Bucal
+348;Jabón Líquido 250 ml;Cuidado Personal;Jabones;Dove;11.9;8.4;False;Shampoo y Acondicionador;Desodorantes;Higiene Bucal
+349;Jabón Líquido Antibacterial;Cuidado Personal;Jabones;Protex;12.9;9.2;False;Shampoo y Acondicionador;Desodorantes;Higiene Bucal
+350;Jabón Bebé;Cuidado Personal;Jabones;Johnson's;5.9;3.9;False;Shampoo y Acondicionador;Desodorantes;Higiene Bucal
+351;Jabón Carbón Activado;Cuidado Personal;Jabones;Nivea;6.9;4.8;False;Shampoo y Acondicionador;Desodorantes;Higiene Bucal
+352;Jabón Exfoliante;Cuidado Personal;Jabones;Dove;5.9;4.1;False;Shampoo y Acondicionador;Desodorantes;Higiene Bucal
+353;Pasta Dental Triple Acción;Cuidado Personal;Higiene Bucal;Colgate;8.9;6.2;True;Jabones;Desodorantes;
+354;Pasta Dental Luminous White;Cuidado Personal;Higiene Bucal;Colgate;14.9;10.8;True;Jabones;Desodorantes;
+355;Pasta Dental Protección Completa;Cuidado Personal;Higiene Bucal;Oral-B;10.9;7.7;False;Jabones;Desodorantes;
+356;Cepillo Dental Suave;Cuidado Personal;Higiene Bucal;Oral-B;8.9;6.1;True;Jabones;Desodorantes;
+357;Cepillo Dental Medio;Cuidado Personal;Higiene Bucal;Colgate;7.9;5.4;False;Jabones;Desodorantes;
+358;Enjuague Bucal 500 ml;Cuidado Personal;Higiene Bucal;Listerine;18.9;13.6;False;Jabones;Desodorantes;
+359;Hilo Dental;Cuidado Personal;Higiene Bucal;Oral-B;9.9;6.9;False;Jabones;Desodorantes;
+360;Cepillo Dental Infantil;Cuidado Personal;Higiene Bucal;Colgate;6.9;4.6;False;Jabones;Desodorantes;
+361;Pasta Dental Infantil;Cuidado Personal;Higiene Bucal;Colgate;8.9;6.2;False;Jabones;Desodorantes;
+362;Cepillo Eléctrico;Cuidado Personal;Higiene Bucal;Oral-B;69.9;54.2;False;Jabones;Desodorantes;
+363;Desodorante Aerosol Men;Cuidado Personal;Desodorantes;Nivea;16.9;12.1;True;Jabones;Afeitado;Shampoo y Acondicionador
+364;Desodorante Aerosol Women;Cuidado Personal;Desodorantes;Nivea;16.9;12.1;False;Jabones;Afeitado;Shampoo y Acondicionador
+365;Desodorante Roll-On;Cuidado Personal;Desodorantes;Dove;13.9;9.9;False;Jabones;Afeitado;Shampoo y Acondicionador
+366;Desodorante Barra;Cuidado Personal;Desodorantes;Old Spice;17.9;12.9;False;Jabones;Afeitado;Shampoo y Acondicionador
+367;Desodorante Clínico;Cuidado Personal;Desodorantes;Secret;24.9;18.6;False;Jabones;Afeitado;Shampoo y Acondicionador
+368;Desodorante Spray Axe;Cuidado Personal;Desodorantes;Axe;18.9;13.6;False;Jabones;Afeitado;Shampoo y Acondicionador
+369;Desodorante Dove Men;Cuidado Personal;Desodorantes;Dove;17.9;12.8;False;Jabones;Afeitado;Shampoo y Acondicionador
+370;Desodorante Rexona Clinical;Cuidado Personal;Desodorantes;Rexona;25.9;19.4;False;Jabones;Afeitado;Shampoo y Acondicionador
+371;Máquina de Afeitar Desechable;Cuidado Personal;Afeitado;Gillette;12.9;9.1;False;Desodorantes;Jabones;Higiene Bucal
+372;Máquina Mach3;Cuidado Personal;Afeitado;Gillette;39.9;30.1;False;Desodorantes;Jabones;Higiene Bucal
+373;Cartuchos Mach3 x2;Cuidado Personal;Afeitado;Gillette;42.9;32.5;False;Desodorantes;Jabones;Higiene Bucal
+374;Espuma de Afeitar;Cuidado Personal;Afeitado;Gillette;18.9;13.6;False;Desodorantes;Jabones;Higiene Bucal
+375;Gel de Afeitar;Cuidado Personal;Afeitado;Nivea Men;19.9;14.3;False;Desodorantes;Jabones;Higiene Bucal
+376;After Shave;Cuidado Personal;Afeitado;Gillette;24.9;18.2;False;Desodorantes;Jabones;Higiene Bucal
+377;Brocha de Afeitar;Cuidado Personal;Afeitado;Wilkinson;16.9;12.1;False;Desodorantes;Jabones;Higiene Bucal
+378;Pizza Suprema Familiar;Congelados;Pizzas y Comidas Preparadas;Dr. Oetker;24.9;18.3;True;Gaseosas;Quesos;Papas Fritas y Snacks
+379;Pizza Pepperoni Familiar;Congelados;Pizzas y Comidas Preparadas;Dr. Oetker;24.9;18.3;True;Gaseosas;Quesos;Papas Fritas y Snacks
+380;Pizza Hawaiana;Congelados;Pizzas y Comidas Preparadas;Casa Europa;22.9;16.7;False;Gaseosas;Quesos;Papas Fritas y Snacks
+381;Lasaña Boloñesa;Congelados;Pizzas y Comidas Preparadas;Casa Europa;18.9;13.8;False;Gaseosas;Quesos;Papas Fritas y Snacks
+382;Nuggets de Pollo 500 g;Congelados;Pizzas y Comidas Preparadas;San Fernando;19.9;14.6;True;Gaseosas;Quesos;Papas Fritas y Snacks
+383;Hamburguesas de Res x4;Congelados;Pizzas y Comidas Preparadas;Otto Kunz;22.9;16.8;False;Gaseosas;Quesos;Papas Fritas y Snacks
+384;Croquetas de Pollo;Congelados;Pizzas y Comidas Preparadas;Redondos;18.9;13.7;False;Gaseosas;Quesos;Papas Fritas y Snacks
+385;Empanadas Congeladas x6;Congelados;Pizzas y Comidas Preparadas;Casa Europa;16.9;12.2;False;Gaseosas;Quesos;Papas Fritas y Snacks
+386;Pechuga de Pollo Congelada;Congelados;Carnes Congeladas;San Fernando;22.9;17.1;False;Verduras Congeladas;Arroz;Salsas y Condimentos
+387;Muslo de Pollo Congelado;Congelados;Carnes Congeladas;Redondos;17.9;13.1;False;Verduras Congeladas;Arroz;Salsas y Condimentos
+388;Hamburguesa de Pollo;Congelados;Carnes Congeladas;San Fernando;18.9;13.8;False;Verduras Congeladas;Arroz;Salsas y Condimentos
+389;Filete de Merluza;Congelados;Carnes Congeladas;Pescanova;26.9;20.3;False;Verduras Congeladas;Arroz;Salsas y Condimentos
+390;Langostinos 500 g;Congelados;Carnes Congeladas;Pescanova;39.9;30.8;False;Verduras Congeladas;Arroz;Salsas y Condimentos
+391;Mix de Mariscos;Congelados;Carnes Congeladas;Pescanova;34.9;26.6;False;Verduras Congeladas;Arroz;Salsas y Condimentos
+392;Brócoli Congelado;Congelados;Verduras Congeladas;Frío Campo;11.9;8.4;False;Carnes Congeladas;Arroz;Aceites
+393;Mix de Verduras;Congelados;Verduras Congeladas;Frío Campo;12.9;9.1;False;Carnes Congeladas;Arroz;Aceites
+394;Arvejas Congeladas;Congelados;Verduras Congeladas;Frío Campo;9.9;6.9;False;Carnes Congeladas;Arroz;Aceites
+395;Choclo Desgranado;Congelados;Verduras Congeladas;Frío Campo;10.9;7.6;False;Carnes Congeladas;Arroz;Aceites
+396;Espinaca Congelada;Congelados;Verduras Congeladas;Frío Campo;10.9;7.6;False;Carnes Congeladas;Arroz;Aceites
+397;Helado D'Onofrio 1 L;Congelados;Helados;D'Onofrio;19.9;14.8;True;Chocolates;Galletas Dulces;
+398;Helado Sublime 1 L;Congelados;Helados;D'Onofrio;21.9;16.4;False;Chocolates;Galletas Dulces;
+399;Helado Frutado 1 L;Congelados;Helados;Lamborgini;17.9;13.1;False;Chocolates;Galletas Dulces;
+400;Paletas Frutales x6;Congelados;Helados;D'Onofrio;15.9;11.5;False;Chocolates;Galletas Dulces;
+401;Bombones Helados x8;Congelados;Helados;D'Onofrio;24.9;18.6;False;Chocolates;Galletas Dulces;
+402;Pañales Recién Nacido x36;Bebés;Pañales;Pampers;39.9;29.8;False;Toallitas Húmedas;Fórmulas Infantiles;Accesorios para Bebé
+403;Pañales Etapa 1 x48;Bebés;Pañales;Huggies;45.9;34.7;False;Toallitas Húmedas;Fórmulas Infantiles;Accesorios para Bebé
+404;Pañales Etapa 2 x60;Bebés;Pañales;Pampers;58.9;44.8;True;Toallitas Húmedas;Fórmulas Infantiles;Accesorios para Bebé
+405;Pañales Etapa 3 x64;Bebés;Pañales;Huggies;62.9;47.9;True;Toallitas Húmedas;Fórmulas Infantiles;Accesorios para Bebé
+406;Pañales Etapa 4 x60;Bebés;Pañales;Pampers;64.9;49.5;True;Toallitas Húmedas;Fórmulas Infantiles;Accesorios para Bebé
+407;Pañales Pants x52;Bebés;Pañales;Huggies;69.9;53.6;False;Toallitas Húmedas;Fórmulas Infantiles;Accesorios para Bebé
+408;Pañales Premium Care x42;Bebés;Pañales;Pampers;72.9;56.1;False;Toallitas Húmedas;Fórmulas Infantiles;Accesorios para Bebé
+409;Pañales Recién Nacido Premium;Bebés;Pañales;Huggies;44.9;33.8;False;Toallitas Húmedas;Fórmulas Infantiles;Accesorios para Bebé
+410;Toallitas Húmedas x100;Bebés;Toallitas Húmedas;Huggies;12.9;9.1;True;Pañales;Accesorios para Bebé;
+411;Toallitas Húmedas Aloe x100;Bebés;Toallitas Húmedas;Pampers;13.9;9.9;False;Pañales;Accesorios para Bebé;
+412;Toallitas Húmedas x200;Bebés;Toallitas Húmedas;Huggies;21.9;16.1;True;Pañales;Accesorios para Bebé;
+413;Toallitas Recién Nacido;Bebés;Toallitas Húmedas;Johnson's;15.9;11.4;False;Pañales;Accesorios para Bebé;
+414;Toallitas Antibacteriales;Bebés;Toallitas Húmedas;Johnson's;14.9;10.7;False;Pañales;Accesorios para Bebé;
+415;Fórmula Etapa 1 800 g;Bebés;Fórmulas Infantiles;NAN;89.9;71.4;False;Pañales;Toallitas Húmedas;
+416;Fórmula Etapa 2 800 g;Bebés;Fórmulas Infantiles;NAN;89.9;71.4;False;Pañales;Toallitas Húmedas;
+417;Fórmula Etapa 3 800 g;Bebés;Fórmulas Infantiles;Nestogeno;69.9;54.2;False;Pañales;Toallitas Húmedas;
+418;Fórmula Comfort 800 g;Bebés;Fórmulas Infantiles;Enfamil;109.9;88.1;False;Pañales;Toallitas Húmedas;
+419;Biberón 125 ml;Bebés;Accesorios para Bebé;Avent;29.9;22.1;False;Pañales;Toallitas Húmedas;
+420;Biberón 260 ml;Bebés;Accesorios para Bebé;Avent;36.9;27.5;False;Pañales;Toallitas Húmedas;
+421;Chupón Ortodóntico;Bebés;Accesorios para Bebé;Philips Avent;19.9;14.6;False;Pañales;Toallitas Húmedas;
+422;Cepillo para Biberón;Bebés;Accesorios para Bebé;Nuk;16.9;12.2;False;Pañales;Toallitas Húmedas;
+423;Babero Impermeable;Bebés;Accesorios para Bebé;Infanti;14.9;10.6;False;Pañales;Toallitas Húmedas;
+424;Vaso Entrenador 250 ml;Bebés;Accesorios para Bebé;Nuk;24.9;18.4;False;Pañales;Toallitas Húmedas;
+425;Set de Cubiertos Infantil;Bebés;Accesorios para Bebé;Infanti;18.9;13.8;False;Pañales;Toallitas Húmedas;
+426;Traba de Seguridad Multiuso;Bebés;Accesorios para Bebé;Safety 1st;15.9;11.4;False;Pañales;Toallitas Húmedas;
+427;Alimento para Perro Adulto 1 kg;Mascotas;Alimento para Perros;Ricocan;12.9;8.9;True;Accesorios para Mascotas;;
+428;Alimento para Perro Adulto 8 kg;Mascotas;Alimento para Perros;Ricocan;79.9;61.5;True;Accesorios para Mascotas;;
+429;Alimento para Cachorro 3 kg;Mascotas;Alimento para Perros;Dog Chow;52.9;40.8;False;Accesorios para Mascotas;;
+430;Alimento para Perro Adulto 15 kg;Mascotas;Alimento para Perros;Dog Chow;149.9;118.4;False;Accesorios para Mascotas;;
+431;Alimento Premium Razas Pequeñas;Mascotas;Alimento para Perros;Pro Plan;179.9;142.8;False;Accesorios para Mascotas;;
+432;Alimento Premium Razas Grandes;Mascotas;Alimento para Perros;Pro Plan;184.9;147.1;False;Accesorios para Mascotas;;
+433;Alimento Húmedo Carne;Mascotas;Alimento para Perros;Pedigree;8.9;5.9;True;Accesorios para Mascotas;;
+434;Alimento Húmedo Pollo;Mascotas;Alimento para Perros;Pedigree;8.9;5.9;False;Accesorios para Mascotas;;
+435;Snacks Dentales;Mascotas;Alimento para Perros;Pedigree;14.9;10.5;False;Accesorios para Mascotas;;
+436;Galletas para Perro;Mascotas;Alimento para Perros;Ricocan;12.9;8.9;False;Accesorios para Mascotas;;
+437;Alimento para Gato Adulto 1 kg;Mascotas;Alimento para Gatos;Whiskas;16.9;11.8;True;Arena Sanitaria;Accesorios para Mascotas;
+438;Alimento para Gato Adulto 8 kg;Mascotas;Alimento para Gatos;Whiskas;109.9;85.2;False;Arena Sanitaria;Accesorios para Mascotas;
+439;Alimento para Gatito 1 kg;Mascotas;Alimento para Gatos;Cat Chow;19.9;14.1;False;Arena Sanitaria;Accesorios para Mascotas;
+440;Alimento Premium Gatos;Mascotas;Alimento para Gatos;Pro Plan;89.9;70.6;False;Arena Sanitaria;Accesorios para Mascotas;
+441;Alimento Húmedo Atún;Mascotas;Alimento para Gatos;Felix;6.9;4.6;False;Arena Sanitaria;Accesorios para Mascotas;
+442;Alimento Húmedo Salmón;Mascotas;Alimento para Gatos;Felix;6.9;4.6;False;Arena Sanitaria;Accesorios para Mascotas;
+443;Snack Cremoso para Gatos;Mascotas;Alimento para Gatos;Ciao;12.9;9.1;False;Arena Sanitaria;Accesorios para Mascotas;
+444;Galletas para Gatos;Mascotas;Alimento para Gatos;Dreamies;11.9;8.3;False;Arena Sanitaria;Accesorios para Mascotas;
+445;Arena Aglomerante 5 kg;Mascotas;Arena Sanitaria;Mimaskot;24.9;18.8;True;Alimento para Gatos;Accesorios para Mascotas;
+446;Arena Sanitaria Lavanda;Mascotas;Arena Sanitaria;Mimaskot;27.9;21.2;False;Alimento para Gatos;Accesorios para Mascotas;
+447;Arena Premium 10 kg;Mascotas;Arena Sanitaria;Cat's Best;54.9;43.1;False;Alimento para Gatos;Accesorios para Mascotas;
+448;Arena Sanitaria Carbón Activo;Mascotas;Arena Sanitaria;Mimaskot;31.9;24.4;False;Alimento para Gatos;Accesorios para Mascotas;
+449;Correa Nylon;Mascotas;Accesorios para Mascotas;Trixie;19.9;14.2;False;Alimento para Perros;Alimento para Gatos;Arena Sanitaria
+450;Collar Ajustable;Mascotas;Accesorios para Mascotas;Trixie;16.9;11.9;False;Alimento para Perros;Alimento para Gatos;Arena Sanitaria
+451;Plato Acero Inoxidable;Mascotas;Accesorios para Mascotas;Trixie;22.9;16.8;False;Alimento para Perros;Alimento para Gatos;Arena Sanitaria
+452;Dispensador de Agua;Mascotas;Accesorios para Mascotas;Petmate;49.9;38.2;False;Alimento para Perros;Alimento para Gatos;Arena Sanitaria
+453;Cepillo para Mascotas;Mascotas;Accesorios para Mascotas;Furminator;34.9;26.8;False;Alimento para Perros;Alimento para Gatos;Arena Sanitaria
+454;Juguete Mordedor;Mascotas;Accesorios para Mascotas;Kong;29.9;22.7;False;Alimento para Perros;Alimento para Gatos;Arena Sanitaria
+455;Pelota de Goma;Mascotas;Accesorios para Mascotas;Kong;18.9;13.3;False;Alimento para Perros;Alimento para Gatos;Arena Sanitaria
+456;Transportadora Mediana;Mascotas;Accesorios para Mascotas;Petmate;119.9;95.4;False;Alimento para Perros;Alimento para Gatos;Arena Sanitaria
+457;Cama para Perro;Mascotas;Accesorios para Mascotas;Petmate;89.9;69.8;False;Alimento para Perros;Alimento para Gatos;Arena Sanitaria
+458;Cama para Gato;Mascotas;Accesorios para Mascotas;Petmate;69.9;53.4;False;Alimento para Perros;Alimento para Gatos;Arena Sanitaria
+459;Rascador para Gatos;Mascotas;Accesorios para Mascotas;Trixie;79.9;61.5;False;Alimento para Perros;Alimento para Gatos;Arena Sanitaria
+460;Shampoo para Perros;Mascotas;Accesorios para Mascotas;Pet Clean;21.9;15.7;False;Alimento para Perros;Alimento para Gatos;Arena Sanitaria
+461;Shampoo para Gatos;Mascotas;Accesorios para Mascotas;Pet Clean;22.9;16.5;False;Alimento para Perros;Alimento para Gatos;Arena Sanitaria
+462;Toallitas para Mascotas;Mascotas;Accesorios para Mascotas;Pet Clean;16.9;11.9;False;Alimento para Perros;Alimento para Gatos;Arena Sanitaria
+463;Bolsas para Desechos;Mascotas;Accesorios para Mascotas;Trixie;12.9;8.9;False;Alimento para Perros;Alimento para Gatos;Arena Sanitaria
+464;Comedero Doble;Mascotas;Accesorios para Mascotas;Petmate;39.9;30.4;False;Alimento para Perros;Alimento para Gatos;Arena Sanitaria
+465;Snack Natural de Hueso;Mascotas;Alimento para Perros;Ricocan;17.9;12.8;False;Accesorios para Mascotas;;
+466;Snack de Atún;Mascotas;Alimento para Gatos;Felix;8.9;6.1;False;Arena Sanitaria;Accesorios para Mascotas;
+467;Juego de Ollas 7 piezas;Hogar;Utensilios de Cocina;Record;229.9;176.8;False;Lavavajillas;Limpieza del Hogar;Organización y Almacenamiento
+468;Sartén Antiadherente 24 cm;Hogar;Utensilios de Cocina;Record;79.9;60.2;False;Lavavajillas;Limpieza del Hogar;Organización y Almacenamiento
+469;Sartén Antiadherente 28 cm;Hogar;Utensilios de Cocina;Record;99.9;76.4;False;Lavavajillas;Limpieza del Hogar;Organización y Almacenamiento
+470;Olla a Presión 7 L;Hogar;Utensilios de Cocina;Record;249.9;193.5;False;Lavavajillas;Limpieza del Hogar;Organización y Almacenamiento
+471;Tabla para Picar;Hogar;Utensilios de Cocina;Casa Bonita;24.9;17.8;True;Lavavajillas;Limpieza del Hogar;Organización y Almacenamiento
+472;Juego de Cuchillos;Hogar;Utensilios de Cocina;Tramontina;119.9;91.3;False;Lavavajillas;Limpieza del Hogar;Organización y Almacenamiento
+473;Escurridor de Platos;Hogar;Utensilios de Cocina;Reyplast;49.9;37.9;False;Lavavajillas;Limpieza del Hogar;Organización y Almacenamiento
+474;Colador de Acero;Hogar;Utensilios de Cocina;Record;29.9;21.6;False;Lavavajillas;Limpieza del Hogar;Organización y Almacenamiento
+475;Espátula de Silicona;Hogar;Utensilios de Cocina;Casa Bonita;14.9;10.3;False;Lavavajillas;Limpieza del Hogar;Organización y Almacenamiento
+476;Taza Medidora;Hogar;Utensilios de Cocina;Pyrex;22.9;16.5;False;Lavavajillas;Limpieza del Hogar;Organización y Almacenamiento
+477;Organizador Multiuso;Hogar;Organización y Almacenamiento;Reyplast;39.9;29.8;True;Decoración;Limpieza del Hogar;
+478;Caja Organizadora 20 L;Hogar;Organización y Almacenamiento;Reyplast;44.9;34.2;False;Decoración;Limpieza del Hogar;
+479;Caja Organizadora 50 L;Hogar;Organización y Almacenamiento;Reyplast;69.9;53.7;False;Decoración;Limpieza del Hogar;
+480;Canasta Organizadora;Hogar;Organización y Almacenamiento;Reyplast;18.9;13.3;False;Decoración;Limpieza del Hogar;
+481;Perchas x10;Hogar;Organización y Almacenamiento;Plásticos Peru;16.9;11.9;False;Decoración;Limpieza del Hogar;
+482;Zapatera 4 Niveles;Hogar;Organización y Almacenamiento;Reyplast;79.9;61.2;False;Decoración;Limpieza del Hogar;
+483;Organizador de Cajón;Hogar;Organización y Almacenamiento;Casa Bonita;15.9;11.2;False;Decoración;Limpieza del Hogar;
+484;Caja para Zapatos;Hogar;Organización y Almacenamiento;Reyplast;12.9;8.9;False;Decoración;Limpieza del Hogar;
+485;Escoba Premium;Hogar;Limpieza del Hogar;Virutex;24.9;18.2;True;Limpiadores Multiuso;Desinfectantes;Utensilios de Cocina
+486;Trapeador Microfibra;Hogar;Limpieza del Hogar;Vileda;39.9;30.1;False;Limpiadores Multiuso;Desinfectantes;Utensilios de Cocina
+487;Recogedor con Jebe;Hogar;Limpieza del Hogar;Virutex;16.9;11.9;False;Limpiadores Multiuso;Desinfectantes;Utensilios de Cocina
+488;Balde 20 L;Hogar;Limpieza del Hogar;Reyplast;24.9;18.3;True;Limpiadores Multiuso;Desinfectantes;Utensilios de Cocina
+489;Escobilla para Baño;Hogar;Limpieza del Hogar;Virutex;19.9;14.3;False;Limpiadores Multiuso;Desinfectantes;Utensilios de Cocina
+490;Secador de Piso;Hogar;Limpieza del Hogar;Vileda;34.9;26.4;False;Limpiadores Multiuso;Desinfectantes;Utensilios de Cocina
+491;Plumero Microfibra;Hogar;Limpieza del Hogar;Virutex;18.9;13.4;False;Limpiadores Multiuso;Desinfectantes;Utensilios de Cocina
+492;Mopa Giratoria;Hogar;Limpieza del Hogar;Vileda;129.9;101.6;False;Limpiadores Multiuso;Desinfectantes;Utensilios de Cocina
+493;Florero de Vidrio;Hogar;Decoración;Casa Bonita;34.9;25.8;False;Organización y Almacenamiento;;
+494;Portarretrato 5x7;Hogar;Decoración;Concepts Life;24.9;18.2;False;Organización y Almacenamiento;;
+495;Vela Aromática;Hogar;Decoración;Glade;19.9;14.2;False;Organización y Almacenamiento;;
+496;Maceta Decorativa;Hogar;Decoración;Concepts Life;39.9;29.8;False;Organización y Almacenamiento;;
+497;Cojín Decorativo;Hogar;Decoración;Casa Bonita;29.9;21.7;False;Organización y Almacenamiento;;
+498;Reloj de Pared;Hogar;Decoración;Concepts Life;69.9;53.9;False;Organización y Almacenamiento;;
+499;Espejo Decorativo;Hogar;Decoración;Casa Bonita;89.9;69.4;False;Organización y Almacenamiento;;
+500;Alfombra Decorativa;Hogar;Decoración;Casa Bonita;99.9;77.2;False;Organización y Almacenamiento;;
+501;Cortina Blackout;Hogar;Decoración;Casa Bonita;119.9;92.6;False;Organización y Almacenamiento;;
+502;Mantel Rectangular;Hogar;Decoración;Casa Bonita;39.9;29.8;False;Organización y Almacenamiento;;
+503;Funda para Cojín;Hogar;Decoración;Casa Bonita;19.9;14.1;False;Organización y Almacenamiento;;
+504;Lámpara de Mesa;Hogar;Decoración;Philips;129.9;101.3;False;Organización y Almacenamiento;;
+505;Portavelas de Vidrio;Hogar;Decoración;Concepts Life;18.9;13.3;False;Organización y Almacenamiento;;
+506;Canasta Decorativa;Hogar;Decoración;Casa Bonita;27.9;20.1;False;Organización y Almacenamiento;;
