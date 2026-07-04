@@ -1,0 +1,27 @@
+antecedents;consequents;support;confidence;lift
+Snacks y Dulces;Bebidas, Lácteos;0.012;0.11;4.252
+Bebidas, Lácteos;Snacks y Dulces;0.012;0.454;4.252
+Carnes y Aves;Abarrotes, Frutas y Verduras;0.014;0.143;3.969
+Abarrotes, Frutas y Verduras;Carnes y Aves;0.014;0.383;3.969
+Frutas y Verduras;Carnes y Aves, Abarrotes;0.014;0.108;3.189
+Carnes y Aves, Abarrotes;Frutas y Verduras;0.014;0.406;3.189
+Bebidas;Snacks y Dulces, Lácteos;0.012;0.089;3.153
+Snacks y Dulces, Lácteos;Bebidas;0.012;0.419;3.153
+Bebidas;Snacks y Dulces;0.039;0.292;2.738
+Snacks y Dulces;Bebidas;0.039;0.364;2.738
+Lácteos;Bebidas, Snacks y Dulces;0.012;0.097;2.499
+Bebidas, Snacks y Dulces;Lácteos;0.012;0.303;2.499
+Hogar;Limpieza;0.014;0.275;2.367
+Limpieza;Hogar;0.014;0.123;2.367
+Snacks y Dulces;Lácteos;0.028;0.264;2.17
+Lácteos;Snacks y Dulces;0.028;0.232;2.17
+Abarrotes;Carnes y Aves, Frutas y Verduras;0.014;0.047;1.986
+Carnes y Aves, Frutas y Verduras;Abarrotes;0.014;0.582;1.986
+Frutas y Verduras;Carnes y Aves;0.024;0.186;1.93
+Carnes y Aves;Frutas y Verduras;0.024;0.245;1.93
+Bebidas;Congelados;0.01;0.079;1.802
+Congelados;Bebidas;0.01;0.24;1.802
+Bebidas;Lácteos;0.026;0.195;1.609
+Lácteos;Bebidas;0.026;0.214;1.609
+Carnes y Aves;Abarrotes;0.034;0.352;1.202
+Abarrotes;Carnes y Aves;0.034;0.116;1.202
