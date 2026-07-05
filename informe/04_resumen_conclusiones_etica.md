@@ -2,13 +2,15 @@
 
 ## Borrador de resumen ejecutivo
 
-Este proyecto desarrolla una solución de Inteligencia de Negocios para una empresa retail ficticia, utilizando datos sintéticos generados con fines académicos. La solución busca convertir datos transaccionales en información accionable para apoyar decisiones sobre ventas, margen, productos, clientes, promociones, segmentación, asociación y pronóstico.
+Este proyecto desarrolla una solución de Inteligencia de Negocios para una empresa retail ficticia, utilizando datos sintéticos generados con fines académicos. La solución busca convertir datos transaccionales en información accionable para apoyar decisiones sobre ventas, margen, productos, clientes, promociones, segmentación, asociación, abandono y pronóstico.
 
 El repositorio contiene una base procesada con 5,000 clientes, 506 productos, 15 tiendas o canales, 29 promociones, 34,755 tickets y 55,858 líneas de venta para el periodo 2024-2025. La validación confirma consistencia en dimensiones, claves, fechas, promociones vigentes y canastas generadas.
 
 Como primera lectura empresarial, los datos permiten reportar ingresos totales por S/ 1,428,828.48 y ganancia total por S/ 392,905.08. Además, los productos estrella muestran una contribución relevante, con S/ 762,080.07 en ingresos y S/ 216,172.97 en ganancia.
 
-Las siguientes etapas del proyecto deben completar visualización, clasificación, segmentación, asociación y regresión para fortalecer las recomendaciones y cerrar el análisis gerencial.
+Después de la actualización del repositorio, ya existen resultados de clasificación, segmentación, asociación y regresión. La clasificación identifica 810 clientes en riesgo alto y 505 en riesgo medio; la segmentación agrupa a los 5,000 clientes en cuatro segmentos; la asociación genera 26 reglas de canasta de mercado; y el pronóstico de ventas con Gradient Boosting alcanza un MAE de S/ 261.19 y un MAPE de 13.45% en el periodo de prueba.
+
+Estos resultados permiten avanzar hacia recomendaciones comerciales más concretas, aunque todavía deben revisarse algunos aspectos técnicos antes de cerrar conclusiones definitivas: la elección del modelo de clasificación, las etiquetas vacías de riesgo, la correspondencia entre nombres de segmentos y perfiles RFM, y la ausencia visible de entregables de datamart/visualización.
 
 ## Conclusiones generales
 
@@ -16,16 +18,21 @@ Las siguientes etapas del proyecto deben completar visualización, clasificació
 - El modelo esperado corresponde a un esquema estrella con `fact_ventas` como tabla de hechos y dimensiones de cliente, producto, tienda, promoción y tiempo.
 - La validación del dataset confirma que los archivos procesados pueden usarse como fuente oficial para las etapas posteriores.
 - Los KPI generales de ventas, margen, tickets, líneas de venta, segmentos y productos ya pueden calcularse.
-- Las conclusiones avanzadas sobre abandono, clusters, reglas de asociación o pronóstico aún no deben redactarse como definitivas porque no existen notebooks implementados con esos resultados.
+- La clasificación aporta una primera lectura del riesgo de abandono, pero debe revisarse la selección del modelo final si el objetivo principal es detectar clientes en abandono.
+- La segmentación RFM permite agrupar clientes, pero los nombres comerciales deben validarse frente a los promedios de recencia, frecuencia y monto.
+- Las reglas de asociación aportan evidencia para venta cruzada entre categorías.
+- El pronóstico de ventas ofrece una referencia útil para planificación, aunque el R2 de 0.327 indica que aún hay margen de mejora.
 
 ## Recomendaciones finales
 
-- Consolidar primero el dashboard ejecutivo con KPI generales de ventas, margen, ticket promedio, productos, segmentos y canales.
-- Completar los notebooks faltantes siguiendo el orden del README para mantener trazabilidad metodológica.
+- Consolidar primero el dashboard ejecutivo con KPI generales de ventas, margen, ticket promedio, productos, segmentos, riesgo de abandono, reglas de asociación y pronóstico.
+- Completar o incorporar evidencia de datamart y visualización si existen fuera del repositorio actual.
+- Revisar el notebook de clasificación para justificar por qué se exporta Random Forest cuando Regresión Logística muestra mejor ROC-AUC y recall para abandono.
+- Corregir la categorización de riesgo en `predicciones_abandono.csv` para que las probabilidades 0.0 tengan una etiqueta válida.
+- Validar los nombres comerciales de los clusters antes de usarlos en conclusiones del informe.
 - Documentar en cada etapa la fuente, fórmula, gráfico o métrica que sustenta cada hallazgo.
-- Evitar afirmar resultados de clasificación, segmentación, asociación o regresión hasta que existan modelos ejecutados y evaluados.
-- Mantener el archivo `prompts/registro_prompts.md` actualizado como evidencia del uso de IA durante el proyecto.
-- Usar los documentos de `informe/` como base del informe final, reemplazando los marcadores pendientes por resultados reales.
+- Mantener el archivo `prompts/registro_prompts.md` actualizado como evidencia del uso de IA durante el proyecto, sin duplicar el trabajo ya registrado por otros integrantes.
+- Usar los documentos de `informe/` como base del informe final, reemplazando los marcadores pendientes por evidencia real cuando el equipo complete sus entregables.
 
 ## Reflexión ética
 
@@ -35,4 +42,6 @@ Sin embargo, los datos sintéticos también pueden contener sesgos derivados de 
 
 En términos de privacidad, aunque los nombres y perfiles sean artificiales, el informe debe aclarar que no se trabajó con datos personales reales. Si el proyecto se adaptara a una empresa real, sería necesario anonimizar datos, limitar accesos, justificar el uso de variables sensibles y cumplir normas de protección de datos.
 
-Respecto al uso de inteligencia artificial, la IA puede apoyar la redacción, estructuración del informe, revisión de código y generación de ideas. No obstante, su uso debe registrarse de forma transparente, revisarse críticamente y no reemplazar la validación técnica del equipo. Toda métrica, conclusión o recomendación debe sustentarse en datos, código o visualizaciones verificables dentro del repositorio.
+Respecto al uso de inteligencia artificial, la IA puede apoyar la redacción, estructuración del informe, revisión de código y generación de ideas. No obstante, su uso debe registrarse de forma transparente, revisarse críticamente y no reemplazar la validación técnica del equipo.
+
+También es importante reconocer que los modelos predictivos pueden generar errores y sesgos. En clasificación, un falso negativo podría dejar sin atención a un cliente realmente riesgoso, mientras que un falso positivo podría dirigir campañas innecesarias a clientes activos. En segmentación, nombres comerciales mal asignados pueden producir decisiones equivocadas. Por ello, toda métrica, conclusión o recomendación debe sustentarse en datos, código o visualizaciones verificables dentro del repositorio.
