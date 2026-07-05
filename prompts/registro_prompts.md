@@ -1,6 +1,6 @@
 # Registro de prompts
 
-| Número | Parte | Prompt | Herramienta/modelo | Resultado obtenido | Ajustes realizados |
+| Número | Parte | Objetivo del prompt | Herramienta/modelo | Resultado obtenido | Ajustes realizados |
 | ---: | --- | --- | --- | --- | --- |
 | 1 | Revisión inicial del repositorio | Revisar completamente el README, la estructura de carpetas, los notebooks disponibles, los datos procesados, scripts y archivos de prompts antes de crear documentación para evitar duplicar contenido o inventar resultados. | Codex | Se identificó que existe un notebook disponible (`00_generacion_datos.ipynb`) sin desarrollo analítico real, datos procesados completos, scripts de generación/validación y un resumen de datos sintéticos. | Se decidió no modificar notebooks, datos ni archivos de Power BI. |
 | 2 | Contexto de negocio | Redactar el contexto de negocio de una empresa retail ficticia, incluyendo problemática, necesidad de una solución BI, objetivo general, objetivos específicos y preguntas de negocio, usando solo información sustentada en el repositorio. | Codex | Se creó `informe/01_contexto_negocio.md` con base en README, resumen de datos y archivos procesados. | Se mantuvo la empresa como retail ficticia sin asignar nombre inventado. |
