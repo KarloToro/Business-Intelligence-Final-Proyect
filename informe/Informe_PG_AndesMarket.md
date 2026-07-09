@@ -227,7 +227,7 @@ El notebook `notebooks/02_visualizacion.ipynb` genera visualizaciones complement
 
 ## 7.1 Definición
 
-El objetivo de la clasificación es identificar clientes con riesgo de abandono o inactividad, a partir de variables derivadas del comportamiento transaccional. El notebook disponible es `notebooks/03_clasificacion_ipynb.ipynb`.
+El objetivo de la clasificación es identificar clientes con riesgo de abandono o inactividad, a partir de variables derivadas del comportamiento transaccional. El notebook disponible es `notebooks/03_clasificacion.ipynb`.
 
 ## 7.2 Modelos y evaluación
 
@@ -352,7 +352,7 @@ Repositorio principal:
 | Registro de prompts | `prompts/registro_prompts.md` | <https://github.com/KarloToro/Business-Intelligence-Final-Proyect/blob/main/prompts/registro_prompts.md> |
 | Datamart ETL | `notebooks/01_datamart_etl.ipynb` | <https://github.com/KarloToro/Business-Intelligence-Final-Proyect/blob/main/notebooks/01_datamart_etl.ipynb> |
 | Visualización Python | `notebooks/02_visualizacion.ipynb` | <https://github.com/KarloToro/Business-Intelligence-Final-Proyect/blob/main/notebooks/02_visualizacion.ipynb> |
-| Clasificación | `notebooks/03_clasificacion_ipynb.ipynb` | <https://github.com/KarloToro/Business-Intelligence-Final-Proyect/blob/main/notebooks/03_clasificacion_ipynb.ipynb> |
+| Clasificación | `notebooks/03_clasificacion.ipynb` | <https://github.com/KarloToro/Business-Intelligence-Final-Proyect/blob/main/notebooks/03_clasificacion.ipynb> |
 | Segmentación | `notebooks/04_segmentacion.ipynb` | <https://github.com/KarloToro/Business-Intelligence-Final-Proyect/blob/main/notebooks/04_segmentacion.ipynb> |
 | Asociación | `notebooks/05_asociacion.ipynb` | <https://github.com/KarloToro/Business-Intelligence-Final-Proyect/blob/main/notebooks/05_asociacion.ipynb> |
 | Regresión | `notebooks/06_regresion.ipynb` | <https://github.com/KarloToro/Business-Intelligence-Final-Proyect/blob/main/notebooks/06_regresion.ipynb> |
@@ -383,7 +383,7 @@ La bitácora se gestiona en un Excel compartido del equipo.
 - Usar la segmentación RFM para diseñar estrategias diferenciadas por cliente.
 - Aplicar reglas de asociación en promociones cruzadas y recomendaciones.
 - Utilizar el pronóstico como apoyo operativo, complementándolo con criterio comercial.
-- Revisar antes de la sustentación: nombre del notebook de clasificación, riesgo sin etiqueta, nombres de clusters, porcentajes de contribución y enlace de bitácora.
+- Revisar antes de la sustentación: riesgo sin etiqueta, nombres de clusters, porcentajes de contribución y enlace de bitácora.
 
 ## 12.3 Tabla de contribución
 
@@ -402,7 +402,7 @@ La bitácora se gestiona en un Excel compartido del equipo.
 | --- | ---: | --- | --- |
 | Parte 1: Datamart | 20% | Parcial/avanzado | `01_datamart_etl.ipynb`, `docs/diccionario_datos.md`, `modelo_relaciones.png` |
 | Parte 2: Visualización | 15% | Avanzado | `02_visualizacion.ipynb`, `powerbi/RetailBI.pbix`, capturas en `informe/img/` |
-| Parte 3: Clasificación | 16% | Parcial/avanzado | `03_clasificacion_ipynb.ipynb`, `predicciones_abandono.csv` |
+| Parte 3: Clasificación | 16% | Parcial/avanzado | `03_clasificacion.ipynb`, `predicciones_abandono.csv` |
 | Parte 4: Segmentación | 16% | Parcial/avanzado | `04_segmentacion.ipynb`, `segmentos_clientes.csv` |
 | Parte 5: Asociación | 16% | Avanzado | `05_asociacion.ipynb`, `reglas_asociacion.csv` |
 | Parte 6: Regresión | 17% | Avanzado | `06_regresion.ipynb`, `pronostico_ventas.csv` |
@@ -411,7 +411,6 @@ La bitácora se gestiona en un Excel compartido del equipo.
 Pendientes finales:
 
 - Confirmar si se subirá `data/raw/` o si se justificará el uso de `data/processed/`.
-- Renombrar `03_clasificacion_ipynb.ipynb` a `03_clasificacion.ipynb` si el equipo decide alinear nombres con la guía del profesor.
 - Corregir o justificar clientes sin etiqueta de riesgo en clasificación.
 - Validar nombres comerciales de clusters RFM.
 - Completar porcentajes de contribución.
