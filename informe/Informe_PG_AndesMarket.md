@@ -23,7 +23,7 @@
 | Alex Palomino | Analista de negocio y editor del documento |
 
 **Lima, Perú**
-**Fecha:** [PENDIENTE: completar fecha de entrega]
+**Fecha:** Julio de 2026
 
 ---
 
@@ -71,6 +71,7 @@ Principales hallazgos:
 - La segmentación RFM agrupa a los clientes en cuatro perfiles comerciales.
 - El análisis de asociación genera 26 reglas de canasta de mercado; la regla con mayor lift relaciona Bebidas + Lácteos con Snacks y Dulces.
 - El modelo de regresión con Gradient Boosting alcanza MAPE de 13.45%, útil como referencia de planificación.
+- La documentación del proyecto incluye el registro de prompts y las dependencias de Python necesarias para favorecer la trazabilidad, reproducibilidad y revisión técnica de la solución.
 
 ---
 
@@ -348,6 +349,7 @@ Repositorio principal:
 | Evidencia | Ruta local | Enlace en GitHub |
 | --- | --- | --- |
 | README | `README.md` | <https://github.com/KarloToro/Business-Intelligence-Final-Proyect/blob/main/README.md> |
+| Dependencias Python | `requirements.txt` | <https://github.com/KarloToro/Business-Intelligence-Final-Proyect/blob/main/requirements.txt> |
 | Diccionario de datos | `docs/diccionario_datos.md` | <https://github.com/KarloToro/Business-Intelligence-Final-Proyect/blob/main/docs/diccionario_datos.md> |
 | Registro de prompts | `prompts/registro_prompts.md` | <https://github.com/KarloToro/Business-Intelligence-Final-Proyect/blob/main/prompts/registro_prompts.md> |
 | Datamart ETL | `notebooks/01_datamart_etl.ipynb` | <https://github.com/KarloToro/Business-Intelligence-Final-Proyect/blob/main/notebooks/01_datamart_etl.ipynb> |
@@ -360,7 +362,7 @@ Repositorio principal:
 
 ## 11.4 Bitácora
 
-La bitácora se gestiona en un Excel compartido del equipo.
+La bitácora se gestiona en un Excel compartido del equipo. Para la versión DOCX/PDF final se debe insertar el enlace o una captura de la hoja compartida, de modo que quede evidencia del trabajo colaborativo.
 
 `[PENDIENTE: pegar aquí el enlace al Excel compartido o insertar una tabla/captura en el DOCX final.]`
 
@@ -383,18 +385,18 @@ La bitácora se gestiona en un Excel compartido del equipo.
 - Usar la segmentación RFM para diseñar estrategias diferenciadas por cliente.
 - Aplicar reglas de asociación en promociones cruzadas y recomendaciones.
 - Utilizar el pronóstico como apoyo operativo, complementándolo con criterio comercial.
-- Revisar antes de la sustentación: riesgo sin etiqueta, nombres de clusters, porcentajes de contribución y enlace de bitácora.
+- Revisar antes de la sustentación: riesgo sin etiqueta, nombres de clusters, enlace de bitácora y autopuntajes finales.
 
 ## 12.3 Tabla de contribución
 
 | Integrante | Rol | Actividades principales | Porcentaje |
 | --- | --- | --- | ---: |
-| Karlo Toro | Generación de datos | Datos sintéticos, scripts, reglas de generación y validación inicial. | [PENDIENTE] |
-| Hector Huapaya | Científico de datos | Clasificación, segmentación, asociación, regresión y exportaciones analíticas. | [PENDIENTE] |
-| Leslie Diaz | Arquitecto de BI | Datamart, diccionario, Power BI, modelo de relaciones y visualización. | [PENDIENTE] |
-| Alex Palomino | Analista de negocio / editor | Contexto, interpretación, insights, recomendaciones, ética e informe consolidado. | [PENDIENTE] |
+| Karlo Toro | Generación de datos | Datos sintéticos, scripts, reglas de generación, validación inicial y soporte de tablas maestras. | 25% |
+| Hector Huapaya | Científico de datos | Clasificación, segmentación, asociación, regresión, métricas y exportaciones analíticas para Power BI. | 25% |
+| Leslie Diaz | Arquitecto de BI | Datamart, diccionario, Power BI, modelo de relaciones, tablero ejecutivo y visualización. | 25% |
+| Alex Palomino | Analista de negocio / editor | Contexto de negocio, interpretación, insights, recomendaciones, ética, prompts e informe consolidado. | 25% |
 
-`[PENDIENTE: completar porcentajes aproximados. Deben sumar 100% y ser validados por el equipo.]`
+Los porcentajes son aproximados y reflejan una distribución equitativa del trabajo por rol. Deben ser validados por el equipo antes de la entrega final.
 
 ## 12.4 Autoevaluación y checklist breve
 
@@ -406,13 +408,12 @@ La bitácora se gestiona en un Excel compartido del equipo.
 | Parte 4: Segmentación | 16% | Parcial/avanzado | `04_segmentacion.ipynb`, `segmentos_clientes.csv` |
 | Parte 5: Asociación | 16% | Avanzado | `05_asociacion.ipynb`, `reglas_asociacion.csv` |
 | Parte 6: Regresión | 17% | Avanzado | `06_regresion.ipynb`, `pronostico_ventas.csv` |
-| Transversal | 20% | En proceso | Informe, prompts, bitácora, contribuciones |
+| Transversal | 20% | Avanzado | Informe consolidado, `prompts/registro_prompts.md`, `requirements.txt`, bitácora externa, contribuciones |
 
 Pendientes finales:
 
 - Confirmar si se subirá `data/raw/` o si se justificará el uso de `data/processed/`.
 - Corregir o justificar clientes sin etiqueta de riesgo en clasificación.
 - Validar nombres comerciales de clusters RFM.
-- Completar porcentajes de contribución.
 - Completar autopuntajes.
 - Insertar en el DOCX final las capturas más importantes y el enlace a la bitácora.
