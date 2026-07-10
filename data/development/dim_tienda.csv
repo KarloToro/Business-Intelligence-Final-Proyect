@@ -1,4 +1,4 @@
-id_tienda;nombre;canal;region;ciudad;prob_seleccion;%
+﻿id_tienda;nombre;canal;region;ciudad;prob_seleccion;%
 1;Retail Centro Lima;Físico;Lima;Lima;0.09;9
 2;Retail San Isidro;Físico;Lima;Lima;0.07;7
 3;Retail Miraflores;Físico;Lima;Lima;0.08;8

@@ -9,27 +9,13 @@ from typing import Any
 
 import pandas as pd
 
-try:
-    from scripts.config import (
-        DATA_DIR,
-        OUTPUT_DIR,
-        SEED,
-        TOTAL_CLIENTES,
-        FECHA_INICIO_OPERACION,
-        probabilidad_recompra,
-    )
-    from scripts.generar_clientes import generar_clientes
-except ModuleNotFoundError:
-    from config import (
-        DATA_DIR,
-        OUTPUT_DIR,
-        SEED,
-        TOTAL_CLIENTES,
-        FECHA_INICIO_OPERACION,
-        probabilidad_recompra,
-    )
-    from generar_clientes import generar_clientes
-
+from scripts.config import (
+    DATA_DIR,
+    SEED,
+    TOTAL_CLIENTES,
+    FECHA_INICIO_OPERACION,
+    probabilidad_recompra,
+)
 
 # -----------------------------------------------------------------------------
 # Parámetros del algoritmo de ventas
@@ -54,11 +40,28 @@ def _parse_date(valor: Any) -> datetime.date:
         return valor.date()
     return datetime.strptime(str(valor), "%Y-%m-%d").date()
 
+def _leer_dimension_base(nombre_archivo: str) -> pd.DataFrame:
+    """
+    Carga dimensiones base desde rutas candidatas.
 
-def _leer_csv_semicolon(path: Path) -> pd.DataFrame:
-    if not path.exists():
-        raise FileNotFoundError(f"No existe el archivo requerido: {path}")
-    return pd.read_csv(path, sep=";")
+    Orden recomendado:
+    1. data/development: dimensiones maestras curadas para generación
+    2. data/processed: respaldo temporal mientras migramos el flujo
+    3. data: compatibilidad con versiones antiguas
+    """
+    rutas_candidatas = [
+        DATA_DIR / "development" / nombre_archivo,
+        DATA_DIR / "processed" / nombre_archivo,
+        DATA_DIR / nombre_archivo,
+    ]
+
+    for ruta in rutas_candidatas:
+        if ruta.exists():
+            return pd.read_csv(ruta, sep=";", encoding="utf-8")
+
+    raise FileNotFoundError(
+        f"No se encontró {nombre_archivo}. Rutas revisadas: {rutas_candidatas}"
+    )
 
 
 def _normalizar_texto(valor: Any) -> str:
@@ -439,12 +442,23 @@ def _crear_linea_venta(
 # Generador principal
 # -----------------------------------------------------------------------------
 def generar_ventas_y_actualizar_clientes(
+    clientes_base: pd.DataFrame,
+    df_producto: pd.DataFrame,
+    df_tienda: pd.DataFrame,
+    df_promocion: pd.DataFrame,
     total_clientes: int = TOTAL_CLIENTES,
     seed: int = SEED,
     fecha_inicio: str = FECHA_INICIO_OPERACION,
     fecha_fin_exclusiva: str = FECHA_FIN_EXCLUSIVA_OPERACION,
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
     """Genera dim_cliente actualizado y fact_ventas con el algoritmo definitivo.
+
+    Esta función ya no trabaja de forma independiente.
+    Recibe desde el notebook:
+    - clientes_base
+    - df_producto
+    - df_tienda
+    - df_promocion
 
     Reglas implementadas:
     1. El calendario produce 45 tickets diarios, excepto julio y diciembre con 60.
@@ -463,27 +477,61 @@ def generar_ventas_y_actualizar_clientes(
         fecha_inicio=fecha_inicio,
         fecha_fin_exclusiva=fecha_fin_exclusiva,
     )
+
     if len(fechas_tickets) < total_clientes:
         raise ValueError(
             "El calendario genera menos tickets que clientes. No se puede garantizar "
             "una primera compra para cada cliente."
         )
 
-    clientes = generar_clientes(total_clientes=total_clientes, seed=seed).copy()
+    # -------------------------------------------------------------------------
+    # Clientes recibidos desde el notebook
+    # -------------------------------------------------------------------------
+    clientes = clientes_base.copy()
+
+    if len(clientes) != total_clientes:
+        raise ValueError(
+            f"clientes_base tiene {len(clientes):,} filas, "
+            f"pero se esperaban {total_clientes:,}."
+        )
+
+    columnas_cliente_requeridas = {
+        "id_cliente",
+        "region",
+        "fecha_alta",
+        "segmento_programa",
+    }
+
+    faltantes_cliente = columnas_cliente_requeridas - set(clientes.columns)
+    if faltantes_cliente:
+        raise ValueError(
+            f"Faltan columnas en clientes_base: {sorted(faltantes_cliente)}"
+        )
+
     clientes = clientes.sort_values("id_cliente").reset_index(drop=True)
     clientes_records = clientes.to_dict("records")
 
-    productos_info = _preparar_productos(_leer_csv_semicolon(DATA_DIR / "dim_producto.csv"))
-    tiendas_por_region = _preparar_tiendas_por_region(_leer_csv_semicolon(DATA_DIR / "dim_tienda.csv"))
-    promociones = _preparar_promociones(_leer_csv_semicolon(DATA_DIR / "dim_promocion.csv"))
+    # -------------------------------------------------------------------------
+    # Dimensiones recibidas desde el notebook
+    # -------------------------------------------------------------------------
+    productos_info = _preparar_productos(df_producto)
+    tiendas_por_region = _preparar_tiendas_por_region(df_tienda)
+    promociones = _preparar_promociones(df_promocion)
     promos_por_fecha = _preparar_promos_por_fecha(promociones, fechas_tickets)
 
-    pesos_recompra = [float(probabilidad_recompra[c["segmento_programa"]]) for c in clientes_records]
+    pesos_recompra = [
+        float(probabilidad_recompra[c["segmento_programa"]])
+        for c in clientes_records
+    ]
 
     registros_ventas: list[dict] = []
 
+    # -------------------------------------------------------------------------
+    # Generación de tickets y líneas de venta
+    # -------------------------------------------------------------------------
     for indice_ticket, fecha in enumerate(fechas_tickets):
         id_venta = indice_ticket + 1
+
         idx_cliente, cliente = _seleccionar_cliente(
             clientes_records=clientes_records,
             indice_ticket=indice_ticket,
@@ -500,7 +548,12 @@ def generar_ventas_y_actualizar_clientes(
             tiendas_por_region=tiendas_por_region,
             rng=rng,
         )
-        productos_ticket = _generar_productos_ticket(productos_info, rng)
+
+        productos_ticket = _generar_productos_ticket(
+            productos_info=productos_info,
+            rng=rng,
+        )
+
         promocion_ticket = _elegir_promocion(
             fecha_venta=fecha,
             segmento_cliente=str(cliente["segmento_programa"]),
@@ -524,7 +577,13 @@ def generar_ventas_y_actualizar_clientes(
             )
 
     fact_ventas = pd.DataFrame(registros_ventas)
-    clientes["fecha_alta"] = pd.to_datetime(clientes["fecha_alta"], errors="coerce").dt.date.astype(str)
+
+    clientes["fecha_alta"] = (
+        pd.to_datetime(clientes["fecha_alta"], errors="coerce")
+        .dt.date
+        .astype(str)
+    )
+
     return clientes, fact_ventas
 
 
@@ -558,33 +617,3 @@ def validar_resultados(clientes: pd.DataFrame, fact_ventas: pd.DataFrame) -> dic
         "dias_con_cantidad_tickets_incorrecta": dias_invalidos[:10],
         "total_dias_invalidos": int(len(dias_invalidos)),
     }
-
-
-def guardar_salidas(clientes: pd.DataFrame, fact_ventas: pd.DataFrame) -> tuple[Path, Path]:
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    ruta_clientes = OUTPUT_DIR / "dim_cliente.csv"
-    ruta_ventas = OUTPUT_DIR / "fact_ventas.csv"
-    clientes.to_csv(ruta_clientes, sep=";", index=False, encoding="utf-8")
-    fact_ventas.to_csv(ruta_ventas, sep=";", index=False, encoding="utf-8")
-    return ruta_clientes, ruta_ventas
-
-
-if __name__ == "__main__":
-    clientes_generados, ventas_generadas = generar_ventas_y_actualizar_clientes()
-    ruta_clientes, ruta_ventas = guardar_salidas(clientes_generados, ventas_generadas)
-    validacion = validar_resultados(clientes_generados, ventas_generadas)
-
-    print("Generación terminada.")
-    print(f"Clientes: {validacion['clientes']:,}")
-    print(f"Tickets de venta: {validacion['tickets']:,}")
-    print(f"Líneas de venta: {validacion['lineas_venta']:,}")
-    print(f"Rango ventas: {validacion['fecha_min']} a {validacion['fecha_max']}")
-    print(f"Clientes sin fecha_alta: {validacion['clientes_sin_fecha_alta']:,}")
-    print(f"Clientes sin venta: {validacion['clientes_sin_venta']:,}")
-    print(
-        "fecha_alta distinta a primera venta: "
-        f"{validacion['fecha_alta_no_coincide_con_primera_venta']:,}"
-    )
-    print(f"Días con cantidad de tickets incorrecta: {validacion['total_dias_invalidos']:,}")
-    print(f"Archivo clientes: {ruta_clientes}")
-    print(f"Archivo ventas: {ruta_ventas}")

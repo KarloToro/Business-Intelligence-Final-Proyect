@@ -1,0 +1,86 @@
+PowerShell 7.6.3
+PS C:\Users\karlo\Desktop\Proy Final Inteligencia de Negocios> eza -T --ignore-glob='.venv'
+.
+├── data
+│   ├── development
+│   │   ├── dim_producto.csv
+│   │   ├── dim_promocion.csv
+│   │   └── dim_tienda.csv
+│   ├── processed
+│   │   ├── dim_cliente.csv
+│   │   ├── dim_producto.csv
+│   │   ├── dim_promocion.csv
+│   │   ├── dim_tiempo.csv
+│   │   ├── dim_tienda.csv
+│   │   ├── fact_ventas.csv
+│   │   ├── predicciones_abandono.csv
+│   │   ├── pronostico_ventas.csv
+│   │   ├── reglas_asociacion.csv
+│   │   └── segmentos_clientes.csv
+│   ├── raw
+│   │   ├── dim_cliente.csv
+│   │   ├── dim_producto.csv
+│   │   ├── dim_promocion.csv
+│   │   ├── dim_tiempo.csv
+│   │   ├── dim_tienda.csv
+│   │   └── fact_ventas.csv
+│   └── tablas_maestras
+│       ├── apellidos.csv
+│       ├── contexto_distribucion.txt
+│       ├── distribucion_clientes_por_distrito.csv
+│       ├── nombres_mujer.csv
+│       └── nombres_varon.csv
+├── docs
+│   └── diccionario_datos.md
+├── informe
+│   ├── img
+│   │   ├── heatmap_mes_categoria.png
+│   │   ├── modelo_relaciones.png
+│   │   ├── pag01_resumen.png
+│   │   ├── pag02_categoria.png
+│   │   ├── pag03_tienda.png
+│   │   ├── pag04_tendencia.png
+│   │   ├── pag05_abandono.png
+│   │   ├── pag06_segmentacion.png
+│   │   ├── pag07_canasta.png
+│   │   ├── pag08_pronostico.png
+│   │   ├── pareto_productos.png
+│   │   ├── ventas_mensuales.png
+│   │   └── ventas_por_categoria.png
+│   └── Informe_PG_AndesMarket.md
+├── notebooks
+│   ├── 00_generacion_datos.ipynb
+│   ├── 01_datamart_etl.ipynb
+│   ├── 02_visualizacion.ipynb
+│   ├── 03_clasificacion.ipynb
+│   ├── 04_segmentacion.ipynb
+│   ├── 05_asociacion.ipynb
+│   ├── 06_regresion.ipynb
+│   └── generacion_y_etl.xml
+├── powerbi
+│   └── RetailBI.pbix
+├── prompts
+│   └── registro_prompts.md
+├── README.md
+├── requirements.txt
+├── 'Resumen Datos Sinteticos.md'
+├── scripts
+│   ├── config.py
+│   ├── explorar_dataset.py
+│   ├── generar_clientes.py
+│   ├── generar_dim_tiempo.py
+│   ├── generar_ventas.py
+│   ├── inyectar_ruido.py
+│   ├── README_IMPLEMENTACION_VENTAS.md
+│   ├── scripts.xml
+│   └── validar_dataset.py
+└── z_archive
+    ├── dim_producto_super_basico.csv
+    └── 'materia prima productos'
+        ├── productos_beta.csv
+        ├── productos_beta_p2.txt
+        ├── productos_beta_p3.txt
+        ├── productos_beta_p4.txt
+        ├── productos_beta_p5.txt
+        └── productos_beta_p6.txt
+PS C:\Users\karlo\Desktop\Proy Final Inteligencia de Negocios>

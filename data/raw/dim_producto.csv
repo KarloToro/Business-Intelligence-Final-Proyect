@@ -33,7 +33,7 @@ id_producto;nombre;categoria;subcategoria;marca;precio_lista;costo_unitario_prom
 32;Azúcar Blanca 1 kg;Abarrotes;Azúcar y Endulzantes;Paramonga;5.2;3.3;True;Café y Té;Harinas;Leche
 33;Azúcar Rubia 2 kg;Abarrotes;Azúcar y Endulzantes;Cartavio;10.3;6.8;True;Café y Té;Harinas;Leche
 34;Azúcar Blanca 2 kg;Abarrotes;Azúcar y Endulzantes;Paramonga;10.1;6.6;True;Café y Té;Harinas;Leche
-35;Stevia 100 sobres;Abarrotes;Azúcar y Endulzantes;Marca no identificada;16.9;11.2;False;Café y Té;Harinas;Leche
+35;Stevia 100 sobres;Abarrotes;Azúcar y Endulzantes;;16.9;11.2;False;Café y Té;Harinas;Leche
 36;Endulzante Líquido;Abarrotes;Azúcar y Endulzantes;Monk;18.5;12.5;False;Café y Té;Harinas;Leche
 37;Azúcar Morena 1 kg;Abarrotes;Azúcar y Endulzantes;Cartavio;6.1;4.1;False;Café y Té;Harinas;Leche
 38;Panela Molida;Abarrotes;Azúcar y Endulzantes;Valle Dulce;8.5;5.8;False;Café y Té;Harinas;Leche
@@ -137,7 +137,7 @@ id_producto;nombre;categoria;subcategoria;marca;precio_lista;costo_unitario_prom
 136;Monster Energy 473 ml;Bebidas;Bebidas Energéticas e Isotónicas;Monster;10.9;7.8;False;Agua;Papas Fritas y Snacks;Chocolates
 137;Volt 300 ml;Bebidas;Bebidas Energéticas e Isotónicas;Volt;4.9;3.1;False;Agua;Papas Fritas y Snacks;Chocolates
 138;Gatorade Naranja 500 ml;Bebidas;Bebidas Energéticas e Isotónicas;Gatorade;4.9;3.1;False;Agua;Papas Fritas y Snacks;Chocolates
-139;Powerade Mora 500 ml;Bebidas;Bebidas Energéticas e Isotónicas;Marca no identificada;4.9;3.1;False;Agua;Papas Fritas y Snacks;Chocolates
+139;Powerade Mora 500 ml;Bebidas;Bebidas Energéticas e Isotónicas;;4.9;3.1;False;Agua;Papas Fritas y Snacks;Chocolates
 140;Leche Entera 1 L;Lácteos;Leche;Gloria;6.2;4.1;True;Café y Té;Azúcar y Endulzantes;Galletas Dulces
 141;Leche Evaporada;Lácteos;Leche;Gloria;4.5;2.9;True;Café y Té;Azúcar y Endulzantes;Galletas Dulces
 142;Leche Evaporada;Lácteos;Leche;Bonlé;4.5;2.9;True;Café y Té;Azúcar y Endulzantes;Galletas Dulces
@@ -152,7 +152,7 @@ id_producto;nombre;categoria;subcategoria;marca;precio_lista;costo_unitario_prom
 151;Yogurt Vainilla 1 kg;Lácteos;Yogurt;Gloria;9.9;6.8;True;Frutas;Galletas Dulces;Chocolates
 152;Yogurt Durazno 1 kg;Lácteos;Yogurt;Laive;10.2;7.1;False;Frutas;Galletas Dulces;Chocolates
 153;Yogurt Griego Natural;Lácteos;Yogurt;Laive;13.9;9.8;False;Frutas;Galletas Dulces;Chocolates
-154;Yogurt Griego Fresa;Lácteos;Yogurt;Marca no identificada;14.2;10.1;False;Frutas;Galletas Dulces;Chocolates
+154;Yogurt Griego Fresa;Lácteos;Yogurt;;14.2;10.1;False;Frutas;Galletas Dulces;Chocolates
 155;Yogurt Bebible Fresa;Lácteos;Yogurt;Gloria;4.5;2.9;True;Frutas;Galletas Dulces;Chocolates
 156;Yogurt Bebible Vainilla;Lácteos;Yogurt;Gloria;4.5;2.9;False;Frutas;Galletas Dulces;Chocolates
 157;Queso Edam 250 g;Lácteos;Quesos;Bonlé;14.9;10.2;False;Fideos;Embutidos;Pizzas y Comidas Preparadas
@@ -168,114 +168,114 @@ id_producto;nombre;categoria;subcategoria;marca;precio_lista;costo_unitario_prom
 167;Margarina Light 450 g;Lácteos;Mantequilla y Margarina;Doral;9.5;6.3;False;Harinas;Azúcar y Endulzantes;Quesos
 168;Mantequilla Premium 250 g;Lácteos;Mantequilla y Margarina;Anchor;18.9;13.6;False;Harinas;Azúcar y Endulzantes;Quesos
 169;Margarina Familiar 900 g;Lácteos;Mantequilla y Margarina;Doral;14.9;10.5;False;Harinas;Azúcar y Endulzantes;Quesos
-170;Manzana Roja 1 kg;Frutas Y Verduras;Frutas;Campo Fresco;6.9;4.6;True;Yogurt;Agua;Verduras
-171;Manzana Verde 1 kg;Frutas Y Verduras;Frutas;Campo Fresco;7.2;4.9;False;Yogurt;Agua;Verduras
-172;Plátano de Seda 1 kg;Frutas Y Verduras;Frutas;Campo Fresco;4.5;2.9;True;Yogurt;Agua;Verduras
-173;Plátano Bellaco 1 kg;Frutas Y Verduras;Frutas;Campo Fresco;4.9;3.2;False;Yogurt;Agua;Verduras
-174;Naranja Valencia 1 kg;Frutas Y Verduras;Frutas;Campo Fresco;5.9;3.8;True;Yogurt;Agua;Verduras
-175;Mandarina 1 kg;Frutas Y Verduras;Frutas;Campo Fresco;6.5;4.2;False;Yogurt;Agua;Verduras
-176;Papaya 1 kg;Frutas Y Verduras;Frutas;Campo Fresco;5.2;3.4;True;Yogurt;Agua;Verduras
-177;Piña Golden Unidad;Frutas Y Verduras;Frutas;Campo Fresco;8.9;6.1;False;Yogurt;Agua;Verduras
-178;Palta Hass 1 kg;Frutas Y Verduras;Frutas;Campo Fresco;12.9;9.1;True;Yogurt;Agua;Verduras
-179;Fresa 500 g;Frutas Y Verduras;Frutas;Campo Fresco;9.9;6.9;False;Yogurt;Agua;Verduras
-180;Uva Red Globe 1 kg;Frutas Y Verduras;Frutas;Campo Fresco;11.9;8.3;False;Yogurt;Agua;Verduras
-181;Mango Kent 1 kg;Frutas Y Verduras;Frutas;Campo Fresco;8.9;6.1;False;Yogurt;Agua;Verduras
-182;Sandía 1 kg;Frutas Y Verduras;Frutas;Campo Fresco;2.9;1.7;False;Yogurt;Agua;Verduras
-183;Melón 1 kg;Frutas Y Verduras;Frutas;Campo Fresco;4.2;2.6;False;Yogurt;Agua;Verduras
-184;Pera Packham 1 kg;Frutas Y Verduras;Frutas;Campo Fresco;7.9;5.4;False;Yogurt;Agua;Verduras
-185;Kiwi 500 g;Frutas Y Verduras;Frutas;Campo Fresco;12.9;9.2;False;Yogurt;Agua;Verduras
-186;Arándanos 250 g;Frutas Y Verduras;Frutas;Campo Fresco;14.9;10.8;False;Yogurt;Agua;Verduras
-187;Limón 1 kg;Frutas Y Verduras;Frutas;Campo Fresco;5.4;3.5;True;Yogurt;Agua;Verduras
-188;Tomate Italiano 1 kg;Frutas Y Verduras;Verduras;Campo Fresco;4.9;3.1;True;Pollo;Aceites;Arroz
-189;Cebolla Roja 1 kg;Frutas Y Verduras;Verduras;Campo Fresco;3.9;2.4;True;Pollo;Aceites;Arroz
-190;Lechuga Americana Unidad;Frutas Y Verduras;Verduras;Campo Fresco;3.5;2.2;True;Pollo;Aceites;Arroz
-191;Espinaca 300 g;Frutas Y Verduras;Verduras;Campo Fresco;4.5;2.9;False;Pollo;Aceites;Arroz
-192;Brócoli Unidad;Frutas Y Verduras;Verduras;Campo Fresco;5.9;3.9;False;Pollo;Aceites;Arroz
-193;Coliflor Unidad;Frutas Y Verduras;Verduras;Campo Fresco;6.2;4.1;False;Pollo;Aceites;Arroz
-194;Pepino 1 kg;Frutas Y Verduras;Verduras;Campo Fresco;4.9;3.2;False;Pollo;Aceites;Arroz
-195;Pimiento Rojo 1 kg;Frutas Y Verduras;Verduras;Campo Fresco;8.9;6.2;False;Pollo;Aceites;Arroz
-196;Zanahoria 1 kg;Frutas Y Verduras;Verduras;Campo Fresco;3.9;2.4;True;Pollo;Aceites;Arroz
-197;Zapallito Italiano 1 kg;Frutas Y Verduras;Verduras;Campo Fresco;4.5;2.9;False;Pollo;Aceites;Arroz
-198;Ají Amarillo 250 g;Frutas Y Verduras;Verduras;Campo Fresco;4.9;3.2;False;Pollo;Aceites;Arroz
-199;Apio Unidad;Frutas Y Verduras;Verduras;Campo Fresco;3.9;2.5;False;Pollo;Aceites;Arroz
-200;Vainita 500 g;Frutas Y Verduras;Verduras;Campo Fresco;5.9;4.0;False;Pollo;Aceites;Arroz
-201;Papa Blanca 1 kg;Frutas Y Verduras;Tubérculos;Campo Fresco;3.2;1.9;True;Pollo;Aceites;Salsas y Condimentos
-202;Papa Amarilla 1 kg;Frutas Y Verduras;Tubérculos;Campo Fresco;4.2;2.7;True;Pollo;Aceites;Salsas y Condimentos
-203;Camote Amarillo 1 kg;Frutas Y Verduras;Tubérculos;Campo Fresco;3.9;2.4;False;Pollo;Aceites;Salsas y Condimentos
-204;Yuca 1 kg;Frutas Y Verduras;Tubérculos;Campo Fresco;4.9;3.1;False;Pollo;Aceites;Salsas y Condimentos
-205;Olluco 1 kg;Frutas Y Verduras;Tubérculos;Campo Fresco;5.2;3.4;False;Pollo;Aceites;Salsas y Condimentos
-206;Mashua 1 kg;Frutas Y Verduras;Tubérculos;Campo Fresco;6.5;4.4;False;Pollo;Aceites;Salsas y Condimentos
-207;Oca 1 kg;Frutas Y Verduras;Tubérculos;Campo Fresco;5.9;3.9;False;Pollo;Aceites;Salsas y Condimentos
-208;Jengibre 250 g;Frutas Y Verduras;Tubérculos;Campo Fresco;4.5;2.9;False;Pollo;Aceites;Salsas y Condimentos
-209;Pechuga de Pollo 1 kg;Carnes Y Aves;Pollo;San Fernando;21.9;16.4;True;Arroz;Verduras;Salsas y Condimentos
-210;Pierna de Pollo 1 kg;Carnes Y Aves;Pollo;San Fernando;15.9;11.6;True;Arroz;Verduras;Salsas y Condimentos
-211;Muslo de Pollo 1 kg;Carnes Y Aves;Pollo;Redondos;16.5;12.1;True;Arroz;Verduras;Salsas y Condimentos
-212;Alitas de Pollo 1 kg;Carnes Y Aves;Pollo;Redondos;15.5;11.2;False;Arroz;Verduras;Salsas y Condimentos
-213;Pollo Entero;Carnes Y Aves;Pollo;San Fernando;14.9;10.8;True;Arroz;Verduras;Salsas y Condimentos
-214;Filete de Pollo 1 kg;Carnes Y Aves;Pollo;San Fernando;23.9;18.1;True;Arroz;Verduras;Salsas y Condimentos
-215;Mollejas de Pollo 1 kg;Carnes Y Aves;Pollo;Redondos;10.9;7.6;False;Arroz;Verduras;Salsas y Condimentos
-216;Hígado de Pollo 1 kg;Carnes Y Aves;Pollo;San Fernando;9.9;6.8;False;Arroz;Verduras;Salsas y Condimentos
-217;Bistec de Res 1 kg;Carnes Y Aves;Res;La Segoviana;39.9;31.2;True;Arroz;Tubérculos;Verduras
-218;Lomo Fino 1 kg;Carnes Y Aves;Res;La Segoviana;69.9;55.8;False;Arroz;Tubérculos;Verduras
-219;Asado de Tira 1 kg;Carnes Y Aves;Res;La Segoviana;38.9;30.3;False;Arroz;Tubérculos;Verduras
-220;Carne Molida Especial 1 kg;Carnes Y Aves;Res;La Segoviana;32.9;25.2;True;Arroz;Tubérculos;Verduras
-221;Punta de Pecho 1 kg;Carnes Y Aves;Res;La Segoviana;31.9;24.2;False;Arroz;Tubérculos;Verduras
-222;Peceto 1 kg;Carnes Y Aves;Res;La Segoviana;42.9;33.4;False;Arroz;Tubérculos;Verduras
-223;Bife Angosto 1 kg;Carnes Y Aves;Res;La Segoviana;49.9;39.2;False;Arroz;Tubérculos;Verduras
-224;Entraña 1 kg;Carnes Y Aves;Res;La Segoviana;52.9;41.6;False;Arroz;Tubérculos;Verduras
-225;Chuleta de Cerdo 1 kg;Carnes Y Aves;Cerdo;Otto Kunz;28.9;22.1;True;Arroz;Tubérculos;Salsas y Condimentos
-226;Lomo de Cerdo 1 kg;Carnes Y Aves;Cerdo;Otto Kunz;32.9;25.4;False;Arroz;Tubérculos;Salsas y Condimentos
-227;Costilla de Cerdo 1 kg;Carnes Y Aves;Cerdo;Otto Kunz;29.9;22.8;False;Arroz;Tubérculos;Salsas y Condimentos
-228;Pierna de Cerdo 1 kg;Carnes Y Aves;Cerdo;Otto Kunz;27.9;21.1;False;Arroz;Tubérculos;Salsas y Condimentos
-229;Panceta de Cerdo 1 kg;Carnes Y Aves;Cerdo;Otto Kunz;30.9;23.7;False;Arroz;Tubérculos;Salsas y Condimentos
-230;Chuleta Ahumada 1 kg;Carnes Y Aves;Cerdo;Otto Kunz;34.9;27.2;False;Arroz;Tubérculos;Salsas y Condimentos
-231;Jamón Inglés 200 g;Carnes Y Aves;Embutidos;Otto Kunz;9.9;6.9;False;Quesos;Gaseosas;Papas Fritas y Snacks
-232;Jamón de Pavo 200 g;Carnes Y Aves;Embutidos;San Fernando;10.9;7.7;False;Quesos;Gaseosas;Papas Fritas y Snacks
-233;Hot Dog Clásico 250 g;Carnes Y Aves;Embutidos;Otto Kunz;7.9;5.3;True;Quesos;Gaseosas;Papas Fritas y Snacks
-234;Salchicha Parrillera 500 g;Carnes Y Aves;Embutidos;Otto Kunz;15.9;11.4;False;Quesos;Gaseosas;Papas Fritas y Snacks
-235;Chorizo Parrillero 500 g;Carnes Y Aves;Embutidos;Braedt;18.9;13.9;False;Quesos;Gaseosas;Papas Fritas y Snacks
-236;Mortadela Familiar 500 g;Carnes Y Aves;Embutidos;Braedt;9.9;6.9;False;Quesos;Gaseosas;Papas Fritas y Snacks
-237;Salame 200 g;Carnes Y Aves;Embutidos;Braedt;14.9;10.9;False;Quesos;Gaseosas;Papas Fritas y Snacks
-238;Papas Lays Clásicas 45 g;Snacks Y Dulces;Papas Fritas y Snacks;Lays;3.5;2.2;True;Gaseosas;Chocolates;Agua
-239;Papas Lays Familiar 150 g;Snacks Y Dulces;Papas Fritas y Snacks;Lays;9.9;6.8;True;Gaseosas;Chocolates;Agua
-240;Doritos Queso 150 g;Snacks Y Dulces;Papas Fritas y Snacks;Doritos;10.5;7.2;True;Gaseosas;Chocolates;Agua
-241;Chizitos 150 g;Snacks Y Dulces;Papas Fritas y Snacks;Karinto;6.9;4.6;False;Gaseosas;Chocolates;Agua
-242;Piqueo Snax 200 g;Snacks Y Dulces;Papas Fritas y Snacks;Karinto;8.9;6.0;False;Gaseosas;Chocolates;Agua
-243;Pringles Original 110 g;Snacks Y Dulces;Papas Fritas y Snacks;Pringles;11.9;8.5;False;Gaseosas;Chocolates;Agua
-244;Maní Salado 200 g;Snacks Y Dulces;Papas Fritas y Snacks;Karinto;5.9;3.9;False;Gaseosas;Chocolates;Agua
-245;Mix de Frutos Secos 200 g;Snacks Y Dulces;Papas Fritas y Snacks;Villa Natura;14.9;10.8;False;Gaseosas;Chocolates;Agua
-246;Canchita Salada 100 g;Snacks Y Dulces;Papas Fritas y Snacks;Karinto;4.5;2.9;False;Gaseosas;Chocolates;Agua
-247;Nachos Naturales 200 g;Snacks Y Dulces;Papas Fritas y Snacks;Doritos;12.9;9.2;False;Gaseosas;Chocolates;Agua
-248;Chocolate Sublime;Snacks Y Dulces;Chocolates;Nestlé;2.5;1.5;True;Galletas Dulces;Café y Té;Yogurt
-249;Chocolate Triángulo;Snacks Y Dulces;Chocolates;Winter's;2.2;1.3;True;Galletas Dulces;Café y Té;Yogurt
-250;Chocolate Princesa;Snacks Y Dulces;Chocolates;Nestlé;2.5;1.5;True;Galletas Dulces;Café y Té;Yogurt
-251;Chocolate Costa Leche;Snacks Y Dulces;Chocolates;Costa;4.5;2.9;False;Galletas Dulces;Café y Té;Yogurt
-252;Chocolate Hershey's Milk;Snacks Y Dulces;Chocolates;Hershey's;6.9;4.7;False;Galletas Dulces;Café y Té;Yogurt
-253;Chocolate KitKat 4 Fingers;Snacks Y Dulces;Chocolates;Nestlé;4.2;2.8;False;Galletas Dulces;Café y Té;Yogurt
-254;Chocolate Snickers;Snacks Y Dulces;Chocolates;Snickers;4.5;3.0;False;Galletas Dulces;Café y Té;Yogurt
-255;Chocolate Milkybar;Snacks Y Dulces;Chocolates;Nestlé;3.9;2.6;False;Galletas Dulces;Café y Té;Yogurt
-256;Chocolate Vizzio Almendras;Snacks Y Dulces;Chocolates;Costa;8.9;6.2;False;Galletas Dulces;Café y Té;Yogurt
-257;Chocolate Ferrero Rocher 8 u;Snacks Y Dulces;Chocolates;Ferrero;24.9;18.5;False;Galletas Dulces;Café y Té;Yogurt
-258;Galletas Casino Vainilla;Snacks Y Dulces;Galletas Dulces;Field;2.5;1.5;True;Leche;Café y Té;Jugos
-259;Galletas Casino Chocolate;Snacks Y Dulces;Galletas Dulces;Field;2.5;1.5;False;Leche;Café y Té;Jugos
-260;Galletas Oreo Original;Snacks Y Dulces;Galletas Dulces;Oreo;3.2;2.0;True;Leche;Café y Té;Jugos
-261;Galletas Oreo Doble Crema;Snacks Y Dulces;Galletas Dulces;Oreo;3.5;2.2;False;Leche;Café y Té;Jugos
-262;Galletas Pícaras;Snacks Y Dulces;Galletas Dulces;Nestlé;3.2;2.0;False;Leche;Café y Té;Jugos
-263;Galletas Charada;Snacks Y Dulces;Galletas Dulces;Field;2.9;1.8;False;Leche;Café y Té;Jugos
-264;Galletas Soda Field;Snacks Y Dulces;Galletas Dulces;Field;3.5;2.3;False;Leche;Café y Té;Jugos
-265;Galletas Integrales;Snacks Y Dulces;Galletas Dulces;McKay;5.9;4.1;False;Leche;Café y Té;Jugos
-266;Galletas Chips Ahoy!;Snacks Y Dulces;Galletas Dulces;Nabisco;6.9;4.8;False;Leche;Café y Té;Jugos
-267;Galletas Morochas;Snacks Y Dulces;Galletas Dulces;Nestlé;2.9;1.8;False;Leche;Café y Té;Jugos
-268;Caramelos Halls Menta;Snacks Y Dulces;Caramelos y Chicles;Halls;2.5;1.5;False;Gaseosas;Chocolates;
-269;Caramelos Halls Cereza;Snacks Y Dulces;Caramelos y Chicles;Halls;2.5;1.5;False;Gaseosas;Chocolates;
-270;Chicles Trident Hierbabuena;Snacks Y Dulces;Caramelos y Chicles;Trident;3.5;2.2;False;Gaseosas;Chocolates;
-271;Chicles Trident Sandía;Snacks Y Dulces;Caramelos y Chicles;Trident;3.5;2.2;False;Gaseosas;Chocolates;
-272;Chicles Orbit Menta;Snacks Y Dulces;Caramelos y Chicles;Orbit;3.9;2.5;False;Gaseosas;Chocolates;
-273;Caramelos Mentos Frutas;Snacks Y Dulces;Caramelos y Chicles;Mentos;3.5;2.2;False;Gaseosas;Chocolates;
-274;Caramelos Ambrosoli Surtidos;Snacks Y Dulces;Caramelos y Chicles;Ambrosoli;4.5;2.9;False;Gaseosas;Chocolates;
-275;Gomitas Fini Ositos;Snacks Y Dulces;Caramelos y Chicles;Fini;6.9;4.8;False;Gaseosas;Chocolates;
-276;Gomitas Trululu Ácidos;Snacks Y Dulces;Caramelos y Chicles;Trululu;5.9;4.0;False;Gaseosas;Chocolates;
-277;Paletas Chupetín;Snacks Y Dulces;Caramelos y Chicles;Ambrosoli;4.9;3.3;False;Gaseosas;Chocolates;
+170;Manzana Roja 1 kg;Frutas y Verduras;Frutas;Campo Fresco;6.9;4.6;True;Yogurt;Agua;Verduras
+171;Manzana Verde 1 kg;Frutas y Verduras;Frutas;Campo Fresco;7.2;4.9;False;Yogurt;Agua;Verduras
+172;Plátano de Seda 1 kg;Frutas y Verduras;Frutas;Campo Fresco;4.5;2.9;True;Yogurt;Agua;Verduras
+173;Plátano Bellaco 1 kg;Frutas y Verduras;Frutas;Campo Fresco;4.9;3.2;False;Yogurt;Agua;Verduras
+174;Naranja Valencia 1 kg;Frutas y Verduras;Frutas;Campo Fresco;5.9;3.8;True;Yogurt;Agua;Verduras
+175;Mandarina 1 kg;Frutas y Verduras;Frutas;Campo Fresco;6.5;4.2;False;Yogurt;Agua;Verduras
+176;Papaya 1 kg;Frutas y Verduras;Frutas;Campo Fresco;5.2;3.4;True;Yogurt;Agua;Verduras
+177;Piña Golden Unidad;Frutas y Verduras;Frutas;Campo Fresco;8.9;6.1;False;Yogurt;Agua;Verduras
+178;Palta Hass 1 kg;Frutas y Verduras;Frutas;Campo Fresco;12.9;9.1;True;Yogurt;Agua;Verduras
+179;Fresa 500 g;Frutas y Verduras;Frutas;Campo Fresco;9.9;6.9;False;Yogurt;Agua;Verduras
+180;Uva Red Globe 1 kg;Frutas y Verduras;Frutas;Campo Fresco;11.9;8.3;False;Yogurt;Agua;Verduras
+181;Mango Kent 1 kg;Frutas y Verduras;Frutas;Campo Fresco;8.9;6.1;False;Yogurt;Agua;Verduras
+182;Sandía 1 kg;Frutas y Verduras;Frutas;Campo Fresco;2.9;1.7;False;Yogurt;Agua;Verduras
+183;Melón 1 kg;Frutas y Verduras;Frutas;Campo Fresco;4.2;2.6;False;Yogurt;Agua;Verduras
+184;Pera Packham 1 kg;Frutas y Verduras;Frutas;Campo Fresco;7.9;5.4;False;Yogurt;Agua;Verduras
+185;Kiwi 500 g;Frutas y Verduras;Frutas;Campo Fresco;12.9;9.2;False;Yogurt;Agua;Verduras
+186;Arándanos 250 g;Frutas y Verduras;Frutas;Campo Fresco;14.9;10.8;False;Yogurt;Agua;Verduras
+187;Limón 1 kg;Frutas y Verduras;Frutas;Campo Fresco;5.4;3.5;True;Yogurt;Agua;Verduras
+188;Tomate Italiano 1 kg;Frutas y Verduras;Verduras;Campo Fresco;4.9;3.1;True;Pollo;Aceites;Arroz
+189;Cebolla Roja 1 kg;Frutas y Verduras;Verduras;Campo Fresco;3.9;2.4;True;Pollo;Aceites;Arroz
+190;Lechuga Americana Unidad;Frutas y Verduras;Verduras;Campo Fresco;3.5;2.2;True;Pollo;Aceites;Arroz
+191;Espinaca 300 g;Frutas y Verduras;Verduras;Campo Fresco;4.5;2.9;False;Pollo;Aceites;Arroz
+192;Brócoli Unidad;Frutas y Verduras;Verduras;Campo Fresco;5.9;3.9;False;Pollo;Aceites;Arroz
+193;Coliflor Unidad;Frutas y Verduras;Verduras;Campo Fresco;6.2;4.1;False;Pollo;Aceites;Arroz
+194;Pepino 1 kg;Frutas y Verduras;Verduras;Campo Fresco;4.9;3.2;False;Pollo;Aceites;Arroz
+195;Pimiento Rojo 1 kg;Frutas y Verduras;Verduras;Campo Fresco;8.9;6.2;False;Pollo;Aceites;Arroz
+196;Zanahoria 1 kg;Frutas y Verduras;Verduras;Campo Fresco;3.9;2.4;True;Pollo;Aceites;Arroz
+197;Zapallito Italiano 1 kg;Frutas y Verduras;Verduras;Campo Fresco;4.5;2.9;False;Pollo;Aceites;Arroz
+198;Ají Amarillo 250 g;Frutas y Verduras;Verduras;Campo Fresco;4.9;3.2;False;Pollo;Aceites;Arroz
+199;Apio Unidad;Frutas y Verduras;Verduras;Campo Fresco;3.9;2.5;False;Pollo;Aceites;Arroz
+200;Vainita 500 g;Frutas y Verduras;Verduras;Campo Fresco;5.9;4.0;False;Pollo;Aceites;Arroz
+201;Papa Blanca 1 kg;Frutas y Verduras;Tubérculos;Campo Fresco;3.2;1.9;True;Pollo;Aceites;Salsas y Condimentos
+202;Papa Amarilla 1 kg;Frutas y Verduras;Tubérculos;Campo Fresco;4.2;2.7;True;Pollo;Aceites;Salsas y Condimentos
+203;Camote Amarillo 1 kg;Frutas y Verduras;Tubérculos;Campo Fresco;3.9;2.4;False;Pollo;Aceites;Salsas y Condimentos
+204;Yuca 1 kg;Frutas y Verduras;Tubérculos;Campo Fresco;4.9;3.1;False;Pollo;Aceites;Salsas y Condimentos
+205;Olluco 1 kg;Frutas y Verduras;Tubérculos;Campo Fresco;5.2;3.4;False;Pollo;Aceites;Salsas y Condimentos
+206;Mashua 1 kg;Frutas y Verduras;Tubérculos;Campo Fresco;6.5;4.4;False;Pollo;Aceites;Salsas y Condimentos
+207;Oca 1 kg;Frutas y Verduras;Tubérculos;Campo Fresco;5.9;3.9;False;Pollo;Aceites;Salsas y Condimentos
+208;Jengibre 250 g;Frutas y Verduras;Tubérculos;Campo Fresco;4.5;2.9;False;Pollo;Aceites;Salsas y Condimentos
+209;Pechuga de Pollo 1 kg;Carnes y Aves;Pollo;San Fernando;21.9;16.4;True;Arroz;Verduras;Salsas y Condimentos
+210;Pierna de Pollo 1 kg;Carnes y Aves;Pollo;San Fernando;15.9;11.6;True;Arroz;Verduras;Salsas y Condimentos
+211;Muslo de Pollo 1 kg;Carnes y Aves;Pollo;Redondos;16.5;12.1;True;Arroz;Verduras;Salsas y Condimentos
+212;Alitas de Pollo 1 kg;Carnes y Aves;Pollo;Redondos;15.5;11.2;False;Arroz;Verduras;Salsas y Condimentos
+213;Pollo Entero;Carnes y Aves;Pollo;San Fernando;14.9;10.8;True;Arroz;Verduras;Salsas y Condimentos
+214;Filete de Pollo 1 kg;Carnes y Aves;Pollo;San Fernando;23.9;18.1;True;Arroz;Verduras;Salsas y Condimentos
+215;Mollejas de Pollo 1 kg;Carnes y Aves;Pollo;Redondos;10.9;7.6;False;Arroz;Verduras;Salsas y Condimentos
+216;Hígado de Pollo 1 kg;Carnes y Aves;Pollo;San Fernando;9.9;6.8;False;Arroz;Verduras;Salsas y Condimentos
+217;Bistec de Res 1 kg;Carnes y Aves;Res;La Segoviana;39.9;31.2;True;Arroz;Tubérculos;Verduras
+218;Lomo Fino 1 kg;Carnes y Aves;Res;La Segoviana;69.9;55.8;False;Arroz;Tubérculos;Verduras
+219;Asado de Tira 1 kg;Carnes y Aves;Res;La Segoviana;38.9;30.3;False;Arroz;Tubérculos;Verduras
+220;Carne Molida Especial 1 kg;Carnes y Aves;Res;La Segoviana;32.9;25.2;True;Arroz;Tubérculos;Verduras
+221;Punta de Pecho 1 kg;Carnes y Aves;Res;La Segoviana;31.9;24.2;False;Arroz;Tubérculos;Verduras
+222;Peceto 1 kg;Carnes y Aves;Res;La Segoviana;42.9;33.4;False;Arroz;Tubérculos;Verduras
+223;Bife Angosto 1 kg;Carnes y Aves;Res;La Segoviana;49.9;39.2;False;Arroz;Tubérculos;Verduras
+224;Entraña 1 kg;Carnes y Aves;Res;La Segoviana;52.9;41.6;False;Arroz;Tubérculos;Verduras
+225;Chuleta de Cerdo 1 kg;Carnes y Aves;Cerdo;Otto Kunz;28.9;22.1;True;Arroz;Tubérculos;Salsas y Condimentos
+226;Lomo de Cerdo 1 kg;Carnes y Aves;Cerdo;Otto Kunz;32.9;25.4;False;Arroz;Tubérculos;Salsas y Condimentos
+227;Costilla de Cerdo 1 kg;Carnes y Aves;Cerdo;Otto Kunz;29.9;22.8;False;Arroz;Tubérculos;Salsas y Condimentos
+228;Pierna de Cerdo 1 kg;Carnes y Aves;Cerdo;Otto Kunz;27.9;21.1;False;Arroz;Tubérculos;Salsas y Condimentos
+229;Panceta de Cerdo 1 kg;Carnes y Aves;Cerdo;Otto Kunz;30.9;23.7;False;Arroz;Tubérculos;Salsas y Condimentos
+230;Chuleta Ahumada 1 kg;Carnes y Aves;Cerdo;Otto Kunz;34.9;27.2;False;Arroz;Tubérculos;Salsas y Condimentos
+231;Jamón Inglés 200 g;Carnes y Aves;Embutidos;Otto Kunz;9.9;6.9;False;Quesos;Gaseosas;Papas Fritas y Snacks
+232;Jamón de Pavo 200 g;Carnes y Aves;Embutidos;San Fernando;10.9;7.7;False;Quesos;Gaseosas;Papas Fritas y Snacks
+233;Hot Dog Clásico 250 g;Carnes y Aves;Embutidos;Otto Kunz;7.9;5.3;True;Quesos;Gaseosas;Papas Fritas y Snacks
+234;Salchicha Parrillera 500 g;Carnes y Aves;Embutidos;Otto Kunz;15.9;11.4;False;Quesos;Gaseosas;Papas Fritas y Snacks
+235;Chorizo Parrillero 500 g;Carnes y Aves;Embutidos;Braedt;18.9;13.9;False;Quesos;Gaseosas;Papas Fritas y Snacks
+236;Mortadela Familiar 500 g;Carnes y Aves;Embutidos;Braedt;9.9;6.9;False;Quesos;Gaseosas;Papas Fritas y Snacks
+237;Salame 200 g;Carnes y Aves;Embutidos;Braedt;14.9;10.9;False;Quesos;Gaseosas;Papas Fritas y Snacks
+238;Papas Lays Clásicas 45 g;Snacks y Dulces;Papas Fritas y Snacks;Lays;3.5;2.2;True;Gaseosas;Chocolates;Agua
+239;Papas Lays Familiar 150 g;Snacks y Dulces;Papas Fritas y Snacks;Lays;9.9;6.8;True;Gaseosas;Chocolates;Agua
+240;Doritos Queso 150 g;Snacks y Dulces;Papas Fritas y Snacks;Doritos;10.5;7.2;True;Gaseosas;Chocolates;Agua
+241;Chizitos 150 g;Snacks y Dulces;Papas Fritas y Snacks;Karinto;6.9;4.6;False;Gaseosas;Chocolates;Agua
+242;Piqueo Snax 200 g;Snacks y Dulces;Papas Fritas y Snacks;Karinto;8.9;6.0;False;Gaseosas;Chocolates;Agua
+243;Pringles Original 110 g;Snacks y Dulces;Papas Fritas y Snacks;Pringles;11.9;8.5;False;Gaseosas;Chocolates;Agua
+244;Maní Salado 200 g;Snacks y Dulces;Papas Fritas y Snacks;Karinto;5.9;3.9;False;Gaseosas;Chocolates;Agua
+245;Mix de Frutos Secos 200 g;Snacks y Dulces;Papas Fritas y Snacks;Villa Natura;14.9;10.8;False;Gaseosas;Chocolates;Agua
+246;Canchita Salada 100 g;Snacks y Dulces;Papas Fritas y Snacks;Karinto;4.5;2.9;False;Gaseosas;Chocolates;Agua
+247;Nachos Naturales 200 g;Snacks y Dulces;Papas Fritas y Snacks;Doritos;12.9;9.2;False;Gaseosas;Chocolates;Agua
+248;Chocolate Sublime;Snacks y Dulces;Chocolates;Nestlé;2.5;1.5;True;Galletas Dulces;Café y Té;Yogurt
+249;Chocolate Triángulo;Snacks y Dulces;Chocolates;Winter's;2.2;1.3;True;Galletas Dulces;Café y Té;Yogurt
+250;Chocolate Princesa;Snacks y Dulces;Chocolates;Nestlé;2.5;1.5;True;Galletas Dulces;Café y Té;Yogurt
+251;Chocolate Costa Leche;Snacks y Dulces;Chocolates;Costa;4.5;2.9;False;Galletas Dulces;Café y Té;Yogurt
+252;Chocolate Hershey's Milk;Snacks y Dulces;Chocolates;Hershey's;6.9;4.7;False;Galletas Dulces;Café y Té;Yogurt
+253;Chocolate KitKat 4 Fingers;Snacks y Dulces;Chocolates;Nestlé;4.2;2.8;False;Galletas Dulces;Café y Té;Yogurt
+254;Chocolate Snickers;Snacks y Dulces;Chocolates;Snickers;4.5;3.0;False;Galletas Dulces;Café y Té;Yogurt
+255;Chocolate Milkybar;Snacks y Dulces;Chocolates;Nestlé;3.9;2.6;False;Galletas Dulces;Café y Té;Yogurt
+256;Chocolate Vizzio Almendras;Snacks y Dulces;Chocolates;Costa;8.9;6.2;False;Galletas Dulces;Café y Té;Yogurt
+257;Chocolate Ferrero Rocher 8 u;Snacks y Dulces;Chocolates;Ferrero;24.9;18.5;False;Galletas Dulces;Café y Té;Yogurt
+258;Galletas Casino Vainilla;Snacks y Dulces;Galletas Dulces;Field;2.5;1.5;True;Leche;Café y Té;Jugos
+259;Galletas Casino Chocolate;Snacks y Dulces;Galletas Dulces;Field;2.5;1.5;False;Leche;Café y Té;Jugos
+260;Galletas Oreo Original;Snacks y Dulces;Galletas Dulces;Oreo;3.2;2.0;True;Leche;Café y Té;Jugos
+261;Galletas Oreo Doble Crema;Snacks y Dulces;Galletas Dulces;Oreo;3.5;2.2;False;Leche;Café y Té;Jugos
+262;Galletas Pícaras;Snacks y Dulces;Galletas Dulces;Nestlé;3.2;2.0;False;Leche;Café y Té;Jugos
+263;Galletas Charada;Snacks y Dulces;Galletas Dulces;Field;2.9;1.8;False;Leche;Café y Té;Jugos
+264;Galletas Soda Field;Snacks y Dulces;Galletas Dulces;Field;3.5;2.3;False;Leche;Café y Té;Jugos
+265;Galletas Integrales;Snacks y Dulces;Galletas Dulces;McKay;5.9;4.1;False;Leche;Café y Té;Jugos
+266;Galletas Chips Ahoy!;Snacks y Dulces;Galletas Dulces;Nabisco;6.9;4.8;False;Leche;Café y Té;Jugos
+267;Galletas Morochas;Snacks y Dulces;Galletas Dulces;Nestlé;2.9;1.8;False;Leche;Café y Té;Jugos
+268;Caramelos Halls Menta;Snacks y Dulces;Caramelos y Chicles;Halls;2.5;1.5;False;Gaseosas;Chocolates;
+269;Caramelos Halls Cereza;Snacks y Dulces;Caramelos y Chicles;Halls;2.5;1.5;False;Gaseosas;Chocolates;
+270;Chicles Trident Hierbabuena;Snacks y Dulces;Caramelos y Chicles;Trident;3.5;2.2;False;Gaseosas;Chocolates;
+271;Chicles Trident Sandía;Snacks y Dulces;Caramelos y Chicles;Trident;3.5;2.2;False;Gaseosas;Chocolates;
+272;Chicles Orbit Menta;Snacks y Dulces;Caramelos y Chicles;Orbit;3.9;2.5;False;Gaseosas;Chocolates;
+273;Caramelos Mentos Frutas;Snacks y Dulces;Caramelos y Chicles;Mentos;3.5;2.2;False;Gaseosas;Chocolates;
+274;Caramelos Ambrosoli Surtidos;Snacks y Dulces;Caramelos y Chicles;Ambrosoli;4.5;2.9;False;Gaseosas;Chocolates;
+275;Gomitas Fini Ositos;Snacks y Dulces;Caramelos y Chicles;Fini;6.9;4.8;False;Gaseosas;Chocolates;
+276;Gomitas Trululu Ácidos;Snacks y Dulces;Caramelos y Chicles;Trululu;5.9;4.0;False;Gaseosas;Chocolates;
+277;Paletas Chupetín;Snacks y Dulces;Caramelos y Chicles;Ambrosoli;4.9;3.3;False;Gaseosas;Chocolates;
 278;Detergente Bolívar 1 kg;Limpieza;Detergentes;Bolívar;11.9;8.1;True;Desinfectantes;Papel Higiénico y Papel Toalla;Limpiadores Multiuso
 279;Detergente Ariel 1 kg;Limpieza;Detergentes;Ariel;15.9;11.4;True;Desinfectantes;Papel Higiénico y Papel Toalla;Limpiadores Multiuso
 280;Detergente Ace 800 g;Limpieza;Detergentes;Ace;10.9;7.4;True;Desinfectantes;Papel Higiénico y Papel Toalla;Limpiadores Multiuso
@@ -303,7 +303,7 @@ id_producto;nombre;categoria;subcategoria;marca;precio_lista;costo_unitario_prom
 302;Alcohol 70% 1 L;Limpieza;Desinfectantes;Suiza Lab;14.9;10.8;False;Limpiadores Multiuso;Papel Higiénico y Papel Toalla;Detergentes
 303;Limpiador Antibacterial;Limpieza;Desinfectantes;Lysol;18.9;13.9;False;Limpiadores Multiuso;Papel Higiénico y Papel Toalla;Detergentes
 304;Desinfectante Multiuso;Limpieza;Desinfectantes;Mr. Músculo;12.9;9.2;False;Limpiadores Multiuso;Papel Higiénico y Papel Toalla;Detergentes
-305;Cloro Gel;Limpieza;Desinfectantes;Marca no identificada;8.9;6.0;False;Limpiadores Multiuso;Papel Higiénico y Papel Toalla;Detergentes
+305;Cloro Gel;Limpieza;Desinfectantes;;8.9;6.0;False;Limpiadores Multiuso;Papel Higiénico y Papel Toalla;Detergentes
 306;Desinfectante Cítrico;Limpieza;Desinfectantes;Poett;10.5;7.2;False;Limpiadores Multiuso;Papel Higiénico y Papel Toalla;Detergentes
 307;Toallas Desinfectantes 80 u;Limpieza;Desinfectantes;Lysol;19.9;14.8;False;Limpiadores Multiuso;Papel Higiénico y Papel Toalla;Detergentes
 308;Limpiavidrios 500 ml;Limpieza;Limpiadores Multiuso;Mr. Músculo;10.9;7.6;False;Desinfectantes;Limpieza del Hogar;Papel Higiénico y Papel Toalla
@@ -319,7 +319,7 @@ id_producto;nombre;categoria;subcategoria;marca;precio_lista;costo_unitario_prom
 318;Papel Higiénico Elite 12 rollos;Limpieza;Papel Higiénico y Papel Toalla;Elite;22.9;16.8;True;Desinfectantes;Limpiadores Multiuso;Jabones
 319;Papel Higiénico Suave 12 rollos;Limpieza;Papel Higiénico y Papel Toalla;Suave;19.9;14.2;True;Desinfectantes;Limpiadores Multiuso;Jabones
 320;Papel Higiénico Noble 12 rollos;Limpieza;Papel Higiénico y Papel Toalla;Noble;21.9;15.8;False;Desinfectantes;Limpiadores Multiuso;Jabones
-321;Papel Toalla Elite 2 rollos;Limpieza;Papel Higiénico y Papel Toalla;Marca no identificada;10.9;7.5;True;Desinfectantes;Limpiadores Multiuso;Jabones
+321;Papel Toalla Elite 2 rollos;Limpieza;Papel Higiénico y Papel Toalla;;10.9;7.5;True;Desinfectantes;Limpiadores Multiuso;Jabones
 322;Papel Toalla Scott;Limpieza;Papel Higiénico y Papel Toalla;Scott;11.9;8.2;False;Desinfectantes;Limpiadores Multiuso;Jabones
 323;Servilletas Elite 200 hojas;Limpieza;Papel Higiénico y Papel Toalla;Elite;7.9;5.3;False;Desinfectantes;Limpiadores Multiuso;Jabones
 324;Servilletas Scott 200 hojas;Limpieza;Papel Higiénico y Papel Toalla;Scott;8.2;5.6;False;Desinfectantes;Limpiadores Multiuso;Jabones
@@ -423,7 +423,7 @@ id_producto;nombre;categoria;subcategoria;marca;precio_lista;costo_unitario_prom
 422;Cepillo para Biberón;Bebés;Accesorios para Bebé;Nuk;16.9;12.2;False;Pañales;Toallitas Húmedas;
 423;Babero Impermeable;Bebés;Accesorios para Bebé;Infanti;14.9;10.6;False;Pañales;Toallitas Húmedas;
 424;Vaso Entrenador 250 ml;Bebés;Accesorios para Bebé;Nuk;24.9;18.4;False;Pañales;Toallitas Húmedas;
-425;Set de Cubiertos Infantil;Bebés;Accesorios para Bebé;Marca no identificada;18.9;13.8;False;Pañales;Toallitas Húmedas;
+425;Set de Cubiertos Infantil;Bebés;Accesorios para Bebé;;18.9;13.8;False;Pañales;Toallitas Húmedas;
 426;Traba de Seguridad Multiuso;Bebés;Accesorios para Bebé;Safety 1st;15.9;11.4;False;Pañales;Toallitas Húmedas;
 427;Alimento para Perro Adulto 1 kg;Mascotas;Alimento para Perros;Ricocan;12.9;8.9;True;Accesorios para Mascotas;;
 428;Alimento para Perro Adulto 8 kg;Mascotas;Alimento para Perros;Ricocan;79.9;61.5;True;Accesorios para Mascotas;;
@@ -440,7 +440,7 @@ id_producto;nombre;categoria;subcategoria;marca;precio_lista;costo_unitario_prom
 439;Alimento para Gatito 1 kg;Mascotas;Alimento para Gatos;Cat Chow;19.9;14.1;False;Arena Sanitaria;Accesorios para Mascotas;
 440;Alimento Premium Gatos;Mascotas;Alimento para Gatos;Pro Plan;89.9;70.6;False;Arena Sanitaria;Accesorios para Mascotas;
 441;Alimento Húmedo Atún;Mascotas;Alimento para Gatos;Felix;6.9;4.6;False;Arena Sanitaria;Accesorios para Mascotas;
-442;Alimento Húmedo Salmón;Mascotas;Alimento para Gatos;Marca no identificada;6.9;4.6;False;Arena Sanitaria;Accesorios para Mascotas;
+442;Alimento Húmedo Salmón;Mascotas;Alimento para Gatos;;6.9;4.6;False;Arena Sanitaria;Accesorios para Mascotas;
 443;Snack Cremoso para Gatos;Mascotas;Alimento para Gatos;Ciao;12.9;9.1;False;Arena Sanitaria;Accesorios para Mascotas;
 444;Galletas para Gatos;Mascotas;Alimento para Gatos;Dreamies;11.9;8.3;False;Arena Sanitaria;Accesorios para Mascotas;
 445;Arena Aglomerante 5 kg;Mascotas;Arena Sanitaria;Mimaskot;24.9;18.8;True;Alimento para Gatos;Accesorios para Mascotas;

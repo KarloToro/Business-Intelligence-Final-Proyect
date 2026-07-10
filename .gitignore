@@ -92,3 +92,4 @@ models/*.joblib
 ~$*.pptx
 ~$*.pdf
 ~$*.xlsx
+scripts/scripts.xml
