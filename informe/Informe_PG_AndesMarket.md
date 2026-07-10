@@ -56,8 +56,8 @@ Los principales resultados de negocio son:
 
 | Indicador | Resultado |
 | --- | ---: |
-| Ventas totales | S/ 1,428,828.48 |
-| Ganancia total | S/ 392,905.08 |
+| Ventas totales | S/ 1,428,828.50 |
+| Ganancia total | S/ 392,905.10 |
 | Tickets de venta | 34,755 |
 | Líneas de venta | 55,858 |
 | Clientes con venta | 5,000 |
@@ -70,7 +70,7 @@ Principales hallazgos:
 - El modelo de abandono identifica 810 clientes en riesgo alto y 505 en riesgo medio.
 - La segmentación RFM agrupa a los clientes en cuatro perfiles comerciales.
 - El análisis de asociación genera 26 reglas de canasta de mercado; la regla con mayor lift relaciona Bebidas + Lácteos con Snacks y Dulces.
-- El modelo de regresión con Gradient Boosting alcanza MAPE de 13.45%, útil como referencia de planificación.
+- El modelo de regresión con Gradient Boosting alcanza MAPE de 13.69%, útil como referencia de planificación.
 - La documentación del proyecto incluye el registro de prompts y las dependencias de Python necesarias para favorecer la trazabilidad, reproducibilidad y revisión técnica de la solución.
 
 ---
@@ -112,7 +112,7 @@ Diseñar y sustentar una solución integral de Inteligencia de Negocios para una
 
 ## 4.1 Alcance de los datos
 
-Los datos son sintéticos y fueron generados con fines académicos. No contienen información real de personas ni empresas. La fuente limpia y oficial se encuentra en `data/processed/`.
+Los datos son sintéticos y fueron generados con fines académicos. No contienen información real de personas ni empresas. El repositorio conserva los datos de entrada en `data/raw/`; sobre estos se introducen problemas de calidad controlados mediante `scripts/inyectar_ruido.py`, y el proceso ETL genera las tablas depuradas y listas para análisis en `data/processed/`.
 
 | Tabla | Filas | Uso principal |
 | --- | ---: | --- |
@@ -137,9 +137,7 @@ La generación considera reglas de negocio orientadas a simular una operación r
 
 ## 4.3 Calidad de datos
 
-El notebook `notebooks/01_datamart_etl.ipynb` y el script `scripts/validar_dataset.py` validan la versión procesada del dataset. Los resultados confirman claves foráneas consistentes, fechas válidas, promociones dentro de vigencia y métricas derivadas correctamente calculadas.
-
-**Observación:** la estructura ideal del proyecto contempla una carpeta `data/raw/` con datos crudos y problemas de calidad. En el repositorio actual se observa principalmente la versión procesada. Si el equipo conserva datos crudos fuera del repositorio, debe incorporarlos o justificar esta diferencia en la entrega final.
+El notebook `notebooks/01_datamart_etl.ipynb` y el script `scripts/validar_dataset.py` validan la versión procesada del dataset. Los resultados confirman claves foráneas consistentes, fechas válidas, promociones dentro de vigencia y métricas derivadas correctamente calculadas. La existencia de valores faltantes y otras alteraciones controladas en la capa de entrada permite evidenciar las decisiones de limpieza e imputación del ETL.
 
 ---
 
@@ -315,15 +313,15 @@ El notebook `notebooks/06_regresion.ipynb` pronostica ventas diarias para apoyar
 
 | Modelo | MAE | RMSE | MAPE | R2 |
 | --- | ---: | ---: | ---: | ---: |
-| Regresión Lineal | S/ 297.19 | S/ 373.02 | 15.86% | 0.168 |
-| Random Forest | S/ 281.19 | S/ 354.96 | 14.45% | 0.247 |
-| Gradient Boosting | S/ 261.19 | S/ 335.67 | 13.45% | 0.327 |
+| Regresión Lineal | S/ 298.73 | S/ 373.93 | 15.94% | 0.168 |
+| Random Forest | S/ 278.20 | S/ 350.42 | 14.35% | 0.270 |
+| Gradient Boosting | S/ 265.15 | S/ 340.15 | 13.69% | 0.312 |
 
 ![Pronóstico en Power BI](img/pag08_pronostico.png)
 
 ## 10.3 Recomendación
 
-Gradient Boosting presenta el mejor desempeño de los modelos comparados. El MAPE de 13.45% permite usar el pronóstico como referencia operativa, aunque el R2 de 0.327 indica que todavía hay espacio para mejorar variables predictoras.
+Gradient Boosting presenta el mejor desempeño de los modelos comparados. El MAPE de 13.69% permite usar el pronóstico como referencia operativa, aunque el R2 de 0.312 indica que todavía hay espacio para mejorar variables predictoras.
 
 ---
 
@@ -412,7 +410,6 @@ Los porcentajes son aproximados y reflejan una distribución equitativa del trab
 
 Pendientes finales:
 
-- Confirmar si se subirá `data/raw/` o si se justificará el uso de `data/processed/`.
 - Corregir o justificar clientes sin etiqueta de riesgo en clasificación.
 - Validar nombres comerciales de clusters RFM.
 - Completar autopuntajes.
